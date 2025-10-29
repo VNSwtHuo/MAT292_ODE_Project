@@ -1,0 +1,1986 @@
+,sid,label,ntype
+0,root,root,info_node
+1,intervention,intervention,info_node
+2,measurement,measurement,info_node
+3,blood-measurement,blood measurement,measurement_type
+4,blood-cell-measurement,blood cell measurement,measurement_type
+5,chemistry-measurement,chemistry measurement,measurement_type
+6,ph,pH,measurement_type
+7,ph-change,pH change,measurement_type
+8,liver-function-test,liver function test,measurement_type
+9,breath-test,breath test,measurement_type
+10,concentration,concentration,measurement_type
+11,concentration-per-dose,concentration per dose,measurement_type
+12,concentration-change,concentration change,measurement_type
+13,concentration-change-absolute,concentration change absolute,measurement_type
+14,multiple-dosing-cmin,multiple dosing minimal concentration,measurement_type
+15,multiple-dosing-cmax,multiple dosing maximal concentration,measurement_type
+16,concentration-ss,steady-state concentration,measurement_type
+17,concentration-ss-per-dose,steady state concentration per dose,measurement_type
+18,concentration-unbound,concentration unbound,measurement_type
+19,amount,amount,measurement_type
+20,cumulative-amount,cumulative amount,measurement_type
+21,cumulative-amount-change,cumulative amount (change),measurement_type
+22,excretion-rate,excretion rate,measurement_type
+23,maximum-excretion-rate,maximum excretion rate (ERmax),measurement_type
+24,fractional-excretion,fractional excretion,measurement_type
+25,auc-relative,area under curve (AUC) relative,measurement_type
+26,dob,delta over baseline (DOB),measurement_type
+27,pdr,plasma disappearance rate (PDR),measurement_type
+28,gamma-globulin-measurement,gamma-globulin measurement,measurement_type
+29,prothrombin-time,prothrombin time (PT),measurement_type
+30,inr,international normalized ratio (INR),measurement_type
+31,inr-change,international normalized ratio (INR) (change),measurement_type
+32,prothrombin-time-ratio,prothrombin time ratio,measurement_type
+33,plasma-thromboplastin-activity,plasma thromboplastin activity,measurement_type
+34,prothrombin-time-change-relative,prothrombin time (PT) (change relative),measurement_type
+35,prothrombin-time-change,prothrombin time (PT) (change),measurement_type
+36,prothrombin-time-change-relative-max,prothrombin time (PT) (change relative) maximum,measurement_type
+37,xa-activity,factor Xa activity,measurement_type
+38,anti-xa-activity,Anti-factor Xa activity,measurement_type
+39,xa-inhibition,factor Xa inhibition,measurement_type
+40,xa-inhibition-max,factor Xa inhibition maximum,measurement_type
+41,coagulation-factor-x,coagulation factor X,measurement_type
+42,aptt,activated partial thromboplastin time (aPTT),measurement_type
+43,aptt-change,activated partial thromboplastin time (aPTT) (change),measurement_type
+44,aptt-change-relative,activated partial thromboplastin time (aPTT) (change relative),measurement_type
+45,heptest,HepTest,measurement_type
+46,heptest-change-relative,HepTest (change relative),measurement_type
+47,thrombin-activity-change-relative,thrombin activity (change relative),measurement_type
+48,antithrombin-activity-change-relative,antithrombin activity (change relative),measurement_type
+49,blood-urea-nitrogen,blood urea nitrogen (BUN),measurement_type
+50,ace-activity,ACE activity,measurement_type
+51,renin-activity,renin activity,measurement_type
+52,renin-activity-change-absolute,renin activity (change absolute),measurement_type
+53,ace-activity-relative,relative ACE activity,measurement_type
+54,ace-inhibition,ACE inhibition,measurement_type
+55,fractional-pdr,fractional plasma disappearance rate (PDR),measurement_type
+56,retention-ratio,retention ratio,measurement_type
+57,biochemistry-categorial,biochemistry (categorial),measurement_type
+58,kidney-function-test,kidney function test,measurement_type
+59,abt,Aminopyrine breath test (ABT),measurement_type
+60,ermbt,Erythromycin breath test (ERMBT),measurement_type
+61,glomular-filtration-rate,Glomular filtration rate,measurement_type
+62,osmolarity,osmolarity,measurement_type
+63,child-pugh-score,Child-Pugh score (CPT),measurement_type
+64,child-pugh-score-numeric,Child-Pugh score (numeric),measurement_type
+65,child-pugh-class-a,Child-Pugh class A (CPT A),choice
+66,child-pugh-class-b,Child-Pugh class B (CPT B),choice
+67,child-pugh-class-c,Child-Pugh class C (CPT C),choice
+68,child-pugh-class-unkown,Child-Pugh class unknown,choice
+69,glycosylated-hemoglobin-measurement,HbA1c (glycosylated haemoglobin),measurement_type
+70,hba1c-change,HbA1c change (glycosylated haemoglobin),measurement_type
+71,hematocrit,hematocrit,measurement_type
+72,blood-cell-count-categorial,blood cell count (categorial),measurement_type
+73,cell-count-levels,cell count levels,measurement_type
+74,cell-count-normal,cell count normal,choice
+75,cell-count-abnormal,cell count abnormal,choice
+76,cell-count-elevated,cell count eleveated,choice
+77,cell-count-decreased,cell count decreased,choice
+78,pharmacokinetic-measurement,pharmacokinetic measurement,measurement_type
+79,pharmacodynamic-measurement,pharmacodynamic measurement,measurement_type
+80,ic50,Half maximal inhibitory concentration (IC50),measurement_type
+81,ic50-ace,Half maximal inhibitory concentration (IC50) of ACE activity,measurement_type
+82,auc-measurement,AUC measurement,measurement_type
+83,auc-inf,area under curve (AUC) infinity,measurement_type
+84,auc-end,area under curve (AUC) end,measurement_type
+85,tp-plus-tb-plus-px-plus-caf,tp+tb+px+caf,substance
+86,auc-per-dose,area under curve (AUC) per dose,measurement_type
+87,aumc-inf,Area under first moment curve to infinity (AUMC),measurement_type
+88,aumc-end,Area under first moment curve to end (AUMC),measurement_type
+89,auc-ratio,AUC ratio,measurement_type
+90,extraction-ratio,extraction ratio (ER),measurement_type
+91,clearance-measurement,clearance measurement,measurement_type
+92,clearance,clearance (CL),measurement_type
+93,estimated-clearance,estimated clearance (eCL),measurement_type
+94,oral-clearance,oral clearance (CL/F),measurement_type
+95,clearance-unbound,clearance unbound,measurement_type
+96,clearance-intrinsic,clearance intrinsic,measurement_type
+97,clearance-intrinsic-unbound,clearance intrinsic unbound,measurement_type
+98,clearance-renal,clearance renal,measurement_type
+99,clearance-renal-unbound,clearance renal unbound,measurement_type
+100,clearance-hepatic,clearance hepatic,measurement_type
+101,clearance-nonrenal,clearance nonrenal,measurement_type
+102,clearance-partial,clearance partial,measurement_type
+103,clearance-other,clearance other,measurement_type
+104,enantiomeric-ratio,enantiomeric ratio,measurement_type
+105,vd,volume of distribution (Vd/F),measurement_type
+106,vd-ss,volume of distribution steady state,measurement_type
+107,vd0,initial volume of distribution,measurement_type
+108,vd-unbound,volume of distribution unbound,measurement_type
+109,thalf,elimination half-life,measurement_type
+110,dominant-thalf,dominant half-life,measurement_type
+111,tmax,time to maximum (Tmax),measurement_type
+112,tmin,time to minimum (Tmin),measurement_type
+113,oro-cecal-transit-time,oro-cecal transit time,measurement_type
+114,mrt,mean residence time (MRT),measurement_type
+115,mit,mean input time (MIT),measurement_type
+116,mat,mean absorption time (MAT),measurement_type
+117,cmax,maximum concentration (Cmax),measurement_type
+118,c0,initial concentration (C0),measurement_type
+119,cmin,minimal concentration (Cmin),measurement_type
+120,cthrough,through concentration,measurement_type
+121,caverage,average concentration,measurement_type
+122,ptf,percentage of peak-trough fluctuations (PTF),measurement_type
+123,kel,elimination rate (Kel),measurement_type
+124,kabs,absorption rate (Kabs),measurement_type
+125,thalf-absorption,absorption half-life,measurement_type
+126,lag-absorption,lag time of absorption,measurement_type
+127,bioavailability,bioavailability,measurement_type
+128,bp-ratio,blood/plasma ratio (BP),measurement_type
+129,fraction-absorbed,fraction absorbed,measurement_type
+130,plasma-binding,plasma binding,measurement_type
+131,fraction-unbound,fraction unbound,measurement_type
+132,recovery,recovery,measurement_type
+133,recovery-rate,recovery rate,measurement_type
+134,rate,rate,measurement_type
+135,ra,Rate of appearance (Ra),measurement_type
+136,egp,endogeneous glucose production (EGP),measurement_type
+137,secretion-rate,secretion rate,measurement_type
+138,rate-cycling,Rate of cycling,measurement_type
+139,rd,Rate of disappearance (Rd),measurement_type
+140,blood-index,blood index,measurement_type
+141,glucose-index,Glucose index,measurement_type
+142,matsuda-index,Matsuda index,measurement_type
+143,quicki,QUICKI,measurement_type
+144,homa-ir,HOMA-IR,measurement_type
+145,insulinogenic-index,Insulinogenic index,measurement_type
+146,glucose-oral-disposition-index,Glucose oral disposition index,measurement_type
+147,physiological-measurement,physiological measurement,measurement_type
+148,respiratory-measurement,respiratory measurement,measurement_type
+149,respiratory-rate,respiratory rate,measurement_type
+150,renal-measurement,renal measurement,measurement_type
+151,renal-threshold,renal threshold,measurement_type
+152,urinary-volume,urinary volume,measurement_type
+153,urinary-volume-change,urinary volume (change),measurement_type
+154,urinary-volume-rate,urinary volume rate,measurement_type
+155,17u-over-17u-plus-px-plus-1x-plus-1u-plus-afmu,17U/(17U+px+1X+1U+AFMU),substance
+156,gastric-measurement,gastric measurement,measurement_type
+157,gastric-juice-volume,gastric juice volume,measurement_type
+158,cardiovascular-measurement,cardiovascular measurement,measurement_type
+159,blood-pressure,blood pressure,measurement_type
+160,blood-pressure-categorical,blood pressure (categorical),measurement_type
+161,blood-pressure-normal,normal,choice
+162,blood-pressure-elevated,elevated,choice
+163,blood-pressure-systolic,blood pressure systolic,measurement_type
+164,blood-pressure-systolic-change,blood pressure systolic (change),measurement_type
+165,blood-pressure-systolic-change-relative,blood pressure systolic (change relative),measurement_type
+166,blood-pressure-systolic-auc-end-change,blood pressure systolic auc_end (change),measurement_type
+167,blood-pressure-diastolic,blood pressure diastolic,measurement_type
+168,blood-pressure-diastolic-change,blood pressure diastolic (change),measurement_type
+169,blood-pressure-diastolic-change-relative,blood pressure diastolic (change relative),measurement_type
+170,blood-pressure-diastolic-auc-end-change,blood pressure diastolic auc_end (change),measurement_type
+171,map,Mean arterial pressure (MAP),measurement_type
+172,map-change-absolute,MAP (change absolute),measurement_type
+173,map-change-relative,MAP (change relative),measurement_type
+174,rpp,rate pressure product (RPP),measurement_type
+175,svr,Systemic vascular resistance (SVR),measurement_type
+176,svr-change-relative,systemic vascular resistance (SVR) (change relative),measurement_type
+177,pvr,pulmonary vascular resistance (PVR),measurement_type
+178,cvr,carotid vascular resistance (CVR),measurement_type
+179,pcwp,Pulmonary capillary wedge pressure (PCWP),measurement_type
+180,pap,pulmonary artery pressure (PAP),measurement_type
+181,blood-flow,blood flow,measurement_type
+182,abcg2-c-34-a-over-g,ABCG2 c.34 A/G,choice
+183,hbf,Hepatic blood flow,measurement_type
+184,pbf,portal blood flow (PBF),measurement_type
+185,habf,hepatic arterial blood flow (HABF),measurement_type
+186,carotid-artery-flow,carotid artery flow,measurement_type
+187,carotid-blood-velocity,carotid blood velocity,measurement_type
+188,azygos-blood-flow,Azygos blood flow,measurement_type
+189,bile-flow,bile flow,measurement_type
+190,thalf-gastric-emptying,gastric emptying half-life,measurement_type
+191,percent-gastric-emptying,gastric emptying percentage,measurement_type
+192,rate-gastric-emptying,gastric emptying rate,measurement_type
+193,heart-measurement,heart measurement,measurement_type
+194,cardiac-function-test,cardiac function test,measurement_type
+195,heart-rate,heart rate,measurement_type
+196,heart-rate-change,heart rate (change),measurement_type
+197,heart-rate-categorical,heart rate (categorical),measurement_type
+198,heart-rate-normal,normal,choice
+199,heart-rate-elevated,elevated,choice
+200,ehr,Exercise heart rate (EHR),measurement_type
+201,ehr-change,Exercise heart rate change (EHR),measurement_type
+202,ehr-change-auec,Area under the effect curve (AUEC) of EHR,measurement_type
+203,ehr-change-average,Exercise heart rate change average (AUEC/tau),measurement_type
+204,ehr-change-fluctuations,Exercise heart rate change fluctations,measurement_type
+205,cardiac-output,cardiac output (CO),measurement_type
+206,left-ventricular-mass,left ventricular mass (LVM),measurement_type
+207,cardiac-index,Cardiac index (CI),measurement_type
+208,organ-morphological-measurement,organ morphological measurement,measurement_type
+209,organ-weight,organ weight,measurement_type
+210,liver-weight,liver weight,measurement_type
+211,kidney-weight,kidney weight,measurement_type
+212,muscle-weight,muscle weight,measurement_type
+213,fat-weight,fat mass (FM),measurement_type
+214,organ-volume,organ volume,measurement_type
+215,liver-volume,liver volume,measurement_type
+216,liver-remnant-volume,liver remnant volume,measurement_type
+217,fractional-liver-remnant-volume,fractional liver remnant volume,measurement_type
+218,liver-resection-rate,liver resection rate,measurement_type
+219,heart-volume,heart volume,measurement_type
+220,metabolic-measurement,metabolic measurement,measurement_type
+221,metabolic-ratio,metabolic ratio,measurement_type
+222,isradipine,isradipine,substance
+223,metabolic-fraction,metabolic_fraction,measurement_type
+224,cumulative-metabolic-ratio,cumulative metabolic ratio,measurement_type
+225,metabolic-phenotype,metabolic phenotype,measurement_type
+226,mp-um,Ultra rapid metabolizer (UM),choice
+227,mp-pm,Poor metabolizer (PM),choice
+228,mp-em,Extensive metabolizer (EM),choice
+229,mp-im,Intermediate metabolizer (IM),choice
+230,biochemistry-level,biochemistry level,measurement_type
+231,biochemistry-normal,biochemistry normal,choice
+232,biochemistry-abnormal,biochemistry abnormal,choice
+233,biochemistry-elevated,biochemistry elevated,choice
+234,biochemistry-decreased,biochemistry decreased,choice
+235,albumin-measurement,albumin measurement,measurement_type
+236,prealbumin-measurement,prealbumin measurement,measurement_type
+237,western-blot,western blot,measurement_type
+238,relative-peak-area,relative-peak-area,measurement_type
+239,cyp2e1,CYP2E1,choice
+240,mri-measurement,MRI measurement,measurement_type
+241,ct-measurement,CT measurement,measurement_type
+242,relative-signal-intensity,relative signal intensity,measurement_type
+243,maximum-relative-signal-intensity,maximum relative signal intensity,measurement_type
+244,attenuation,attenuation,measurement_type
+245,anthropometric-measurement,anthropometric measurement,measurement_type
+246,age,age,measurement_type
+247,age-categorial,age (categorial),measurement_type
+248,elder,elder,choice
+249,adult,adult,choice
+250,young,young,choice
+251,adolescent,adolescent,choice
+252,child,child,choice
+253,newborn,newborn,choice
+254,sex,sex,measurement_type
+255,male,male,choice
+256,female,female,choice
+257,mixed-sex,male and female,choice
+258,height,height,measurement_type
+259,m6g,morphine-6-glucuronide,substance
+260,evening,evening,choice
+261,nighttime-pre-sleep,nighttime (pre-sleep),choice
+262,nighttime,nighttime,choice
+263,bmi,body mass index (BMI),measurement_type
+264,weight-status,weight status,measurement_type
+265,weight,weight,measurement_type
+266,weight-change,weight (change),measurement_type
+267,weight-change-relative,weight (change relative),measurement_type
+268,weight-categorial,weight (categorial),measurement_type
+269,obese,obese,choice
+270,overweight,overweight,choice
+271,normal-weight,normal weight,choice
+272,underweight,underweight,choice
+273,body-surface-area,body surface area (BSA),measurement_type
+274,waist-circumference,waist circumference,measurement_type
+275,waist-to-hip-ratio,waist to hip ratio,measurement_type
+276,lean-body-mass,lean body mass (LBW),measurement_type
+277,body-fat-percentage,body fat percentage,measurement_type
+278,obesity-index,obesity index,measurement_type
+279,fat-free-mass-index,fat free mass index (FFMI),measurement_type
+280,demographics-measurement,demographics measurement,measurement_type
+281,education-measurement,education measurement,measurement_type
+282,education-duration,education duration,measurement_type
+283,work-measurement,work measurement,measurement_type
+284,work-hours-categorial,work hours (categorial),measurement_type
+285,work-fulltime,work fulltime,choice
+286,work-no-fulltime,work no fulltime,choice
+287,work-parttime,work parttime,choice
+288,work-notime,work notime,choice
+289,lifestyle-measurement,lifestyle measurement,measurement_type
+290,key-lifestyle-measurement,key lifestyle measurement,measurement_type
+291,abstinence,abstinence,measurement_type
+292,consumption,consumption,measurement_type
+293,smoking-status,smoking status,measurement_type
+294,smoking,smoking,measurement_type
+295,abstinence-smoking,abstinence smoking,measurement_type
+296,smoking-amount-cigarettes,smoking amount (cigarettes),measurement_type
+297,abcg2-c-34-g-over-g,ABCG2 c.34 G/G,choice
+298,abcg2-c-421-c-over-c,ABCG2 c.421 C/C,choice
+299,abcg2-c-421-c-over-a,ABCG2 c.421 C/A,choice
+300,abcg2-c-421-a-over-a,ABCG2 c.421 A/A,choice
+301,smoking-amount-packyears,smoking amount (packyears),measurement_type
+302,smoking-duration,smoking duration,measurement_type
+303,marijuana-status,marijuana status,measurement_type
+304,marijuana,marijuana,measurement_type
+305,abstinence-marijuana,abstinence marijuana,measurement_type
+306,marijuana-amount-joints,marijuana amount (joints),measurement_type
+307,marijuana-duration,marijuana duration,measurement_type
+308,alcohol-status,alcohol status,measurement_type
+309,alcohol,alcohol,measurement_type
+310,alcohol-duration,alcohol duration,measurement_type
+311,abstinence-alcohol,abstinence alcohol,measurement_type
+312,alcohol-amount,alcohol amount,measurement_type
+313,medication-status,medication status,measurement_type
+314,medication,medication,measurement_type
+315,medication-amount,medication amount,measurement_type
+316,abstinence-medication,abstinence medication,measurement_type
+317,medication-duration,medication duration,measurement_type
+318,oral-contraceptive-status,oral contraceptive status,measurement_type
+319,oral-contraceptives,oral contraceptives,measurement_type
+320,abstinence-oral-contraceptives,abstinence oral contraceptives,measurement_type
+321,oral-contraceptives-duration,oral contraceptives duration,measurement_type
+322,diet,diet,measurement_type
+323,vegetarian,vegetarian,choice
+324,feeding-protocol,feeding protocol,measurement_type
+325,feeding-ad-libitum,ad libitum,choice
+326,feeding-time-restricted,time restricted,choice
+327,fasting-status,fasting status,measurement_type
+328,fasting,fasting,measurement_type
+329,overnight-fast,overnight fast,measurement_type
+330,fasting-duration,fasting (duration),measurement_type
+331,metabolic-challenge,metabolic challenge,measurement_type
+332,glucose-metabolism-challenge,glucose metabolism challenge,measurement_type
+333,oral-glucose-tolerance-test-ogtt,ogtt,choice
+334,intravenous-glucose-tolerance-test-ivgtt,ivgtt,choice
+335,meal,meal,measurement_type
+336,body-position,body position,measurement_type
+337,sitting,sitting,choice
+338,recumbent-position,recumbent position,choice
+339,supine,supine,choice
+340,cyp1a2-times-1-over-times-1,CYP1A2 *1/*1,choice
+341,mixed-meal,mixed meal,choice
+342,single-component-meal,single component meal,choice
+343,hypoglycemic-clamp,hypoglycemic clamp,choice
+344,hyperinsulinemic-euglycemic-clamp,hyperinsulinemic euglycemic clamp,choice
+345,isoglycemic-glucose-infusion,isoglycemic glucose infusion,choice
+346,protein-metabolic-challenge,protein metabolic challenge,choice
+347,protein-solution,protein solution,choice
+348,lipid-glucose-protein-challenge,lipid-glucose-protein challenge,choice
+349,physiological-status,physiological status,measurement_type
+350,body-temperature,body temperature,measurement_type
+351,exercise,exercise,measurement_type
+352,exercise-categorial,exercise (categorial),measurement_type
+353,rest,rest,choice
+354,light-exercise,light exercise,choice
+355,moderate-exercise,moderate exercise,choice
+356,sleeping-status,sleeping status,measurement_type
+357,asleep,asleep,choice
+358,awake,awake,choice
+359,pregnancy-status,pregnancy status,measurement_type
+360,pregnant,pregnant,measurement_type
+361,lactating,lactating,measurement_type
+362,breastfeeding,breastfeeding,measurement_type
+363,pregnant-categorial,pregnant (categorial),measurement_type
+364,pregnant-first-trimester,pregnant (first trimester),choice
+365,pregnant-second-trimester,pregnant (second trimester),choice
+366,pregnant-third-trimester,pregnant (third trimester),choice
+367,postpartum,postpartum,choice
+368,menstrual-status,menstrual status,measurement_type
+369,menstrual-time-of-cycle,menstrual time of cycle,measurement_type
+370,luteal-phase,luteal phase,choice
+371,follicular-phase,follicular phase,choice
+372,ovulatory-phase,ovulatory phase,choice
+373,housing,housing,measurement_type
+374,housing-temperature,housing temperature,measurement_type
+375,housing-humidity,housing humidity,measurement_type
+376,housing-group-size,housing group size,measurement_type
+377,housing-acclimatization-time,housing acclimatization time,measurement_type
+378,light-dark-cycle,light-dark-cycle,measurement_type
+379,light-dark-cycle-12-12,light/dark 12/12,measurement_type
+380,light-dark-cycle-24-0,light/dark 24/0,measurement_type
+381,light-dark-cycle-0-24,light/dark 0/24,measurement_type
+382,light-dark-cycle-16-8,light/dark 16/8,measurement_type
+383,circadian-status,circadian status (time of day),measurement_type
+384,morning,morning,choice
+385,daytime,daytime,choice
+386,m3g-plus-m6g,m3g+m6g,substance
+387,cyp1a2-times-1-over-times-1f,CYP1A2 *1/*1f,choice
+388,erect,erect,choice
+389,prone,prone,choice
+390,ambulant,ambulant,choice
+391,health-status,health status,measurement_type
+392,healthy,healthy,measurement_type
+393,symptom,symptom,measurement_type
+394,oedem,oedem,choice
+395,liver-oedem,liver oedem,choice
+396,ascites,ascites,choice
+397,jaundice,jaundice,choice
+398,stasis,stasis,choice
+399,biliary-stasis,biliary stasis,choice
+400,liver-stasis,liver stasis,choice
+401,shock,shock,choice
+402,macroalbuminuria,macroalbuminuria,choice
+403,disease,disease,measurement_type
+404,genetic-disease,genetic disease,choice
+405,disease-of-metabolism,disease of metabolism,choice
+406,hypercholesterolemia,hypercholesterolemia,choice
+407,mixed-hypercholesterolemia,mixed hypercholesterolemia,choice
+408,familial-hypercholesterolemia,familial hypercholesterolemia (FH),choice
+409,homozygous-familial-hypercholesterolemia,homozygous familial hypercholesterolemia (FH),choice
+410,heterozygous-familial-hypercholesterolemia,heterozygous familial hypercholesterolemia (FH),choice
+411,disease-of-cellular-proliferation,disease of cellular proliferation,choice
+412,cancer,cancer,choice
+413,hematologic-cancer,hematologic cancer,choice
+414,leukaemia,leukemia,choice
+415,myeloid-leukemia,myeloid leukemia,choice
+416,mor-plus-m3g-plus-m6g,mor+m3g+m6g,substance
+417,nmor,normorphine,substance
+418,nmg,normorphine-glucuronide,substance
+419,chronic-myelogenous-leukemia,"chronic myelogenous leukemia, BCR-ABL1 positive",choice
+420,hematopoietic-system-disease,hematopoietic system disease,choice
+421,sickle-cell-disease,sickle cell disease,choice
+422,endocrine-system-disease,endocrine system disease,choice
+423,pancreatic-disease,pancreatic disease,choice
+424,pancreatitis,pancreatitis,choice
+425,chronic-pancreatitis,chronic pancreatitis,choice
+426,gilbert-syndrome,Gilbert syndrome,choice
+427,thyroid-disease,thyroid gland disease,choice
+428,hyperthyroidism,hyperthyroidism,choice
+429,hypothyroidism,hypothyroidism,choice
+430,gastrointestinal-system-disease,gastrointestinal system disease,choice
+431,duodenal-ulcer,duodenal ulcer,choice
+432,hepatobiliary-disease,hepatobiliary disease,choice
+433,liver-disease,liver disease,choice
+434,liver-disease-qualitative,liver disease (qualitative),choice
+435,liver-disease-minimal,liver disease (minimal),choice
+436,liver-disease-mild,liver disease (mild),choice
+437,liver-disease-moderate,liver disease (moderate),choice
+438,liver-disease-severe,liver disease (severe),choice
+439,hemochromatosis,hemochromatosis,choice
+440,liver-damage,liver damage,choice
+441,subacute-hepatic-necrosis,subacute hepatic necrosis,choice
+442,alcoholic-liver-disease,alcoholic liver disease,choice
+443,hepatocellular-carcinoma,hepatocellular carcinoma (HCC),choice
+444,liver-cirrhosis,liver cirrhosis,choice
+445,decompensated-liver-cirrhosis,decompensated liver cirrhosis,choice
+446,alcoholic-liver-cirrhosis,alcoholic liver cirrhosis,choice
+447,postnecrotic-liver-cirrhosis,postnecrotic liver cirrhosis,choice
+448,mor-over-m6g,morphine/morphine-6-glucuronide,substance
+449,cyp1a2-times-1a-over-times-1a,CYP1A2 *1a/*1a,choice
+450,cryptogenic-liver-cirrhosis,cryptogenic liver cirrhosis,choice
+451,non-cirrhotic-liver-disease,non-cirrhotic liver disease,choice
+452,hepatitis,hepatitis,choice
+453,alcoholic-hepatitis,alcoholic-hepatitis,choice
+454,drug-induced-hepatitis,drug-induced hepatitis,choice
+455,viral-hepatitis,viral hepatitis,choice
+456,hepatitis-a,hepatitis A,choice
+457,hepatitis-b,hepatitis B,choice
+458,hcv,Hepatitis C virus (HCV),choice
+459,chronic-hepatitis,chronic hepatitis,choice
+460,toxic-hepatitis,toxic hepatitis,choice
+461,biliary-liver-disease,biliary liver disease,choice
+462,biliary-obstruction,biliary obstruction,choice
+463,pbc,PBC,choice
+464,biliary-calculus,biliary calculus,choice
+465,fatty-liver-disease,fatty liver disease,choice
+466,nafld,non-alcoholic fatty liver disease (NAFLD),choice
+467,nash,NASH,choice
+468,mafld,metabolic dysfunction-associated steatotic liver disease (MAFLD),choice
+469,mash,metabolic dysfunction-associated steatohepatitis (MASH),choice
+470,miscellaneous-liver-disease,miscellaneous liver disease,choice
+471,liver-fibrosis,liver fibrosis,choice
+472,liver-fibrosis-f1,liver fibrosis (F1),choice
+473,liver-fibrosis-f2,liver fibrosis (F2),choice
+474,liver-fibrosis-f3,liver fibrosis (F3),choice
+475,liver-fibrosis-f4,liver fibrosis (F4),choice
+476,renal-disease,renal disease,choice
+477,renal-disease-mild,renal disease (mild),choice
+478,renal-disease-moderate,renal disease (moderate),choice
+479,renal-disease-end-stage,renal disease (end-stage),choice
+480,renal-hypoplasia,renal hypoplasia,choice
+481,phenobarbitone,phenobarbital,substance
+482,renal-carcinoma,renal carcinoma,choice
+483,pyelonephritis,pyelonephritis,choice
+484,chronic-pyelonephritis,chronic pyelonephritis,choice
+485,nephrosclerosis,nephrosclerosis,choice
+486,arterionephrosclerosis,arterionephrosclerosis,choice
+487,cystic-kidney-disease,cystic kidney disease,choice
+488,polycystic-kidney-disease,polycystic kidney disease,choice
+489,anephric,anephric,choice
+490,glomerulosclerosis,glomerulosclerosis,choice
+491,glomerulonephritis,glomerulonephritis,choice
+492,chronic-glomerulonephritis,chronic glomerulonephritis,choice
+493,acute-glomerulonephritis,acute glomerulonephritis,choice
+494,focal-glomerulonephritis,focal glomerulonephritis,choice
+495,diffuse-glomerulonephritis,diffuse glomerulonephritis,choice
+496,cardiovascular-disease,cardiovascular system disease,choice
+497,heart-disease,heart disease,choice
+498,heart-failure,heart failure,choice
+499,congestive-heart-failure,congestive heart failure,choice
+500,cardiac-arrhythmia,cardiac arrhythmia,choice
+501,ischemic-heart-disease,ischemic heart disease,choice
+502,myocardial-infarction,myocardial infarction,choice
+503,premature-ventricular-contraction,premature ventricular contraction,choice
+504,ventricular-fibrillation,ventricular fibrillation,choice
+505,primary-ventricular-fibrillation,primary ventricular fibrillation,choice
+506,coronary-atherosclerosis,coronary atherosclerosis,choice
+507,infectious-disorder,infectious disorder,choice
+508,bronchitis,bronchitis,choice
+509,malaria,malaria,choice
+510,central-nervous-system-disease,central nervous system disease,choice
+511,brain-disease,brain disease,choice
+512,epilepsy,epilepsy,choice
+513,parkinsonism,Parkinsonism,choice
+514,migraine,migraine,choice
+515,stroke,stroke,choice
+516,disease-of-mental-health,disease of mental health,choice
+517,psychatric-disorder,psychatric disorder,choice
+518,schizophrenia,schizophrenia,choice
+519,disease-of-glucose-metabolism,disease of glucose metabolism,choice
+520,impaired-glucose-tolerance,impaired glucose tolerance (IGT),choice
+521,diabetes,diabetes,choice
+522,type-1-diabetes-mellitus,type 1 diabetes mellitus (T1DM),choice
+523,type-2-diabetes-mellitus,type 2 diabetes mellitus (T2DM),choice
+524,diabetic-nephropathy,diabetic nephropathy,choice
+525,benign-neoplasm,benign neoplasm,choice
+526,prostata-adenoma,prostata adenoma,choice
+527,respiratory-system-disease,respiratory system disease,choice
+528,asthma,asthma,choice
+529,arab-american,Arab American,choice
+530,cyp1a2-times-1a-over-times-1f,CYP1A2 *1a/*1f,choice
+531,cyp1a2-times-1c-over-times-1f,CYP1A2 *1c/*1f,choice
+532,chronic-bronchitis,chronic bronchitis,choice
+533,lung-disease,lung disease,choice
+534,lung-cancer,lung cancer,choice
+535,nsclc,Non small cell lung cancer (NSCLC),choice
+536,pneumonia,pneumonia,choice
+537,extrahepatic-portal-obstruction,extrahepatic portal obstruction,choice
+538,sleep-disorder,central sleep apnea,choice
+539,central-sleep-apnea,central sleep apnea,choice
+540,hypertension,hypertension,choice
+541,arterial-hypertension,arterial hypertension,choice
+542,cardiomyopathy,cardiomyopathy,choice
+543,left-ventricular-dysfunction,left ventricular dysfunction,choice
+544,severe-left-ventricular-dysfunction,severe Left ventricular dysfunction,choice
+545,family-history-disease,family history disease,measurement_type
+546,family-history-diabetes,family history diabetes,measurement_type
+547,species,species,measurement_type
+548,homo-sapiens,Homo sapiens,choice
+549,mus-musculus,Mus musculus,choice
+550,rattus-norvegicus,Rattus norvegicus,choice
+551,bos-taurus,Bos taurus,choice
+552,canis-familiaris,Canis familiaris,choice
+553,mongrel-dog,Mongrel dog,choice
+554,swine,Swine,choice
+555,strain,strain,measurement_type
+556,mouse-strain,mouse strain,measurement_type
+557,mouse-strain-c57bl,C57BL,measurement_type
+558,mouse-strain-c57bl6,C57BL6,measurement_type
+559,mouse-strain-c57bl6j,C57BL/6J,measurement_type
+560,mouse-strain-c57bl6n,C57BL/6N,measurement_type
+561,rat-strain,rat strain,measurement_type
+562,ethnicity,ethnicity,measurement_type
+563,african,African,choice
+564,african-american,African American,choice
+565,american-indian,American Indian,choice
+566,asian,Asian,choice
+567,korean,Korean,choice
+568,chinese,Chinese,choice
+569,japanese,Japanese,choice
+570,thai,Thai,choice
+571,caucasian,Caucasian,choice
+572,hispanic,Hispanic,choice
+573,white-new-zealanders,White New Zealanders,choice
+574,asian-indian,Asian Indian,choice
+575,egyptian,Egyptian,choice
+576,jordanian,Jordanian,choice
+577,swedish,Swedish,choice
+578,spanish,Spanish,choice
+579,afro-trinidadians,Afro–Trinidadians,choice
+580,indo-trinidadians,Indo-Trinidadians,choice
+581,black,Black,choice
+582,pacific-islander,Pacific Islander,choice
+583,indian,Indian,choice
+584,mexican,Mexican,choice
+585,west-asian,West Asian,choice
+586,taiwanese,Taiwanese,choice
+587,hongkonger,Hongkonger,choice
+588,aboriginal,Aboriginal,choice
+589,gene-measurement,gene measurement,measurement_type
+590,genotype,genotype,measurement_type
+591,gene-phenotype,gene phenotype,measurement_type
+592,gene-variant,gene variant,measurement_type
+593,nat2-activity,NAT2 activity,measurement_type
+594,nat2-activity-0,0,choice
+595,nat2-activity-1,1,choice
+596,nat2-activity-2,2,choice
+597,nat2-phenotype,NAT2 phenotype,measurement_type
+598,nat2-genotype,NAT2 genotype,measurement_type
+599,cyp1a2-phenotype,CYP1A2 phenotype,measurement_type
+600,cyp2c19-phenotype,CYP2C19 phenotype,measurement_type
+601,cyp2d6-activity-score,CYP2D6 activity score,measurement_type
+602,cyp2d6-phenotype,CYP2D6 phenotype,measurement_type
+603,poor-metabolizer,poor metabolizer (PM),choice
+604,intermediate-poor-metabolizer,intermediate/poor metabolizer (IM/PM),choice
+605,intermediate-metabolizer,intermediate metabolizer (IM),choice
+606,extensive-poor-metabolizer,extensive/poor metabolizer (EM/PM),choice
+607,extensive-intermediate-metabolizer,extensive/intermediate metabolizer (EM/IM),choice
+608,extensive-metabolizer,extensive metabolizer (EM),choice
+609,ultra-rapid-metabolizer,ultra rapid metabolizer (UM),choice
+610,abcc2-rs717620-t-over-t,ABCC2 rs717620 T/T,choice
+611,cyp2d6-variant,gene variant,measurement_type
+612,wildtype-gene,wildtype gene,choice
+613,gene-duplication,gene duplication,choice
+614,abcc2-genotype,ABCC2 genotype,measurement_type
+615,abcb1-genotype,ABCB1 genotype,measurement_type
+616,abcb11-genotype,ABCB11 genotype,measurement_type
+617,abcg2-genotype,ABCG2 genotype,measurement_type
+618,cyp1a2-genotype,CYP1A2 genotype,measurement_type
+619,cyp2b6-genotype,CYP2B6 genotype,measurement_type
+620,cyp2c9-genotype,CYP2C9 genotype,measurement_type
+621,cyp2c19-genotype,CYP2C19 genotype,measurement_type
+622,cyp2d6-genotype,CYP2D6 genotype,measurement_type
+623,cyp3a4-genotype,CYP3A4 genotype,measurement_type
+624,cyp3a5-genotype,CYP3A5 genotype,measurement_type
+625,cyp2e1-genotype,CYP2E1 genotype,measurement_type
+626,slco1a2-genotype,SLCO1A2 genotype,measurement_type
+627,slco1b1-genotype,SLCO1B1 genotype,measurement_type
+628,slco2b1-genotype,SLCO2B1 genotype,measurement_type
+629,abcb1c1236t-c-over-c,ABCB1 C1236T C/C,choice
+630,abcb1c1236t-c-over-t,ABCB1 C1236T C/T,choice
+631,abcb1c1236t-t-over-t,ABCB1 C1236T T/T,choice
+632,abcb1c1236t-c-over-t-plus-t-over-t,ABCB1 C1236T C/T + T/T,choice
+633,abcb1c1236t-c-over-c-plus-c-over-t,ABCB1 C1236T C/C + C/T,choice
+634,abcb1g2677t-over-a-g-over-g,ABCB1 G2677T/A G/G,choice
+635,abcb1g2677t-over-a-g-over-a,ABCB1 G2677T/A G/A,choice
+636,abcb1g2677t-over-a-g-over-t,ABCB1 G2677T/A G/T,choice
+637,abcb1g2677t-over-a-t-over-t,ABCB1 G2677T/A T/T,choice
+638,abcb1g2677t-over-a-a-over-a,ABCB1 G2677T/A A/A,choice
+639,abcb1g2677t-over-a-t-over-a,ABCB1 G2677T/A T/A,choice
+640,abcb1g2677t-over-a-g-over-a-plus-g-over-t,ABCB1 G2677T/A G/A + G/T,choice
+641,abcb1g2677t-over-a-a-over-t-plus-g-over-t,ABCB1 G2677T/A A/T + G/T,choice
+642,abcb1g2677t-over-a-a-over-t-plus-g-over-a,ABCB1 G2677T/A A/T + G/A,choice
+643,abcb1c3435t-c-over-c,ABCB1 C3435T C/C,choice
+644,abcb1c3435t-c-over-t,ABCB1 C3435T C/T,choice
+645,abcb1c3435t-t-over-t,ABCB1 C3435T T/T,choice
+646,abcb1c3435t-c-over-t-plus-t-over-t,ABCB1 C3435T C/T + T/T,choice
+647,abcb1c3435t-c-over-c-plus-c-over-t,ABCB1 C3435T C/C + C/T,choice
+648,abcb1ttt,ABCB1 TTT,choice
+649,abcb1cgc,ABCB1 CGC,choice
+650,abcb1non-ttt,ABCB1 Non-TTT,choice
+651,abcc2-cc-over-ga,ABCC2 CC/GA,choice
+652,abcc2-cc-over-gg,ABCC2 CC/GG,choice
+653,abcc2-cc-over-aa,ABCC2 CC/AA,choice
+654,abcc2-ct-over-gg,ABCC2 CT/GG,choice
+655,abcc2-ct-over-ga,ABCC2 CT/GA,choice
+656,abcc2-tt-over-gg,ABCC2 TT/GG,choice
+657,abcc2-g1249a-g-over-g,ABCC2 G1249A G/G,choice
+658,abcc2-g1249a-g-over-a,ABCC2 G1249A G/A,choice
+659,abcc2-g1249a-a-over-a,ABCC2 G1249A A/A,choice
+660,abcc2-c1446g-c-over-c,ABCC2 C1446G C/C,choice
+661,abcc2-c1446g-c-over-g,ABCC2 C1446G C/G,choice
+662,abcc2-c1446g-g-over-g,ABCC2 C1446G G/G,choice
+663,abcc2-t3563a-t-over-t,ABCC2 T3563A T/T,choice
+664,abcc2-t3563a-t-over-a,ABCC2 T3563A T/A,choice
+665,abcc2-t3563a-a-over-a,ABCC2 T3563A A/A,choice
+666,abcc2-g4544a-g-over-g,ABCC2 G4544A G/G,choice
+667,abcc2-g4544a-g-over-a,ABCC2 G4544A G/A,choice
+668,abcc2-g4544a-a-over-a,ABCC2 G4544A A/A,choice
+669,abcc2-rs717620-c-over-c,ABCC2 rs717620 C/C,choice
+670,abcc2-rs717620-c-over-t,ABCC2 rs717620 C/T,choice
+671,cyp1a2-times-1f-over-times-1f,CYP1A2 *1f/*1f,choice
+672,cyp1a2-times-1c-times-1f-over-times-1c-times-1f,CYP1A2 *1c*1f/*1c*1f,choice
+673,cyp1a2-163c-a-c-over-c,CYP1A2 -163C>A c/c,choice
+674,cyp1a2-163c-a-c-over-a,CYP1A2 -163C>A c/a,choice
+675,cyp1a2-163c-a-a-over-a,CYP1A2 -163C>A a/a,choice
+676,cyp1a2-rs2470893-g-a-zero-a-allele,CYP1A2 rs2470893 G>A (zero A allele),choice
+677,cyp1a2-rs2470893-one-a-allele,CYP1A2 rs2470893 (one A allele),choice
+678,cyp1a2-rs2470893-two-a-allele,CYP1A2 rs2470893 (two A allele),choice
+679,cyp1a2-times-1f-times-1f,"CYP1A2 *1F,*1F",choice
+680,cyp1a2-times-1b-times-1f-and-times-6,"CYP1A2 *1B,*1F and *6",choice
+681,cyp1a2-times-1b-times-1f-and-times-1f,"CYP1A2 *1B,*1F and *1F",choice
+682,cyp1a2-times-1b-times-1f-and-times-1b,"CYP1A2 *1B,*1F and *1B",choice
+683,cyp1a2-times-1b-times-1f,"CYP1A2 *1B,*1F",choice
+684,cyp1a2-times-1b-times-1d-times-1e-times-1f-and-times-1k,"CYP1A2 *1B,*1D,*1E,*1F and *1K",choice
+685,cyp1a2-times-1b-times-1d-times-1f-and-times-1f-c-730-t,"CYP1A2 *1B,*1D,*1F and *1F, C(-730)T",choice
+686,cyp1a2-times-1b-times-1d-times-1f-and-times-1f,"CYP1A2 *1B,*1D,*1F and *1F",choice
+687,cyp1a2-times-1b-times-1d-times-1f-and-times-1b-times-1d-times-1f,"CYP1A2 *1B,*1D,*1F and *1B,*1D,*1F",choice
+688,cyp1a2-times-1b-times-1d-times-1f-and-times-1b-times-1d-times-1e-times-1f,"CYP1A2 *1B,*1D,*1F and *1B,*1D,*1E, *1F",choice
+689,cyp1a2-times-1b-times-1d-times-1f-and-times-1b-times-1c-times-1d-times-1f,"CYP1A2 *1B,*1D,*1F and *1B,*1C,*1D, *1F",choice
+690,cyp1a2-times-1b-times-1d-times-1f-and-times-1b,"CYP1A2 *1B,*1D,*1F and *1B",choice
+691,cyp1a2-times-1b-times-1d-times-1e-times-1f-and-times-1f,"CYP1A2 *1B,*1D,*1E,*1F and *1F",choice
+692,cyp1a2-times-1b-times-1d-times-1e-times-1f-and-times-1b-times-1d-times-1e-times-1f,"CYP1A2 *1B,*1D,*1E,*1F and *1B,*1D,*1E,*1F",choice
+693,cyp1a2-times-1b-times-1d-times-1e-times-1f-and-times-1b,"CYP1A2 *1B,*1D,*1E,*1F and *1B",choice
+694,cyp1a2-times-1b-times-1c-times-1d-times-1f-and-times-1b,"CYP1A2 *1B,*1C,*1D,*1F and *1B",choice
+695,cyp1a2-times-1b-times-1c-times-1d-times-1f-and-times-1f,"CYP1A2 *1B,*1C,*1D,*1F and *1F",choice
+696,cyp1a2-times-1b-times-1c-times-1d-times-1f-and-times-1b-times-1d-times-1e-times-1f,"CYP1A2 *1B,*1C,*1D,*1F and *1B,*1D,*1E,*1F",choice
+697,cyp1a2-times-1b-times-1c-times-1d-times-1f-and-times-1b-times-1c-times-1d-times-1f,"CYP1A2 *1B,*1C,*1D,*1F and *1B,*1C,*1D,*1F",choice
+698,cyp1a2-times-1b-times-1b,"CYP1A2 *1B,*1B",choice
+699,cyp2b6-times-1-over-times-1,CYP2C6 *1/*1,choice
+700,cyp2b6-times-1-over-times-6,CYP2C6 *1/*6,choice
+701,cyp2d6-times-1-over-times-1,CYP2D6 *1/*1,choice
+702,cyp2d6-times-1-over-times-1x2,CYP2D6 *1/*1x2,choice
+703,cyp2d6-times-1-over-times-2,CYP2D6 *1/*2,choice
+704,cyp2d6-times-1-over-times-2x2,CYP2D6 *1/*2x2,choice
+705,cyp2d6-times-1-over-times-3,CYP2D6 *1/*3,choice
+706,cyp2d6-times-1-over-times-4,CYP2D6 *1/*4,choice
+707,cyp2d6-times-1-over-times-4x2,CYP2D6 *1/*4x2,choice
+708,cyp2d6-times-1-over-times-5,CYP2D6 *1/*5,choice
+709,cyp2d6-times-1-over-times-6,CYP2D6 *1/*6,choice
+710,cyp2d6-times-1-over-times-7,CYP2D6 *1/*7,choice
+711,cyp2d6-times-1-over-times-9,CYP2D6 *1/*9,choice
+712,cyp2d6-times-1-over-times-10,CYP2D6 *1/*10,choice
+713,cyp2d6-times-1-over-times-10x2,CYP2D6 *1/*10x2,choice
+714,cyp2d6-times-1-over-times-17,CYP2D6 *1/*17,choice
+715,cyp2d6-times-1-over-times-21,CYP2D6 *1/*21,choice
+716,cyp2d6-times-1-over-times-29,CYP2D6 *1/*29,choice
+717,cyp2d6-times-1-over-times-36,CYP2D6 *1/*36,choice
+718,cyp2d6-times-1-over-times-41,CYP2D6 *1/*41,choice
+719,cyp2d6-times-1-over-times-42,CYP2D6 *1/*42,choice
+720,mor-over-m3g,morphine/morphine-3-glucuronide,substance
+721,cyp2d6-times-1-over-times-45-or-46,CYP2D6 *1/*45 or 46,choice
+722,cyp2d6-times-1x2-over-times-1,CYP2D6 *1x2/*1,choice
+723,cyp2d6-times-1x2-over-times-2,CYP2D6 *1x2/*2,choice
+724,cyp2d6-times-1x2-over-times-4,CYP2D6 *1x2/*4,choice
+725,cyp2d6-times-1x2-over-times-5,CYP2D6 *1x2/*5,choice
+726,cyp2d6-times-1x2-over-times-10,CYP2D6 *1x2/*10,choice
+727,cyp2d6-times-1x2-over-times-17,CYP2D6 *1x2/*17,choice
+728,cyp2d6-times-1-over-times-35,CYP2D6 *1/*35,choice
+729,cyp2d6-times-1x2-over-times-41,CYP2D6 *1x2/*41,choice
+730,cyp2d6-times-1-over-times-1xn,CYP2D6 *1/*1xN,choice
+731,cyp2d6-times-1xn-over-times-17,CYP2D6 *1xN/*17,choice
+732,cyp2d6-times-1xn-over-times-35,CYP2D6 *1xN/*35,choice
+733,cyp2d6-times-1-over-times-2xn,CYP2D6 *1/*2xN,choice
+734,cyp2d6-times-2-over-times-1x2,CYP2D6 *2/*1x2,choice
+735,cyp2d6-times-2-over-times-2,CYP2D6 *2/*2,choice
+736,cyp2d6-times-2-over-times-2x2,CYP2D6 *2/*2x2,choice
+737,cyp2d6-times-2-over-times-3,CYP2D6 *2/*3,choice
+738,cyp2d6-times-2-over-times-4,CYP2D6 *2/*4,choice
+739,cyp2d6-times-2-over-times-4x2,CYP2D6 *2/*4x2,choice
+740,cyp2d6-times-2-over-times-5,CYP2D6 *2/*5,choice
+741,cyp2d6-times-2-over-times-6,CYP2D6 *2/*6,choice
+742,cyp2d6-times-2-over-times-9,CYP2D6 *2/*9,choice
+743,cyp2d6-times-2-over-times-10,CYP2D6 *2/*10,choice
+744,cyp2d6-times-2-over-times-14,CYP2D6 *2/*14,choice
+745,cyp2d6-times-2-over-times-17,CYP2D6 *2/*17,choice
+746,cyp2d6-times-2-over-times-21,CYP2D6 *2/*21,choice
+747,cyp2d6-times-2-over-times-29,CYP2D6 *2/*29,choice
+748,cyp2d6-times-2-over-times-36-plus-times-10x2,CYP2D6 *2/*36+*10x2,choice
+749,cyp2d6-times-2-over-times-41,CYP2D6 *2/*41,choice
+750,cyp2d6-times-2x2-over-times-1,CYP2D6 *2x2/*1,choice
+751,cyp2d6-times-2x2-over-times-3,CYP2D6 *2x2/*3,choice
+752,cyp2d6-times-2x2-over-times-4,CYP2D6 *2x2/*4,choice
+753,cyp2d6-times-2x2-over-times-5,CYP2D6 *2x2/*5,choice
+754,cyp2d6-times-2x2-over-times-17,CYP2D6 *2x2/*17,choice
+755,cyp2d6-times-3-over-times-2,CYP2D6 *3/*2,choice
+756,cyp2d6-times-3-over-times-2x2,CYP2D6 *3/*2x2,choice
+757,cyp2d6-times-3-over-times-3,CYP2D6 *3/*3,choice
+758,cyp2d6-times-3-over-times-4,CYP2D6 *3/*4,choice
+759,cyp2d6-times-3-over-times-5,CYP2D6 *3/*5,choice
+760,cyp2d6-times-4-over-times-4,CYP2D6 *4/*4,choice
+761,cyp2d6-times-4-over-times-5,CYP2D6 *4/*5,choice
+762,cyp2d6-times-4-over-times-6,CYP2D6 *4/*6,choice
+763,cyp2d6-times-4-over-times-9,CYP2D6 *4/*9,choice
+764,cyp2d6-times-4-over-times-10,CYP2D6 *4/*10,choice
+765,cyp2d6-times-4-over-times-17,CYP2D6 *4/*17,choice
+766,cyp2d6-times-4x2-over-times-17,CYP2D6 *4x2/*17,choice
+767,cyp2d6-times-4-over-times-36,CYP2D6 *4/*36,choice
+768,cyp2d6-times-4-over-times-41,CYP2D6 *4/*41,choice
+769,cyp2d6-times-5-over-times-5,CYP2D6 *5/*5,choice
+770,cyp2d6-times-5-over-times-10,CYP2D6 *5/*10,choice
+771,cyp2d6-times-5-over-times-14,CYP2D6 *5/*14,choice
+772,cyp2d6-times-5-over-times-16,CYP2D6 *5/*16,choice
+773,cyp2d6-times-5-over-times-17,CYP2D6 *5/*17,choice
+774,cyp2d6-times-5-over-times-29,CYP2D6 *5/*29,choice
+775,cyp2d6-times-6-over-times-6,CYP2D6 *6/*6,choice
+776,cyp2d6-times-6-over-times-35,CYP2D6 *6/*35,choice
+777,cyp2d6-times-6-over-times-41,CYP2D6 *6/*41,choice
+778,cyp2d6-times-7-over-times-41,CYP2D6 *7/*41,choice
+779,cyp2d6-times-10-over-times-10,CYP2D6 *10/*10,choice
+780,cyp2d6-times-10-over-times-10x2,CYP2D6 *10/*10x2,choice
+781,cyp2d6-times-10-over-times-14,CYP2D6 *10/*14,choice
+782,cyp2d6-times-10-over-times-17,CYP2D6 *10/*17,choice
+783,cyp2d6-times-10-over-times-36,CYP2D6 *10/*36,choice
+784,cyp2d6-times-10-over-times-41,CYP2D6 *10/*41,choice
+785,cyp2d6-times-10-over-times-41x2,CYP2D6 *10/*41x2,choice
+786,cyp2d6-times-13-plus-times-1-over-times-4,CYP2D6 *13+*1/*4,choice
+787,cyp2d6-times-17-over-times-35,CYP2D6 *17/*35,choice
+788,cyp2d6-times-17-over-times-17,CYP2D6 *17/*17,choice
+789,cyp2d6-times-17-over-times-29,CYP2D6 *17/*29,choice
+790,cyp2d6-times-17-over-times-41,CYP2D6 *17/*41,choice
+791,cyp2d6-times-17-over-times-42,CYP2D6 *17/*42,choice
+792,cyp2d6-times-29-over-times-29,CYP2D6 *29/*29,choice
+793,cyp2d6-times-29-over-times-41,CYP2D6 *29/*41,choice
+794,cyp2d6-times-29-over-times-45-or-46,CYP2D6 *29/*45 or 46,choice
+795,cyp2d6-times-35-over-times-35,CYP2D6 *35/*35,choice
+796,cyp2d6-times-41-over-times-41,CYP2D6 *41/*41,choice
+797,cyp2d6-times-41-over-null,CYP2D6 *41/null,choice
+798,cyp2d6-times-x-over-times-4,CYP2D6 *x/*4,choice
+799,cyp2d6-times-other-over-times-other,CYP2D6 *other/*other,choice
+800,cyp2d6-times-other-over-times-17,CYP2D6 *other/*17,choice
+801,cyp2d6-times-other-over-times-29,CYP2D6 *other/*29,choice
+802,cyp2d6-times-other-over-times-41,CYP2D6 *other/*41,choice
+803,cyp2c9-c-over-a,CYP2C9 C/A,choice
+804,cyp2c9-a-over-a,CYP2C9 A/A,choice
+805,cyp2c9-times-1-over-times-1,CYP2C9 *1/*1,choice
+806,cyp2c9-times-1-over-times-2,CYP2C9 *1/*2,choice
+807,cyp2c9-times-1-over-times-3,CYP2C9 *1/*3,choice
+808,cyp2c9-times-1-over-times-12,CYP2C9 *1/*12,choice
+809,cyp2c9-times-1-over-times-13,CYP2C9 *1/*13,choice
+810,cyp2c9-times-2-over-times-2,CYP2C9 *2/*2,choice
+811,cyp2c9-times-2-over-times-3,CYP2C9 *2/*3,choice
+812,cyp2c9-times-3-over-times-3,CYP2C9 *3/*3,choice
+813,cyp2c19-times-1-over-times-1,CYP2C19 *1/*1,choice
+814,cyp2c19-times-1-over-times-2,CYP2C19 *1/*2,choice
+815,cyp2c19-times-1-over-times-2a,CYP2C19 *1/*2A,choice
+816,cyp2c19-times-1-over-times-2b,CYP2C19 *1/*2B,choice
+817,cyp2c19-times-1-over-times-3,CYP2C19 *1/*3,choice
+818,cyp2c19-times-1-over-times-17,CYP2C19 *1/*17,choice
+819,cyp2c19-times-2-over-times-2,CYP2C19 *2/*2,choice
+820,cyp2c19-times-2-over-times-3,CYP2C19 *2/*3,choice
+821,cyp2c19-times-2-over-times-17,CYP2C19 *2/*17,choice
+822,cyp2c19-times-3-over-times-3,CYP2C19 *3/*3,choice
+823,cyp2c19-times-3-over-times-17,CYP2C19 *3/*17,choice
+824,cyp2c19-times-17-over-times-17,CYP2C19 *17/*17,choice
+825,cyp2c19-times-17,CYP2C19 *17,choice
+826,cyp3a4-wildtype-over-wildtype,CYP3A4 wildtype/wildtype,choice
+827,cyp3a4-other-over-times-1b,CYP3A4 other/*1B,choice
+828,cyp3a4-times-1-over-times-1,CYP3A4 *1/*1,choice
+829,cyp3a4-times-1-over-times-1b,CYP3A4 *1/*1b,choice
+830,cyp3a4-times-1-over-times-2,CYP3A4 *1/*2,choice
+831,cyp3a4-times-1-over-times-22,CYP3A4 *1/*22,choice
+832,cyp3a4-times-1-over-times-1g,CYP3A4 *1/*1G,choice
+833,cyp3a4-times-1g-over-times-1g,CYP3A4 *1G/*1G,choice
+834,cyp3a5-other-over-times-1c,CYP3A5 other/*1C,choice
+835,cyp3a5-other-over-times-3,CYP3A5 other/*3,choice
+836,cyp3a5-times-3-over-times-3,CYP3A5 *3/*3,choice
+837,cyp3a5-times-3-over-times-1,CYP3A5 *3/*1,choice
+838,cyp3a5-times-1-over-times-3,CYP3A5 *1/*3,choice
+839,cyp3a5-times-1-over-times-1,CYP3A5 *1/*1,choice
+840,cyp3a5-g-over-g,CYP3A5 G/G,choice
+841,cyp3a5-a-over-g,CYP3A5 A/G,choice
+842,cyp3a5-a-over-a,CYP3A5 A/A,choice
+843,cyp2e1-times-1a-over-times-1a,CYP2E1 *1A/*1A,choice
+844,cyp2e1-times-1a-over-times-5,CYP2E1 *1A/*5,choice
+845,cyp2e1-times-5-over-times-5,CYP2E1 *5/*5,choice
+846,cod-over-mor,codeine/morphine,substance
+847,nat-times-4-over-times-4,NAT2 *4/*4,choice
+848,nat-times-4-over-times-5,NAT2 *4/*5,choice
+849,nat-times-4-over-times-6,NAT2 *4/*6,choice
+850,nat-times-4-over-times-5a,NAT2 *4/*5A,choice
+851,nat-times-5-over-times-6,NAT2 *5/*6,choice
+852,nat-times-5-over-times-5,NAT2 *5/*5,choice
+853,nat-times-6-over-times-6,NAT2 *6/*6,choice
+854,slco1a2-t38c-t-over-t,SLCO1A2 T38C T/T,choice
+855,slco1a2-t38c-t-over-c,SLCO1A2 T38C T/C,choice
+856,slco1a2-a516c-a-over-a,SLCO1A2 A516C A/A,choice
+857,slco1a2-a516c-a-over-c,SLCO1A2 A516C A/C,choice
+858,slco1b1-times-1-over-times-1,SLCO1B1 *1/*1,choice
+859,slco1b1-times-1-over-times-16,SLCO1B1 *1/*16,choice
+860,slco1b1-times-1b-over-times-16,SLCO1B1 *1b/*16,choice
+861,slco1b1-times-1a-over-times-1a,SLCO1B1 *1a/*1a,choice
+862,slco1b1-times-1a-over-times-1b,SLCO1B1 *1a/*1b,choice
+863,slco1b1-times-1b-over-times-1b,SLCO1B1 *1b/*1b,choice
+864,slco1b1-times-1a-over-times-5,SLCO1B1 *1a/*5,choice
+865,slco1b1-times-1a-over-times-15,SLCO1B1 *1a/*15,choice
+866,slco1b1-times-1b-over-times-15,SLCO1B1 *1b/*15,choice
+867,slco1b1-times-1b-over-times-5,SLCO1B1 *1b/*5,choice
+868,slco1b1-times-15-over-times-15,SLCO1B1 *15/*15,choice
+869,slco1b1-times-5-over-times-15,SLCO1B1 *5/*15,choice
+870,slco1b1-no-times-15b,SLCO1B1 no *15b,choice
+871,slco1b1-no-times-17,SLCO1B1 no *17,choice
+872,slco1b1-times-x-over-times-15b,SLCO1B1 *x/*15b,choice
+873,slco1b1-times-x-over-times-17,SLCO1B1 *x/*17,choice
+874,slco1b1-c-521-t-over-t,SLCO1B1 c.521 T/T,choice
+875,slco1b1-c-521-t-over-c,SLCO1B1 c.521 T/C,choice
+876,slco1b1-c-521-c-over-c,SLCO1B1 c.521 C/C,choice
+877,slco1b1-c-388-a-over-a,SLCO1B1 c.388 A/A,choice
+878,slco1b1-c-388-a-over-g,SLCO1B1 c.388 A/G,choice
+879,slco1b1-c-388-g-over-g,SLCO1B1 c.388 G/G,choice
+880,slco1b1-c-571-t-over-t,SLCO1B1 c.571 T/T,choice
+881,slco1b1-c-571-c-over-t,SLCO1B1 c.571 C/T,choice
+882,slco1b1-c-571-c-over-c,SLCO1B1 c.571 C/C,choice
+883,slco1b1-c-597-c-over-c,SLCO1B1 c.597 C/C,choice
+884,slco1b1-c-597-c-over-t,SLCO1B1 c.597 C/T,choice
+885,slco1b1-c-597-t-over-t,SLCO1B1 c.597 T/T,choice
+886,slco1b1-g-11187-g-over-g,SLCO1B1 g.11187 G/G,choice
+887,slco1b1-g-11187-a-over-g,SLCO1B1 g.11187 A/G,choice
+888,slco1b1-g-11187-g-over-a,SLCO1B1 g.11187 G/A,choice
+889,slco1b1-ag-over-tc,SLCO1B1 AG/TC,choice
+890,slco2b1-g935a-g-over-g,SLCO2B1 G935A G/G,choice
+891,slco2b1-g935a-g-over-a,SLCO2B1 G935A G/A,choice
+892,slco2b1-c1457t-c-over-c,SLCO2B1 C1457T C/C,choice
+893,slco2b1-c1457t-t-over-t,SLCO2B1 C1457T T/T,choice
+894,medical-procedure,medical procedure,measurement_type
+895,liver-operation,liver operation,measurement_type
+896,cholecystectomy,cholecystectomy,choice
+897,hepatectomy,hepatectomy,choice
+898,spinal-anaesthesia,spinal anaesthesia,choice
+899,hemodialysis,hemodialysis,choice
+900,tubal-ligation,tubal ligation (TL),choice
+901,dosing-intervention,dosing intervention,measurement_type
+902,dosing,dosing,measurement_type
+903,mor-over-cod,morphine/codeine,substance
+904,restricted-dosing,restricted dosing,measurement_type
+905,qualitative-dosing,qualitative dosing,measurement_type
+906,administration-route,administration route,route
+907,intraperitoneal-route,intraperitoneal route,route
+908,intravascular-route,intravascular route,route
+909,iv,intravenous (iv),route
+910,intraarterial,intraarterial,route
+911,transluminal,transluminal,route
+912,intramuscular,intramuscular,route
+913,oral,oral (po),route
+914,rectal,rectal,route
+915,inhalation,inhalation,route
+916,buccal,buccal,route
+917,intradermal,intradermal,route
+918,cutaneous,cutaneous,route
+919,transdermal,transdermal,route
+920,vaginal,vaginal,route
+921,intraduodenal,intraduodenal,route
+922,subcutaneous,subcutaneous,route
+923,sublingual,sublingual,route
+924,nr-route,Not reported (route),route
+925,administration-method,administration method,application
+926,constant-infusion,constant infusion,application
+927,variable-infusion,variable infusion,application
+928,clamp-infusion,clamp infusion,application
+929,single-dose,single dose,application
+930,multiple-dose,multiple dose,application
+931,nr-application,Not reported (application),application
+932,administration-form,administration form,form
+933,nr-form,Not reported (administration form),form
+934,capsule,capsule,form
+935,pill,pill,form
+936,granules,granules,form
+937,tablet,tablet,form
+938,transdermal-film,transdermal film,form
+939,solution,solution,form
+940,suspension,suspension,form
+941,suppository,suppository,form
+942,syrup,syrup,form
+943,patch,patch,form
+944,vaginal-ring,vaginal ring,form
+945,chewing-gum,chewing gum,form
+946,powder,powder,form
+947,food,food,form
+948,tissue,tissue,tissue
+949,nr-tissue,Not reported (tissue),tissue
+950,blood,blood,tissue
+951,dried-blood-spot,dried blood spot,tissue
+952,arterial-blood,arterial blood,tissue
+953,breath,breath,tissue
+954,inferior-vena-cava,inferior vena cava,tissue
+955,aorta,aorta,tissue
+956,carotid-artery,carotid artery,tissue
+957,cerebrospinal-fluid,cerebrospinal fluid,tissue
+958,plasma,plasma,tissue
+959,arterial-plasma,arterial plasma,tissue
+960,saliva,saliva,tissue
+961,saliva-over-plasma,saliva/plasma,tissue
+962,mor-plus-m3g-plus-m6g-over-cod-plus-c6g,(mor+m3g+m6g)/(cod+c6g),substance
+963,serum,serum,tissue
+964,spinal-fluid,spinal fluid,tissue
+965,urine,urine,tissue
+966,bile-duct,bile duct,tissue
+967,bile-fluid,bile,tissue
+968,gallbladder,gallbladder,tissue
+969,stomach,stomach,tissue
+970,spleen,spleen,tissue
+971,intestine,intestine,tissue
+972,small-intestine,small intestine,tissue
+973,large-intestine,large intestine,tissue
+974,cecum,cecum,tissue
+975,muscle,muscle,tissue
+976,pancreas,pancreas,tissue
+977,liver,liver,tissue
+978,liver-homogenate,liver homogenate,tissue
+979,adipose,adipose tissue,tissue
+980,heart,heart,tissue
+981,kidney,kidney,tissue
+982,feces,feces,tissue
+983,feces-urine,feces_urine,tissue
+984,feces-urine-bile,feces_urine_bile,tissue
+985,erythrocyte,erythrocyte,tissue
+986,assay,assay,method
+987,nr-method,Not reported (method),method
+988,enzymatic-assay,enzymatic assay,method
+989,colorimetric-assay,colorimetric assay,method
+990,elisa,enzyme-linked immunosorbent assay (ELISA),method
+991,immunofluorescence,immunofluorescence,method
+992,plasma-binding-measurement,plasma binding measurement,method
+993,cf-irms,Continuous-flow isotope ratio mass spectrometry (CFIRMS),method
+994,competition-dialysis,competition dialysis,method
+995,ultra-filtration,ultra-filtration,method
+996,chromatography,chromatography,method
+997,emit,Enzyme Multiplied Immunoassay Technique (EMIT),method
+998,spectrophotometry,spectrophotometry,method
+999,radioenzymatic-assay,radioenzymatic assay,method
+1000,ria,radioimmunoassay (RIA),method
+1001,radiochromatography-ms-ms,radiochromatography/MS/MS,method
+1002,cc,column chromatography (CC),method
+1003,tlc,thin-layer chromatography (TLC),method
+1004,hplc,High-performance liquid chromatography (HPLC),method
+1005,hplc-ecd,High-performance liquid chromatography (HPLC) with electrochemical detector (ECD),method
+1006,hplc-fs,High-performance liquid chromatography (HPLC) with fluorescence spectrometer (FS),method
+1007,hplc-fs-mbb,High-performance liquid chromatography (HPLC) with fluorescence spectrometer (FS) and with monobromobimane (MBB).,method
+1008,hplc-fs-opa,High-performance liquid chromatography (HPLC) with fluorescence spectrometer (FS) and with o-phthaldialdehyde (OPA).,method
+1009,rp-hplc,Reversed-phase high-performance liquid chromatography (RP-HPLC),method
+1010,hplc-ms,High-performance liquid chromatography-mass spectrometry (HPLC MS),method
+1011,hplc-ms-ms,High performance liquid chromatography-tandem mass spectrometry (HPLC MS/MS),method
+1012,lc-esi-ms,Liquid chromatography–electrospray ionization mass spectrometry (LC–ESI-MS),method
+1013,rplc-esi-ms,Reversed‐phase liquid chromatography coupled to electrospray ionization and mass spectrometry,method
+1014,ms,Mass Spectrometry (MS),method
+1015,mri-gre,Magnetic resonance imaging gradient echo (MRI-GRE),method
+1016,ultrasound-imaging,ultrasound imaging,method
+1017,lc-ms,Liquid chromatography mass spectrometry (LC/MS),method
+1018,lc-ms-ms,Liquid chromatography-tandem mass spectrometry (LC MS/MS),method
+1019,es-ms-ms,Positive electrospray ionisation tandem mass spectrometry (ES+ MS/MS),method
+1020,hplc-esi-ms,HPLC-ESI-MS,method
+1021,hplc-esi-ms-over-ms,HPLC-ESI-MS/MS,method
+1022,gc-ms-sim,GC/MS SIM,method
+1023,glc-ms,GC/MS,method
+1024,uv-spectrophotometry,UV spectrophotometry,method
+1025,lc-uv,LC/UV,method
+1026,hplc-uv,HPLC/UV,method
+1027,hplc-ms-uv,HPLC/MS/UV,method
+1028,gc,Gas chromatography,method
+1029,gas-lc,Gas-liquid chromatography (GLC),method
+1030,cgc,Capillary gas chromatography,method
+1031,gc-ms,Gas chromatography mass spectrometry (GC/MS),method
+1032,scintillation-counting,scintillation counting,method
+1033,fpia,fluorescence polarization immunoassay (FPIA),method
+1034,sphygmomanometer,sphygmomanometer,method
+1035,scale,scale,method
+1036,electrocardiography,electrocardiography,method
+1037,flame-photometry,flame photometry,method
+1038,potentiometry,potentiometry,method
+1039,photoplethysmography,photoplethysmography,method
+1040,icp-aes,inductively coupled plasma atomic emission spectrometry (ICP-AES),method
+1041,mri,Magnetic resonance imaging (MRI),method
+1042,mri-se,Magnetic resonance imaging spin echo (MRI-SE),method
+1043,doppler-ultrasound,Doppler ultrasound,method
+1044,calculated,calculated,method
+1045,coagulation-assay,coagulation assay,method
+1046,placebo,placebo,substance
+1047,nr-substance,Not reported (substance),substance
+1048,beta-blocker,beta-blocker,substance
+1049,atazanavir,atazanavir,substance
+1050,buspirone,buspirone,substance
+1051,ezetimibe,ezetimibe,substance
+1052,saxagliptin,saxagliptin,substance
+1053,canagliflozin,canagliflozin,substance
+1054,m5,M5,substance
+1055,m7,M7,substance
+1056,m9,M9,substance
+1057,total-canagliflozin,total canagliflozin,substance
+1058,teneligliptin,teneligliptin,substance
+1059,dapagliflozin,dapagliflozin,substance
+1060,dapagliflozin-3-o-glucuronide,dapagliflozin 3-o-glucuronide,substance
+1061,dapagliflozin-2-o-glucuronide,dapagliflozin 2-o-glucuronide,substance
+1062,dapagliflozin-plus-dapagliflozin-3-o-glucuronide,dapagliflozin + dapagliflozin-3-o-glucuronide,substance
+1063,total-dapagliflozin,total dapagliflozin,substance
+1064,raltegravir,raltegravir,substance
+1065,coffee,coffee,substance
+1066,tea,tea,substance
+1067,green-tea,green tea,substance
+1068,dietary-supplement,dietary supplement,substance
+1069,cod-plus-c6g-plus-ncod,cod+c6g+ncod,substance
+1070,herbal-dietary-supplement,herbal dietary supplement,substance
+1071,kola-nuts,kola nuts,substance
+1072,poppy-seed,poppy seed,substance
+1073,nicotine,nicotine,substance
+1074,cocoa,cocoa,substance
+1075,coke,coke,substance
+1076,chocolate,chocolate,substance
+1077,curcuminoids,curcuminoids,substance
+1078,grapefruit,grapefruit,substance
+1079,grapefruit-juice,grapefruit juice,substance
+1080,apple-juice,apple juice,substance
+1081,orange-juice,orange juice,substance
+1082,citrus-juice,citrus juice,substance
+1083,citrus-fruit,citrus fruit,substance
+1084,watercress,watercress,substance
+1085,cabbage,cabbage,substance
+1086,brussel-sprouts,brussel sprouts,substance
+1087,pomegranate-juice,pomegranate-juice,substance
+1088,methacetin,methacetin,substance
+1089,13cmet,13C-methacetin,substance
+1090,co2,carbon dioxide,substance
+1091,13cco2,13C-carbon dioxide,substance
+1092,14cco2,14C carbon dioxide,substance
+1093,total-protein,total protein,substance
+1094,total-serum-protein,total serum protein,substance
+1095,triglyceride,triglyceride,substance
+1096,hdl-triglyceride,hdl-triglyceride,substance
+1097,ldl-triglyceride,ldl-triglyceride,substance
+1098,vldl-triglyceride,vldl-triglyceride,substance
+1099,cholesterol,cholesterol,substance
+1100,lathosterol,lathosterol,substance
+1101,c-reactive-protein,CRP,substance
+1102,exercise-categorial-not-reported,Not reported exercise (categorial),choice
+1103,vldl-triglyeride,vldl triglyceride,substance
+1104,hdl-triglyeride,hdl triglyceride,substance
+1105,vldl-apob100-plus-48,vldl-apoB100+48,substance
+1106,ldl-apob100-plus-48,ldl-apoB100+48,substance
+1107,apolipoprotein-a-i,apoA-I,substance
+1108,apolipoprotein-a-ii,apoA-II,substance
+1109,apolipoprotein-b-100,apoB-100,substance
+1110,apolipoprotein-b100-plus-b48,apoB100+48,substance
+1111,apolipoprotein-c-ii,apoC-II,substance
+1112,apolipoprotein-c-iii,apoC-III,substance
+1113,apolipoprotein-e,apoE,substance
+1114,apolipoprotein-a-i-over-apolipoprotein-a-ii,Lp A-I:A-II,substance
+1115,apolipoprotein-a-ii-over-apolipoprotein-a-ii,Lp A-II:A-I,substance
+1116,apolipoprotein-e-over-apolipoprotein-b-100,Lp E:B,substance
+1117,apolipoprotein-c-iii-over-apolipoprotein-b-100,Lp C-III:B,substance
+1118,apolipoprotein-e-over-apolipoprotein-b-100-times-apolipoprotein-b-100-over-apolipoprotein-c-iii,Lp E:B/Lp C-III:B,substance
+1119,idrocilamide,idrocilamide,substance
+1120,ldlc,LDL cholesterol,substance
+1121,ldl,ldl,substance
+1122,ldl1,ldl1,substance
+1123,ldl2,ldl2,substance
+1124,ldl3,ldl3,substance
+1125,ldl4,ldl4,substance
+1126,ldl5,ldl5,substance
+1127,ldl6,ldl6,substance
+1128,ldl7,ldl7,substance
+1129,large-buoyant-ldl,large-buoyant-ldl,substance
+1130,intermediate-buoyant-ldl,intermediate-buoyant-ldl,substance
+1131,small-buoyant-ldl,small-buoyant-ldl,substance
+1132,idlc,IDL cholesterol,substance
+1133,hdlc,HDL cholesterol,substance
+1134,non-hdlc,non-HDL cholesterol,substance
+1135,hdl,hdl,substance
+1136,hdl2-c,hdl2-c,substance
+1137,hdl3-c,hdl3-c,substance
+1138,vldlc,VLDL cholesterol,substance
+1139,vldl,vldl,substance
+1140,vldlc-over-triglyeride,vldl-c/triglyceride,substance
+1141,ldl-over-hdl-c,ldl/hdl-c,substance
+1142,total-over-hdl-c,total/hdl-c,substance
+1143,ldl-esterified-over-free-cholesterol,ldl-esterified/free-cholesterol,substance
+1144,ldl-triglyeride,ldl triglyceride,substance
+1145,phospholipids,phospholipids,substance
+1146,haemoglobin,haemoglobin,substance
+1147,fructosamine,fructosamine,substance
+1148,hba1c,glycosylated hemoglobin (HbA1c),substance
+1149,iohexol,iohexol,substance
+1150,creatinine,creatinine,substance
+1151,creatine,creatine,substance
+1152,phosphocreatine,phosphocreatine,substance
+1153,inulin,inulin,substance
+1154,p-aminohippurate,p-aminohippurate,substance
+1155,neopterin,neopterin,substance
+1156,gentamicin,gentamicin,substance
+1157,iothalamate,iothalamate,substance
+1158,indomethacin,indomethacin,substance
+1159,creatine-kinase,creatine kinase,substance
+1160,urea,urea,substance
+1161,uric-acid,uric acid,substance
+1162,h2o,water,substance
+1163,sodium,sodium,substance
+1164,calcium,calcium,substance
+1165,potassium,potassium,substance
+1166,potassium-dihydrogen-phosphate,potassium dihydrogen phosphate,substance
+1167,chloride,chloride,substance
+1168,hydron,hydron,substance
+1169,phosphate,phosphate,substance
+1170,albumin,albumin,substance
+1171,gamma-globulin,gamma-globulin,substance
+1172,bilirubin,bilirubin,substance
+1173,bilirubin-unconjugated,bilirubin unconjugated,substance
+1174,alp,Alkaline phosphatase (ALP),substance
+1175,got,"Glutamic oxaloacetic transaminase (GOT, SGOT)",substance
+1176,ast,Aspartate aminotransferase (AST),substance
+1177,ggt,Gamma glutamate transaminase (GGT),substance
+1178,alt,Alanine aminotransferase (ALT),substance
+1179,ldh,Lacate dehydrogenase (LDH),substance
+1180,metformin,metformin,substance
+1181,glipizide,glipizide,substance
+1182,hydrochlorothiazide,hydrochlorothiazide,substance
+1183,c14-hydrochlorothiazide,C14-hydrochlorothiazide,substance
+1184,icg,indocyanine green,substance
+1185,glycocholic-acid,glycocholic acid,substance
+1186,14c-glycocholic-acid,[14C]glycocholic acid,substance
+1187,ergotamine,ergotamine,substance
+1188,bile,bile,substance
+1189,fentanyl,fentanyl,substance
+1190,galactose,galactose,substance
+1191,lidocaine,lidocaine,substance
+1192,enflurane,enflurane,substance
+1193,vecuronium-bromide,vecuronium bromide,substance
+1194,etomidate,etomidate,substance
+1195,isoflurane,isoflurane,substance
+1196,succinylcholine,succinylcholine,substance
+1197,evans-blue,evans blue,substance
+1198,sleeping-status-not-reported,Not reported sleeping status,choice
+1199,estradiol,estradiol,substance
+1200,obeticholic-acid,obeticholic acid,substance
+1201,progesterone,progesterone,substance
+1202,mdma,"3,4-Methylenedioxymethamphetamine (MDMA)",substance
+1203,apap,paracetamol,substance
+1204,panadol-extend,panadol extend,substance
+1205,apapglu,paracetamol glucuronide,substance
+1206,apapsul,paracetamol sulfate,substance
+1207,apapcys,paracetamol cysteine,substance
+1208,apapgsh,paracetamol glutathione,substance
+1209,apapmer,paracetamol mercapturate,substance
+1210,phenacetin,phenacetin,substance
+1211,propacetamol,propacetamol,substance
+1212,propanolol,propanolol,substance
+1213,apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer,apap+apapsul+apapglu+apapcys+apapmer,substance
+1214,apap-plus-apapsul-plus-apapglu-plus-apapcys-plus-apapmer-plus-apapgsh,apap+apapsul+apapglu+apapcys+apapmer+apapgsh,substance
+1215,apap-plus-apapsul-plus-apapglu-plus-apapgsh,apap+apapsul+apapglu+apapgsh,substance
+1216,apapcys-plus-apapmer,apapcys+apapmer,substance
+1217,apapsul-plus-apapglu,apapsul+apapglu,substance
+1218,apapcys-plus-apapglu,apapcys+apapglu,substance
+1219,diethyldithiocarbamic-acid,diethyldithiocarbamic acid,substance
+1220,caffeine-citrate,caffeine citrate,substance
+1221,caffeine-monohydrate,caffeine monohydrate,substance
+1222,caf,caffeine (137X),substance
+1223,137u,"1,3,7-trimethyluric acid (137U)",substance
+1224,px,paraxanthine (17X),substance
+1225,17u,"1,7-dimethyluric acid (17U)",substance
+1226,tp,theophylline (13X),substance
+1227,13u,"1,3-dimethyluric acid (13U)",substance
+1228,tb,theobromine (37X),substance
+1229,37u,"3,7-dimethyluric acid (37U)",substance
+1230,1x,1-methylxanthine (1X),substance
+1231,1u,1-methyluric acid (1U),substance
+1232,3x,3-methylxanthine (3X),substance
+1233,3u,3-methyluric acid (3U),substance
+1234,7x,7-methylxanthine (7X),substance
+1235,7u,7-methyluric acid (7U),substance
+1236,afmu,5-Acetylamino-6-formylamino-3-methyluracil (AFMU),substance
+1237,aamu,5-Acetylamino-6-amino-3-methyluracil (AAMU),substance
+1238,admu,ADMU,substance
+1239,a1u,6-Amino-5-(formyl-N-methylamino)-1-methyluracil (A1U),substance
+1240,a3u,6-Amino-5-(formyl-N-methylamino)-1-methyluracil (A3U),substance
+1241,mx,methylxanthine,substance
+1242,caf-over-px,caffeine/paraxanthine,substance
+1243,px-over-caf,paraxanthine/caffeine,substance
+1244,caf-plus-px,caffeine+paraxanthine,substance
+1245,tb-over-caf,theobromine/caffeine,substance
+1246,tp-over-caf,theophylline/caffeine,substance
+1247,1x-over-caf,1X/caffeine,substance
+1248,1x-over-px,1X/paraxanthine,substance
+1249,px-over-tp,paraxanthine/theophylline,substance
+1250,1x-over-37u,1X/37U,substance
+1251,1u-over-3x-plus-7x,1U/(3X+7X),substance
+1252,1x-over-tp,1X/theophylline,substance
+1253,afmu-plus-1u-plus-1x,AFMU+1U+1X,substance
+1254,afmu-plus-1u-plus-1x-plus-17u,AFMU+1U+1X+17U,substance
+1255,aamu-plus-1u-plus-1x-over-17u,(AAMU+1U+1X)/17U,substance
+1256,17u-plus-px-over-caf,(17U+px)/caf,substance
+1257,17u-over-px,17U/px,substance
+1258,1u-over-1u-plus-1x,1U/(1U+1X),substance
+1259,1u-over-1x,1U/1X,substance
+1260,afmu-over-afmu-plus-1u-plus-1x,AFMU/(AFMU+1U+1X),substance
+1261,afmu-plus-1u-plus-1x-over-17u,(AFMU+1U+1X)/17U,substance
+1262,afmu-over-1x,AFMU/1X,substance
+1263,aamu-over-aamu-plus-1u-plus-1x,AAMU/(AAMU+1U+1X),substance
+1264,afmu-plus-aamu-over-afmu-plus-aamu-plus-1x-plus-1u,(AFMU+AAMU)/(AFMU+AAMU+1X+1U),substance
+1265,afmu-plus-1u-plus-1x-plus-17u-plus-px-over-caf,(AFMU+1U+1X+17U+px)/caf,substance
+1266,tp-plus-tb-plus-px-plus-1x-plus-3x-plus-7x-plus-1u-plus-7u-plus-13u-plus-17u-plus-137u-plus-caf,tp+tb+px+1X+3X+7X+1U+7U+13U+17U+137U+caf,substance
+1267,1-methyl-14c-caf,1_methyl_14c_caffeine,substance
+1268,2-14c-caf,2_14c_caffeine,substance
+1269,all-14c-caffeine-equivalents,all_14c_caffeine_equivalents,substance
+1270,pregnant-yes,pregnant,choice
+1271,etravirine,etravirine,substance
+1272,l-ascorbic-acid,vitamin c,substance
+1273,cimetidine,cimetidine,substance
+1274,fluvoxamine,fluvoxamine,substance
+1275,alprazolam,alprazolam,substance
+1276,disulfiram,disulfiram,substance
+1277,naringenin,naringenin,substance
+1278,cholagogues-and-choleretic-agents,cholagogues and choleretic agents,substance
+1279,mucolytic-agent,mucolytic agent,substance
+1280,antibiotic-agent,antibiotic agent,substance
+1281,quinolone,quinolone,substance
+1282,ciprofloxacin,ciprofloxacin,substance
+1283,sulfinpyrazone,sulfinpyrazone,substance
+1284,thiabendazole,thiabendazole,substance
+1285,artemisinin,artemisinin,substance
+1286,voriconazole,voriconazole,substance
+1287,zolpidem,zolpidem,substance
+1288,theacrine,theacrine,substance
+1289,trimethadione,trimethadione,substance
+1290,dimethadione,dimethadione,substance
+1291,levonorgestrel,levonorgestrel,substance
+1292,norelgestromin,norelgestromin,substance
+1293,etonogestrel,etonogestrel,substance
+1294,gestodene,gestodene,substance
+1295,lamivudine,lamivudine,substance
+1296,ee2,ethinylestradiol,substance
+1297,estradiol-benzoate,estradiol benzoate,substance
+1298,maraviroc,maraviroc,substance
+1299,zidovudine,zidovudine,substance
+1300,flibanserine,flibanserine,substance
+1301,atogepant,atogepant,substance
+1302,cabotegravir,cabotegravir,substance
+1303,ccm,codeine containing medication,substance
+1304,cod,codeine,substance
+1305,cod-p,codeine phosphate,substance
+1306,cod-s,codeine sulfate anhydrous,substance
+1307,c6g,codeine-6-glucuronide,substance
+1308,ncod,norcodeine,substance
+1309,ncg,norcodeine 6-glucuronide,substance
+1310,ncc,norcodeine-conjugates,substance
+1311,mor,morphine,substance
+1312,mor-p,morphine phosphate,substance
+1313,mor-s,morphine sulfate,substance
+1314,mor-h,morphine hydrochloride,substance
+1315,m3g,morphine-3-glucuronide,substance
+1316,mor-plus-m3g-plus-m6g-plus-nmor-plus-cod-plus-ncod-plus-c6g-plus-ncg,mor+m3g+m6g+nmor+cod+ncod+c6g+ncg,substance
+1317,mor-plus-m3g-plus-m6g-plus-cod-plus-ncod-plus-c6g-plus-ncc,mor+m3g+m6g+cod+ncod+c6g+ncc,substance
+1318,mor-plus-ncod-plus-c6g,mor+ncod+c6g,substance
+1319,c6g-plus-cod-plus-mor-plus-ncod,c6g+cod+mor+ncod,substance
+1320,cod-over-mor-plus-m3g-plus-m6g-plus-nmor,cod/(mor+m3g+m6g+nmor),substance
+1321,mor-plus-m3g-plus-m6g-plus-nmor-over-cod-plus-ncod-plus-c6g,(mor+m3g+m6g+nmor)/(cod+ncod+c6g),substance
+1322,cod-over-ncod-plus-ncg-plus-nmor,cod/(ncod+ncg+nmor),substance
+1323,cod-over-c6g,cod/c6g,substance
+1324,pholcodine,pholcodine,substance
+1325,guaifenesin,guaifenesin,substance
+1326,cilazapril,cilazapril,substance
+1327,cilazaprilat,cilazaprilat,substance
+1328,qui,quinidine,substance
+1329,qui-s,quinidine sulphate,substance
+1330,deb,debrisoquine,substance
+1331,deb-sul,debrisoquine sulfate,substance
+1332,4hdeb,4-hydroxydebrisoquine,substance
+1333,deb-over-4hdeb,deb/4hdeb,substance
+1334,mep,mephenytoin,substance
+1335,phenytoin,phenytoin,substance
+1336,primidone,primidone,substance
+1337,sodium-valproate,sodium valproate,substance
+1338,clonazepam,clonazepam,substance
+1339,sparteine,sparteine,substance
+1340,sparteine-sulfate,sparteine sulfate,substance
+1341,anticonvulsants,anticonvulsants,substance
+1342,pregnant-no,No pregnant,choice
+1343,2hspar,2-dehydrosparteine,substance
+1344,5hspar,5-dehydrosparteine,substance
+1345,spar-over-2hspar-plus-5hspar,sparteine/(2hspar+5hspar),substance
+1346,spar-plus-2hspar-plus-5hspar,sparteine + 2hspar + 5hspar,substance
+1347,2hspar-plus-5hspar,2hspar+5hspar,substance
+1348,salbutamol,salbutamol,substance
+1349,beclometasone,beclometasone,substance
+1350,captopril,captopril,substance
+1351,s-methyl-captopril,S-methyl-captopril,substance
+1352,captopril-mixed-disulfide,captopril mixed disulfide,substance
+1353,captopril-dimer,captopril dimer,substance
+1354,captopril-disulfide,captopril disulfide,substance
+1355,total-captopril,total captopril,substance
+1356,captopril-substances,captopril substances,substance
+1357,protein-bound-captopril,protein bound captopril,substance
+1358,enalapril-maleate,enalapril maleate,substance
+1359,enalapril,enalapril,substance
+1360,enalaprilat,enalaprilat,substance
+1361,enalapril-plus-enalaprilat,enalapril+enalaprilat,substance
+1362,enalaprilat-over-enalapril-plus-enalaprilat,enalaprilat/(enalapril+enalaprilat),substance
+1363,atrial-natriuretic-peptide,atrial natriuretic peptide (ANP),substance
+1364,benazeprilat,benazeprilat,substance
+1365,benazepril-hydrochloride,benazepril hydrochloride,substance
+1366,atenolol,atenolol,substance
+1367,diltiazem,diltiazem,substance
+1368,desacetyldiltiazem,desacetyldiltiazem,substance
+1369,desmethyldiltiazem,desmethyldiltiazem,substance
+1370,pregnant-not-reported,Not reported pregnant,choice
+1371,ranitidine,ranitidine,substance
+1372,analgesics,analgesics,substance
+1373,isoniazid,isoniazid,substance
+1374,sunitinib,sunitinib,substance
+1375,armodafinil,armodafinil,substance
+1376,modafinil-sulfone,modafinil sulfone,substance
+1377,imatinib,imatinib,substance
+1378,phenobarbital,phenobarbital,substance
+1379,chlordiazepoxide,chlordiazepoxide,substance
+1380,acetylsalicylic-acid,acetylsalicylic acid,substance
+1381,salicylamide,salicylamide,substance
+1382,salicylamide-glucuronide,salicylamide glucuronide,substance
+1383,salicylamide-sulfate,salicylamide sulfate,substance
+1384,salicylic-acid,salicylic acid,substance
+1385,1-salicylate-glucuronide,1-salicylate glucuronide,substance
+1386,salicyluric-acid,salicyluric acid,substance
+1387,prostaglandin-e2,prostaglandin E2 (PGE2),substance
+1388,substance-p,substance P,substance
+1389,spironolactone,spironolactone,substance
+1390,mefenamic-acid,mefenamic acid,substance
+1391,amiloride,amiloride,substance
+1392,glibenclamide,glibenclamide (glyburide),substance
+1393,tizanidine,tizanidine,substance
+1394,venlafaxine,venlafaxine,substance
+1395,lomefloxacin,lomefloxacin,substance
+1396,ephedrine,ephedrine,substance
+1397,pseudoephedrine,pseudoephedrine,substance
+1398,ibuprofen,ibuprofen,substance
+1399,flurbiprofen,flurbiprofen,substance
+1400,4-hydroxyflurbiprofen,4-hydroxyflurbiprofen,substance
+1401,enoxacin,enoxacin,substance
+1402,pipemidic-acid,pipemidic acid,substance
+1403,norfloxacin,norfloxacin,substance
+1404,ofloxacin,ofloxacin,substance
+1405,ethanol,ethanol,substance
+1406,capsaicin,capsaicin,substance
+1407,resveratrol,resveratrol,substance
+1408,diosmin,diosmin,substance
+1409,chlorzoxazone,chlorzoxazone,substance
+1410,6-hydroxychlorzoxazone,6-hydroxychlorzoxazone,substance
+1411,6-hydroxychlorzoxazone-over-chlorzoxazone,6-hydroxychlorzoxazone/chlorzoxazone,substance
+1412,lactating-yes,lactating,choice
+1413,lactating-no,No lactating,choice
+1414,lactating-not-reported,Not reported lactating,choice
+1415,breastfeeding-yes,breastfeeding,choice
+1416,temocapril,temocapril,substance
+1417,temocaprilat,temocaprilat,substance
+1418,valsartan,valsartan,substance
+1419,vildagliptin,vildagliptin,substance
+1420,candesartan-cilexetil,candesartan cilexetil,substance
+1421,candesartan,candesartan,substance
+1422,silymarin,silymarin,substance
+1423,aminopyrine,aminopyrine,substance
+1424,14c-aminopyrine,[14C] aminopyrine,substance
+1425,antipyrine,antipyrine,substance
+1426,bsp,bromsulpthalein,substance
+1427,phenylalanine,phenylalanine,substance
+1428,diclofenac,diclofenac,substance
+1429,glycerol,glycerol,substance
+1430,ffa,free fatty acids (FFA),substance
+1431,carbamazepine,carbamazepine,substance
+1432,nizatidine,nizatidine,substance
+1433,piperine,piperine,substance
+1434,probenecid,probenecid,substance
+1435,sorbitol,sorbitol,substance
+1436,cisapride,cisapride,substance
+1437,breastfeeding-no,No breastfeeding,choice
+1438,breastfeeding-not-reported,Not reported breastfeeding,choice
+1439,pregnant-categorial-not-reported,Not reported pregnant (categorial),choice
+1440,sulfamethizole,sulfamethizole,substance
+1441,sulfamethizole-acetylated,sulfamethizole acetylated,substance
+1442,phenylbutazone,phenylbutazone,substance
+1443,l-cysteine,L-cysteine,substance
+1444,atropine,atropine,substance
+1445,meperidine,meperidine,substance
+1446,pentazocine,pentazocine,substance
+1447,naloxone,naloxone,substance
+1448,pirenzepine,pirenzepine,substance
+1449,desipramine,desipramine,substance
+1450,metoclopramide,metoclopramide,substance
+1451,propantheline,propantheline,substance
+1452,chloroquine,chloroquine,substance
+1453,halothane,halothane,substance
+1454,tetrachloromethane,tetrachloromethane,substance
+1455,acid,acid,substance
+1456,tirzepatide,tirzepatide,substance
+1457,tirzepatide-c14,tirzepatide_c14,substance
+1458,tirzepatide-and-metabolites-c14,tirzepatide_and_metabolites_c14,substance
+1459,zofenopril,zofenopril,substance
+1460,zofenoprilat,zofenoprilat,substance
+1461,aliskiren,aliskiren,substance
+1462,aliskiren-metabolites,aliskiren+metabolites,substance
+1463,aliskiren-metabolite,aliskiren metabolite,substance
+1464,cyclosporine,cyclosporine,substance
+1465,lisinopril,lisinopril,substance
+1466,ramipril,ramipril,substance
+1467,ramiprilat,ramiprilat,substance
+1468,ramipril-glucuronide,ramipril glucuronide,substance
+1469,ramiprilat-glucuronide,ramiprilat glucuronide,substance
+1470,ramipril-diketopiperazine,ramipril diketopiperazine,substance
+1471,ramipril-diketopiperazine-acid,ramipril diketopiperazine acid,substance
+1472,ramipril-plus-ramiprilat-plus-ramipril-glucuronide-plus-ramiprilat-glucuronide-plus-ramipril-diketopiperazine-plus-ramipril-diketopiperazine-acid,ramipril+ramiprilat+ramipril-glucuronide+ramiprilat-glucuronide+ramipril-diketopiperazine+ramipril-diketopiperazine-acid,substance
+1473,ramipril-glucuronide-plus-ramiprilat-glucuronide-plus-ramipril-diketopiperazine-plus-ramipril-diketopiperazine-acid,ramipril+ramiprilat+ramipril-glucuronide+ramiprilat-glucuronide+ramipril-diketopiperazine+ramipril-diketopiperazine-acid,substance
+1474,aldosterone,aldosterone,substance
+1475,angiotensinogen,angiotensinogen,substance
+1476,angiotensin-1,angiotensin I,substance
+1477,angiotensin-2,angiotensin II,substance
+1478,angiotensin-1-over-angiotensin-2,angiotensin I/angiotensin II,substance
+1479,felodipine,felodipine,substance
+1480,piretanide,piretanide,substance
+1481,4-hydroxymidazolam-glucuronide,4-hydroxymidazolam glucuronide,substance
+1482,menstrual-status-not-reported,Not reported menstrual status,choice
+1483,light-dark-cycle-not-reported,Not reported light-dark-cycle,choice
+1484,sitagliptin,sitagliptin,substance
+1485,isosorbide-5-mononitrate,isosorbide-5-mononitrate (ISMN),substance
+1486,celecoxib,celecoxib,substance
+1487,empagliflozin,empagliflozin,substance
+1488,empagliflozin-metabolites,empagliflozin-metabolites,substance
+1489,empagliflozin-metabolites-no-empagliflozin,empagliflozin-metabolites-no-empagliflozin,substance
+1490,m626-3,M626/3 (empagliflozin-3-O-glucuronide),substance
+1491,m626-1,M626/1 (empagliflozin-2-O-glucuronide),substance
+1492,m626-2,M626/2 (empagliflozin-6-O-glucuronide),substance
+1493,c14-empagliflozin,C14-empagliflozin,substance
+1494,c14-empagliflozin-metabolites,C14-empagliflozin-metabolites,substance
+1495,c14-empagliflozin-metabolites-no-empagliflozin,C14-empagliflozin-metabolites-no-empagliflozin,substance
+1496,c14-m626-3,C14-M626/3 (empagliflozin-3-O-glucuronide),substance
+1497,c14-m626-1,C14-M626/1 (empagliflozin-2-O-glucuronide),substance
+1498,c14-m626-2,C14-M626/2 (empagliflozin-6-O-glucuronide),substance
+1499,c14-m482-1,C14-M482/1,substance
+1500,c14-m464-1,C14-M464/1,substance
+1501,c14-m468-1,C14-M468/1,substance
+1502,bradykinin,bradykinin,substance
+1503,prorenin,prorenin,substance
+1504,renin,renin,substance
+1505,hydrogencarbonate,hydrogencarbonate,substance
+1506,sodium-hydrogencarbonate,sodium hydrogencarbonate,substance
+1507,lorazepam,lorazepam,substance
+1508,lorazepam-glucuronide,lorazepam glucuronide,substance
+1509,midazolam,midazolam,substance
+1510,midazolam-hydrochloride,midazolam hydrochloride,substance
+1511,15n3-midazolam,15N3-midazolam,substance
+1512,1-hydroxymidazolam,1-hydroxymidazolam,substance
+1513,1-hydroxymidazolam-over-midazolam,1-hydroxymidazolam/midazolam,substance
+1514,midazolam-over-1-hydroxymidazolam,midazolam/1-hydroxymidazolam,substance
+1515,4-hydroxymidazolam,4-hydroxymidazolam,substance
+1516,14-dihydroxymidazolam,"1,4-dihydroxymidazolam",substance
+1517,1-hydroxymidazolam-glucuronide,1-hydroxymidazolam glucuronide,substance
+1518,diazepam,diazepam,substance
+1519,nordazepam,nordazepam,substance
+1520,oxazepam,oxazepam,substance
+1521,oxazepam-glucuronide,oxazepam glucuronide,substance
+1522,oxaz-plus-oxazglu,oxazepam + oxazepam glucuronide,substance
+1523,temazepam,temazepam,substance
+1524,temazepam-glucuronide,temazepam glucuronide,substance
+1525,desmethyldiazepam-conjugated,desmethyldiazepam conjugated,substance
+1526,triazolam,triazolam,substance
+1527,diflunisal,diflunisal,substance
+1528,metoprolol,metoprolol,substance
+1529,s-metoprolol,(-)-(S)-metoprolol,substance
+1530,r-metoprolol,(-)-(R)-metoprolol,substance
+1531,alpha-hydroxymetoprolol,alpha-hydroxymetoprolol,substance
+1532,metoprolol-acidic-metabolite,metoprolol acidic metabolite,substance
+1533,s-metoprolol-acidic-metabolite,(S)-metoprolol acidic metabolite,substance
+1534,r-metoprolol-acidic-metabolite,(R)-metoprolol acidic metabolite,substance
+1535,1s-2r-alpha-hydroxymetoprolol,"(1S,2R)-alpha-hydroxymetoprolol",substance
+1536,1s-2s-alpha-hydroxymetoprolol,"(1S,2S)-alpha-hydroxymetoprolol",substance
+1537,1r-2r-alpha-hydroxymetoprolol,"(1R,2R)-alpha-hydroxymetoprolol",substance
+1538,1r-2s-alpha-hydroxymetoprolol,"(1R,2S)-alpha-hydroxymetoprolol",substance
+1539,met-plus-metoh-plus-mam,metoprolol + alpha-hydroxymetoprolol + metoprolol-acidic-metabolite,substance
+1540,metoh-plus-mam,alpha-hydroxymetoprolol + metoprolol-acidic-metabolite,substance
+1541,s-metoprolol-over-r-metoprolol,(S)-metoprolol/(R)-metoprolol,substance
+1542,1s-2r-alpha-hydroxymetoprolol-over-r-metoprolol,"(1S,2R)-alpha-hydroxymetoprolol/(R)-metoprolol",substance
+1543,1r-2r-alpha-hydroxymetoprolol-over-r-metoprolol,"(1R,2R)-alpha-hydroxymetoprolol/(R)-metoprolol",substance
+1544,1s-2s-alpha-hydroxymetoprolol-over-s-metoprolol,"(1S,2S)-alpha-hydroxymetoprolol/(S)-metoprolol",substance
+1545,1r-2s-alpha-hydroxymetoprolol-over-s-metoprolol,"(1R,2S)-alpha-hydroxymetoprolol/(S)-metoprolol",substance
+1546,r-metoprolol-acidic-metabolite-over-r-metoprolol,(R)-metoprolol acidic metabolite/(R)-metoprolol,substance
+1547,s-metoprolol-acidic-metabolite-over-s-metoprolol,(S)-metoprolol acidic metabolite/(S)-metoprolol,substance
+1548,metoprolol-over-alpha-hydroxymetoprolol,metoprolol/alpha-hydroxymetoprolol,substance
+1549,metoprolol-tartrate,metoprolol tartrate,substance
+1550,warfarin,warfarin,substance
+1551,sorafenib-m2-glucuronide,sorafenib-M2-glucuronide,substance
+1552,r-warfarin,r-warfarin,substance
+1553,s-warfarin,s-warfarin,substance
+1554,rifampicin,rifampicin,substance
+1555,rifaximin,rifaximin,substance
+1556,ketoconazole,ketoconazole,substance
+1557,alfentanil,alfentanil,substance
+1558,sufentanil,sufentanil,substance
+1559,efavirenz,efavirenz,substance
+1560,oh8-efavirenz,8-hydroxyefavirenz,substance
+1561,efavirenz-over-8-hydroxyefavirenz,efavirenz/8-hydroxyefavirenz,substance
+1562,8-hydroxyefavirenz-over-efavirenz,8-hydroxyefavirenz/efavirenz,substance
+1563,paclitaxel,paclitaxel,substance
+1564,troleandomycin,troleandomycin,substance
+1565,erythromycin,erythromycin,substance
+1566,14c-n-methyl-erythromycin,[14C N-methyl] erythromycin,substance
+1567,amikacin,amikacin,substance
+1568,vancomycin,vancomycin,substance
+1569,itraconazole,itraconazole,substance
+1570,hydroxyitraconazole,hydroxyitraconazole,substance
+1571,ketoitraconazole,ketoitraconazole,substance
+1572,n-desalkyl-itraconazole,n-desalkyl-itraconazole,substance
+1573,clarithromycin,clarithromycin,substance
+1574,amoxicillin,amoxicillin,substance
+1575,14-hydroxyclarithromycin,14-hydroxyclarithromycin,substance
+1576,n-desmethylclarithromycin,N-Desmethylclarithromycin,substance
+1577,clotrimazole,clotrimazole,substance
+1578,xanthine,xanthine,substance
+1579,rivaroxaban,rivaroxaban,substance
+1580,rivaroxaban-plus-metabolites,rivaroxaban+metabolites,substance
+1581,sorafenib-m2-glucuronide-over-sorafenib,sorafenib-m2-glucuronide/sorafenib,substance
+1582,sorafenib-m2-over-sorafenib,sorafenib-m2/sorafenib,substance
+1583,norepinephrine,norepinephrine,substance
+1584,edoxaban,edoxaban,substance
+1585,edoxaban-m1,edoxaban-M1,substance
+1586,edoxaban-m4,edoxaban-M4 (D21-2393),substance
+1587,edoxaban-m6,edoxaban-M6,substance
+1588,edoxaban-m8,edoxaban-M8,substance
+1589,edoxaban-plus-metabolites,edoxaban+metabolites,substance
+1590,glimepiride,glimepiride,substance
+1591,hydroxyglimepiride,hydroxyglimepiride (M1),substance
+1592,carboxyglimepiride,carboxyglimepiride (M2),substance
+1593,hydroxyglimepiride-over-glimepiride,glimepiride-M1/glimepiride,substance
+1594,hydroxyglimepiride-plus-carboxyglimepiride,glimepiride-M1+glimepiride-M2,substance
+1595,glimepiride-metabolites,glimeperide+glimepiride-M1+glimepiride-M2,substance
+1596,gemigliptin,gemigliptin,substance
+1597,evogliptin,evogliptin,substance
+1598,lc15-0636,LC15-0636,substance
+1599,lc15-0636-over-gemigliptin,LC15-0636/gemigliptin,substance
+1600,tolbutamide,tolbutamide,substance
+1601,4-hydroxytolbutamide,4-hydroxytolbutamide,substance
+1602,rapamycin,rapamycin (sirolimus),substance
+1603,fujimycin,fujimycin (tacrolimus),substance
+1604,voglibose,voglibose,substance
+1605,lobeglitazone-sulfate,lobeglitazone sulfate,substance
+1606,rosiglitazone,rosiglitazone,substance
+1607,lobeglitazone,lobeglitazone,substance
+1608,linagliptin,linagliptin,substance
+1609,breviscapine,breviscapine,substance
+1610,fimasartan,fimasartan,substance
+1611,digoxin,digoxin,substance
+1612,losartan-potassium,losartan potassium,substance
+1613,losartan,losartan,substance
+1614,14c-losartan,14C-losartan,substance
+1615,losartan-and-metabolites,losartan and metabolites,substance
+1616,exp3174,Losartan carboxylic acid (E3174),substance
+1617,losartan-over-exp3174,losartan/exp3174,substance
+1618,exp3174-over-losartan,exp3174/losartan,substance
+1619,losartan-plus-exp3174,losartan+exp3174,substance
+1620,l158795,"L-158,795 (losartan metabolite)",substance
+1621,l158796,"L-158,796 (losartan metabolite)",substance
+1622,l158783,"L-158,783 (losartan metabolite)",substance
+1623,l158,L-158 (losartan metabolites),substance
+1624,levofloxacin,levofloxacin,substance
+1625,omeprazole,omeprazole,substance
+1626,s-omeprazole,S-omeprazole,substance
+1627,r-omeprazole,R-omeprazole,substance
+1628,5-hydroxyomeprazole,5-hydroxyomeprazole,substance
+1629,omeprazole-sulfone,omeprazole sulfone,substance
+1630,5-o-desmethylomeprazole,5‐O‐desmethylomeprazole,substance
+1631,5home-over-ome,5-hydroxyomeprazole/omeprazole,substance
+1632,ome-over-5home,omeprazole/5-hydroxyomeprazole,substance
+1633,omeprazole-metabolites,omeprazole metabolites,substance
+1634,pantoprazole,pantoprazole,substance
+1635,pepsin,pepsin,substance
+1636,gastrin,gastrin,substance
+1637,pentagastrin,pentagastrin,substance
+1638,fexofenadine,fexofenadine,substance
+1639,sorafenib,sorafenib,substance
+1640,sorafenib-m2,sorafenib-M2,substance
+1641,gd-eob-dtpa,Gd-EOB-DTPA,substance
+1642,semaglutide,semaglutide,substance
+1643,snac,Salcaprozate Sodium (SNAC),substance
+1644,dmthbr,dextromethorphan hydrobromide,substance
+1645,dmt,dextromethorphan,substance
+1646,dtf,dextrorphan,substance
+1647,dtfglu,dextrorphan O-glucuronide,substance
+1648,hm3,3-hydroxymorphinan,substance
+1649,hm3glu,3-hydroxymorphinan O-glucuronide,substance
+1650,mom3,3-methoxymorphinan,substance
+1651,dtf-plus-dtfglu,dtf+dtfglu,substance
+1652,hm3-plus-hm3glu,hm3+hm3glu,substance
+1653,dtf-plus-hm3-over-dmt-plus-mom3,(dtf+hm3)/(dmt+mom3),substance
+1654,dtf-plus-dtfglu-over-dmt,(dtf+dtfglu)/(dmt),substance
+1655,dmt-over-dtf-plus-dtfglu,(dmt)/(dtf+dtfglu),substance
+1656,dmt-over-dtf-plus-hm3,dmt/(dtf+hm3),substance
+1657,dmt-over-dtf-plus-dtfglu-plus-hm3-plus-hm3glu,(dmt)/(dtf+dtfglu+hm3+hm3glu),substance
+1658,dmt-over-dtf,dextromethorphan/dextrorphan,substance
+1659,dtf-over-dmt,dextrorphan/dextromethorphan,substance
+1660,dtf-over-hm3,dextrorphan/3-hydroxymorphinan,substance
+1661,dtf-plus-dtfglu-over-hm3-plus-hm3glu,total dextrorphan/ total 3-hydroxymorphinan,substance
+1662,dmt-over-mom3,dextromethorphan/3-methoxymorphinan,substance
+1663,dmt-over-hm3,dextromethorphan/3-hydroxymorphinan,substance
+1664,dmt-over-hm3-plus-hm3glu,dextromethorphan/3-hydroxymorphinan,substance
+1665,dtf-over-mom3,dextrorphan/3-methoxymorphinan,substance
+1666,hm3-over-mom3,3-hydroxymorphinan/3-methoxymorphinan,substance
+1667,hm3-plus-hm3glu-over-mom3,3-hydroxymorphinan/3-methoxymorphinan,substance
+1668,hm3-plus-hm3glu-plus-dtf-plus-dtfglu-plus-dex-plus-mom3,hm3+hm3glu+dtf+dtfglu+dex+mom3,substance
+1669,propiverine,propiverine,substance
+1670,proguanil,proguanil,substance
+1671,proguanil-hydrochloride,proguanil hydrochloride,substance
+1672,vitamin-k,vitamin K,substance
+1673,growth-hormone,growth hormone,substance
+1674,cinacalcet-hydrochloride,cinacalcet hydrochloride,substance
+1675,cinacalcet,cinacalcet,substance
+1676,propofol,propofol,substance
+1677,terbinafine,terbinafine,substance
+1678,ritonavir,ritonavir,substance
+1679,paroxetine,paroxetine,substance
+1680,tipranavir,tipranavir,substance
+1681,clozapine,clozapine,substance
+1682,carbon-monoxide,carbon monoxide (CO),substance
+1683,dihydrogen,dihydrogen (H2),substance
+1684,sulfasalazine,sulfasalazine,substance
+1685,sulfapyridine,sulfapyridine,substance
+1686,silexan,Lavender essential oil (Silexan),substance
+1687,glucose,D-glucose,substance
+1688,lactate,L-lactate,substance
+1689,2-3h-glucose,[2-3H]glucose,substance
+1690,6-3h-glucose,[6-3H]glucose,substance
+1691,u-13c-glucose,[U-13C]glucose,substance
+1692,3-omg-glucose,[3-OMG]glucose,substance
+1693,proinsulin,proinsulin,substance
+1694,insulin,insulin,substance
+1695,ace,angiotensin converting enzyme (ACE),substance
+1696,cpeptide,C-peptide,substance
+1697,cortisol,cortisol,substance
+1698,6beta-hydroxycortisol,6beta-hydroxycortisol,substance
+1699,6beta-hydroxycortisol-over-cortisol,6beta-hydroxycortisol/cortisol,substance
+1700,epinephrine,epinephrine,substance
+1701,somatostatin,somatostatin,substance
+1702,rosuvastatin,rosuvastatin,substance
+1703,n-desmethylrosuvastatin,N-Desmethylrosuvastatin,substance
+1704,pitavastatin,pitavastatin,substance
+1705,metabolic-challenge-not-reported,Not reported metabolic challenge,choice
+1706,glucagon,glucagon,substance
+1707,total-amino-acids,Total amino acids (TAA),substance
+1708,essential-amino-acids,Essential amino acids (EAA),substance
+1709,neaa,Non-essential amino acids (NEAA),substance
+1710,bcaa,Branch-chained amino acids (BCAA),substance
+1711,gip,gastric inhibitory polypeptide (GIP),substance
+1712,glp-1,glucagon-like peptide-1 (GLP-1),substance
+1713,exenatide,exenatide,substance
+1714,insulin-over-glucose,Insulin/Glucose,substance
+1715,pra,pravastatin,substance
+1716,sq31906,SQ 31906 (3'alpha-isopravastatin),substance
+1717,sq31945,SQ 31945,substance
+1718,pra-plus-sq31906-plus-sq31945,pravastatin + SQ 31906 + SQ 31945,substance
+1719,active-pra-inhibitors,Active HMG-CoA reductase inhibitors (pravastatin),substance
+1720,total-pra-inhibitors,Total HMG-CoA reductase inhibitors (pravastatin),substance
+1721,cholestyramine,Cholestyramine,substance
+1722,lova,lovastatin,substance
+1723,lovaacid,lovastatin acid,substance
+1724,active-lova-inhibitors,Active HMG-CoA reductase inhibitors (lovastatin),substance
+1725,total-lova-inhibitors,Total HMG-CoA reductase inhibitors (lovastatin),substance
+1726,fluvastatin,fluvastatin,substance
+1727,atorvastatin,atorvastatin,substance
+1728,atorvastatin-acid,atorvastatin acid,substance
+1729,atovarstatin-lactone,atorvastatin lactone,substance
+1730,2-hydroxyatorvastatin-acid,2-hydroxyatorvastatin acid,substance
+1731,4-hydroxyatorvastatin-acid,4-hydroxyatorvastatin acid,substance
+1732,2-hydroxyatorvastatin-lactone,2-hydroxyatorvastatin lactone,substance
+1733,4-hydroxyatorvastatin-lactone,4-hydroxyatorvastatin lactone,substance
+1734,active-atorva-inhibitors,Active HMG-CoA 	reductase inhibitors (atorvastatin),substance
+1735,total-atorva-inhibitors,Total HMG-CoA reductase inhibitors (atorvastatin),substance
+1736,simvastatin,simvastatin,substance
+1737,simvastatin-acid,simvastatin acid,substance
+1738,simva-plus-simacid,simvastatin + simvastatin acid,substance
+1739,active-simva-inhibitors,Active HMG-CoA reductase inhibitors (simvastatin),substance
+1740,total-simva-inhibitors,Total HMG-CoA reductase inhibitors (simvastatin),substance
+1741,total-simva,total simvastatin metabolites,substance
+1742,st-johns-wort-extract,St. John's wort extract,substance
+1743,panax-ginseng,panax ginseng,substance
+1744,garlic-oil,garlic oil,substance
+1745,ginkgo-biloba,ginkgo biloba,substance
+1746,goldenseal-root-extract,goldenseal root extract,substance
+1747,kava-kava-root-extract,kava kava root extract,substance
+1748,black-cohosh-root-extract,black cohosh root extract,substance
+1749,valerian-root-extract,valerian root extract,substance
+1750,lacidipine,lacidipine,substance
+1751,gemfibrozil,gemfibrozil,substance
+1752,verapamil,verapamil,substance
+1753,norverapamil,norverapamil,substance
+1754,dexverapamil,dexverapamil,substance
+1755,mibefradil,mibefradil,substance
+1756,setipiprant,setipiprant,substance
+1757,cilostazol,cilostazol,substance
+1758,nelfinavir,nelfinavir,substance
+1759,fenofibrate,fenofibrate,substance
+1760,light-dark-cycle-12-12-not-reported,Not reported light/dark 12/12,choice
+1761,osimertinib,osimertinib,substance
+1762,irbesartan,irbesartan,substance
+1763,antidiabetic-agent,antidiabetic agent,substance
+1764,troglitazone,troglitazone,substance
+1765,pioglitazone,pioglitazone,substance
+1766,orlistat,orlistat,substance
+1767,amlodipine,amlodipine,substance
+1768,bile-acids,bile acids,substance
+1769,campesterol,campesterol,substance
+1770,stigmasterol,stigmasterol,substance
+1771,sitosterol,sitosterol,substance
+1772,talinolol,talinolol,substance
+1773,rtalinolol,R-talinolol,substance
+1774,stalinolol,S-talinolol,substance
+1775,talinolol2oh,2-hydroxytalinolol,substance
+1776,talinolol2cisoh,2-cis hydroxytalinolol,substance
+1777,talinolol3cisoh,3-cis hydroxytalinolol,substance
+1778,talinolol3transoh,3-trans hydroxytalinolol,substance
+1779,talinolol4cisoh,4-cis hydroxytalinolol,substance
+1780,talinolol4transoh,4-trans hydroxytalinolol,substance
+1781,talinolol4transoh-plus-talinolol3transoh-plus-talinolol3cisoh,4-trans hydroxytalinolol + 3-trans hydroxytalinolol + 3-cis hydroxytalinolol,substance
+1782,talinolol4transoh-plus-talinolol3cisoh-plus-talinolol2cisoh,4-trans hydroxytalinolol + 3-cis hydroxytalinolol + 2-cis hydroxytalinolol,substance
+1783,talinolol4transoh-plus-talinolol4cisoh-plus-talinolol3transoh-plus-talinolol3cisoh-plus-talinolol2cisoh,4-trans hydroxytalinolol + 4-cis hydroxytalinolol + 3-trans hydroxytalinolol + 3-cis hydroxytalinolol + 2-cis hydroxytalinolol,substance
+1784,bifendate,bifendate,substance
+1785,tpgs,D-alpha-tocopheryl polyethylene glycol 1000 succinate (TPGS),substance
+1786,poloxamer188,Poloxamer 188,substance
+1787,glycyrrhizin,glycyrrhizin,substance
+1788,duloxetine,duloxetine,substance
+1789,schizandra-chinensis,schizandra chinensis,substance
+1790,deoxyschizandrin,deoxyschizandrin,substance
+1791,genistein,genistein,substance
+1792,torasemide,torasemide,substance
+1793,torasemide-m1,torasemide-M1,substance
+1794,torasemide-m3,torasemide-M3,substance
+1795,torasemide-m5,torasemide-M5,substance
+1796,furosemide,furosemide,substance
+1797,thc,THC,substance
+1798,cocaine,cocaine,substance
+1799,amphetamine,amphetamine,substance
+1800,probucol,probucol,substance
+1801,bucolome,bucolome,substance
+1802,butylscopolamine,butylscopolamine,substance
+1803,bromazepam,bromazepam,substance
+1804,propatyl-nitrate,propatyl nitrate,substance
+1805,osilodostrat,osilodostrat,substance
+1806,quercetin,quercetin,substance
+1807,mexiletine,mexiletine,substance
+1808,curcumin,curcumin,substance
+1809,bupropion,bupropion,substance
+1810,hydroxybupropion,hydroxybupropion,substance
+1811,isavuconazole,isavuconazole,substance
+1812,5-meo-dalt,5-MeO-DALT,substance
+1813,methadone-hydrochloride,methadone hydrochloride,substance
+1814,dextromethadone,dextromethadone,substance
+1815,levomethadone,levomethadone,substance
+1816,sodium-tanshinone-2a-sulfonate,Sodium tanshinone II A sulfonate,substance
+1817,pefloxacin,pefloxacin,substance
+1818,isosorbide-dinitrate,isosorbide dinitrate,substance
+1819,acetylcysteine,acetylcysteine,substance
+1820,digitoxin,digitoxin,substance
+1821,heparin,heparin,substance
+1822,nifedipine,nifedipine,substance
+1823,aluminium-hydroxide,aluminium hydroxide,substance
+1824,allopurinol,allopurinol,substance
+1825,ipratropium-bromide,ipratropium bromide,substance
+1826,repaglinide,repaglinide,substance
+1827,hydroxyrepaglinide,hydroxy repaglinide,substance
+1828,memantine,memantine,substance
+1829,melatonin,melatonin,substance
+1830,melatonin6oh,6-hydroxymelatonin,substance
+1831,cotinine,cotinine,substance
+1832,czxoglu,chlorzoxazone O-glucuronide,substance
+1833,czx6oh-plus-czxoglu,czx6oh+czxoglu,substance
+1834,chlormethiazole,chlormethiazole,substance
+1835,glucose-metabolism-challenge-not-reported,Not reported glucose metabolism challenge,choice
+1836,exercise-yes,exercise,choice
+1837,exercise-no,No exercise,choice
+1838,exercise-not-reported,Not reported exercise,choice
+1839,folic-acid,folic acid,substance
+1840,quinine-sulphate,quinine sulphate,substance
+1841,aminophylline,aminophylline,substance
+1842,bumetanide,bumetanide,substance
+1843,colchicine,colchicine,substance
+1844,bendroflumethiazide,bendroflumethiazide,substance
+1845,ferrous-sulfate,ferrous sulfate,substance
+1846,potassium-phosphate,potassium phosphate,substance
+1847,liraglutide,liraglutide,substance
+1848,dulaglutide,dulaglutide,substance
+1849,ly05008,LY05008,substance
+1850,hec1402,HEC1402,substance
+1851,lixisenatide,lixisenatide,substance
+1852,calculation,calculation,calculation_type
+1853,geometric-mean,geometric mean,calculation_type
+1854,sample-mean,sample mean,calculation_type
+1855,liver-function-test-not-reported,Not reported liver function test,choice
+1856,breath-test-not-reported,Not reported breath test,choice
+1857,biochemistry-categorial-not-reported,Not reported biochemistry (categorial),choice
+1858,kidney-function-test-not-reported,Not reported kidney function test,choice
+1859,child-pugh-score-not-reported,Not reported child-pugh score,choice
+1860,blood-cell-count-categorial-not-reported,Not reported blood cell count (categorial),choice
+1861,blood-pressure-categorical-not-reported,Not reported blood pressure (categorical),choice
+1862,cardiac-function-test-not-reported,Not reported cardiac function test,choice
+1863,heart-rate-categorical-not-reported,Not reported heart rate (categorical),choice
+1864,metabolic-phenotype-not-reported,Not reported metabolic phenotype,choice
+1865,western-blot-not-reported,Not reported western blot,choice
+1866,age-categorial-not-reported,Not reported age (categorial),choice
+1867,sex-not-reported,Not reported sex,choice
+1868,weight-categorial-not-reported,Not reported weight (categorial),choice
+1869,work-hours-categorial-not-reported,Not reported work hours (categorial),choice
+1870,smoking-yes,smoking,choice
+1871,smoking-no,No smoking,choice
+1872,smoking-not-reported,Not reported smoking,choice
+1873,marijuana-yes,marijuana,choice
+1874,marijuana-no,No marijuana,choice
+1875,marijuana-not-reported,Not reported marijuana,choice
+1876,alcohol-yes,alcohol,choice
+1877,alcohol-no,No alcohol,choice
+1878,alcohol-not-reported,Not reported alcohol,choice
+1879,medication-yes,medication,choice
+1880,medication-no,No medication,choice
+1881,medication-not-reported,Not reported medication,choice
+1882,oral-contraceptives-yes,oral-contraceptives,choice
+1883,oral-contraceptives-no,No oral-contraceptives,choice
+1884,oral-contraceptives-not-reported,Not reported oral contraceptives,choice
+1885,diet-not-reported,Not reported diet,choice
+1886,feeding-protocol-not-reported,Not reported feeding protocol,choice
+1887,fasting-yes,fasting,choice
+1888,fasting-no,No fasting,choice
+1889,fasting-not-reported,Not reported fasting,choice
+1890,overnight-fast-yes,overnight-fast,choice
+1891,overnight-fast-no,No overnight-fast,choice
+1892,overnight-fast-not-reported,Not reported overnight fast,choice
+1893,light-dark-cycle-24-0-not-reported,Not reported light/dark 24/0,choice
+1894,light-dark-cycle-0-24-not-reported,Not reported light/dark 0/24,choice
+1895,light-dark-cycle-16-8-not-reported,Not reported light/dark 16/8,choice
+1896,circadian-status-not-reported,Not reported circadian status (time of day),choice
+1897,body-position-not-reported,Not reported body position,choice
+1898,healthy-yes,healthy,choice
+1899,healthy-no,No healthy,choice
+1900,healthy-not-reported,Not reported healthy,choice
+1901,symptom-not-reported,Not reported symptom,choice
+1902,disease-not-reported,Not reported disease,choice
+1903,family-history-disease-not-reported,Not reported family history disease,choice
+1904,family-history-diabetes-yes,family-history-diabetes,choice
+1905,family-history-diabetes-no,No family-history-diabetes,choice
+1906,family-history-diabetes-not-reported,Not reported family history diabetes,choice
+1907,species-not-reported,Not reported species,choice
+1908,strain-not-reported,Not reported strain,choice
+1909,mouse-strain-not-reported,Not reported mouse strain,choice
+1910,mouse-strain-c57bl-not-reported,Not reported C57BL,choice
+1911,mouse-strain-c57bl6-not-reported,Not reported C57BL6,choice
+1912,mouse-strain-c57bl6j-not-reported,Not reported C57BL/6J,choice
+1913,mouse-strain-c57bl6n-not-reported,Not reported C57BL/6N,choice
+1914,rat-strain-not-reported,Not reported rat strain,choice
+1915,ethnicity-not-reported,Not reported ethnicity,choice
+1916,nat2-activity-not-reported,Not reported nat2 activity,choice
+1917,nat2-phenotype-not-reported,Not reported nat2 phenotype,choice
+1918,nat2-genotype-not-reported,Not reported nat2 genotype,choice
+1919,cyp1a2-phenotype-not-reported,Not reported cyp1a2 phenotype,choice
+1920,cyp2c19-phenotype-not-reported,Not reported cyp2c19 phenotype,choice
+1921,cyp2d6-phenotype-not-reported,Not reported cyp2d6 phenotype,choice
+1922,cyp2d6-variant-not-reported,Not reported cyp2d6 variant,choice
+1923,abcc2-genotype-not-reported,Not reported ABCC2 genotype,choice
+1924,abcb1-genotype-not-reported,Not reported ABCB1 genotype,choice
+1925,abcb11-genotype-not-reported,Not reported ABCB11 genotype,choice
+1926,abcg2-genotype-not-reported,Not reported ABCG2 genotype,choice
+1927,cyp1a2-genotype-not-reported,Not reported cyp1a2 genotype,choice
+1928,cyp2b6-genotype-not-reported,Not reported cyp2b6 genotype,choice
+1929,cyp2c9-genotype-not-reported,Not reported cyp2c9 genotype,choice
+1930,cyp2c19-genotype-not-reported,Not reported cyp2c19 genotype,choice
+1931,cyp2d6-genotype-not-reported,Not reported cyp2d6 genotype,choice
+1932,cyp3a4-genotype-not-reported,Not reported cyp3a4 genotype,choice
+1933,cyp3a5-genotype-not-reported,Not reported cyp3a5 genotype,choice
+1934,cyp2e1-genotype-not-reported,Not reported cyp2e1 genotype,choice
+1935,slco1a2-genotype-not-reported,Not reported SLCO1A2 genotype,choice
+1936,slco1b1-genotype-not-reported,Not reported SLCO1B1 genotype,choice
+1937,slco2b1-genotype-not-reported,Not reported SLCO2B1 genotype,choice
+1938,medical-procedure-not-reported,Not reported medical procedure,choice
+1939,liver-operation-not-reported,Not reported liver operation,choice
+1940,geometric-mean-not-reported,Not reported geometric mean,choice
+1941,sample-mean-not-reported,Not reported sample mean,choice
+1942,medication-duration-substances-all,substances all,info_node
+1943,medication-amount-substances-all,substances all,info_node
+1944,medication-substances-all,substances all,info_node
+1945,dosing-substances-all,substances all,info_node
+1946,qualitative-dosing-substances-all,substances all,info_node
+1947,abstinence-substances-all,substances all,info_node
+1948,consumption-substances-all,substances all,info_node
+1949,metabolic-ratio-substances-all,substances all,info_node
+1950,metabolic-phenotype-substances-all,substances all,info_node
+1951,auc-inf-substances-all,substances all,info_node
+1952,auc-end-substances-all,substances all,info_node
+1953,auc-relative-substances-all,substances all,info_node
+1954,auc-per-dose-substances-all,substances all,info_node
+1955,aumc-inf-substances-all,substances all,info_node
+1956,amount-substances-all,substances all,info_node
+1957,cumulative-amount-substances-all,substances all,info_node
+1958,concentration-substances-all,substances all,info_node
+1959,concentration-unbound-substances-all,substances all,info_node
+1960,clearance-substances-all,substances all,info_node
+1961,clearance-unbound-substances-all,substances all,info_node
+1962,clearance-partial-substances-all,substances all,info_node
+1963,clearance-intrinsic-substances-all,substances all,info_node
+1964,clearance-renal-substances-all,substances all,info_node
+1965,clearance-intrinsic-unbound-substances-all,substances all,info_node
+1966,clearance-renal-unbound-substances-all,substances all,info_node
+1967,vd-substances-all,substances all,info_node
+1968,vd-unbound-substances-all,substances all,info_node
+1969,thalf-substances-all,substances all,info_node
+1970,tmax-substances-all,substances all,info_node
+1971,oro-cecal-transit-time-substances-all,substances all,info_node
+1972,mrt-substances-all,substances all,info_node
+1973,cmax-substances-all,substances all,info_node
+1974,kel-substances-all,substances all,info_node
+1975,kabs-substances-all,substances all,info_node
+1976,thalf-absorption-substances-all,substances all,info_node
+1977,fraction-absorbed-substances-all,substances all,info_node
+1978,plasma-binding-substances-all,substances all,info_node
+1979,fraction-unbound-substances-all,substances all,info_node
+1980,recovery-substances-all,substances all,info_node
+1981,egp-substances-all,substances all,info_node
+1982,ra-substances-all,substances all,info_node
+1983,rd-substances-all,substances all,info_node
+1984,secretion-rate-substances-all,substances all,info_node
