@@ -1,0 +1,36 @@
+id,species,sex,age,age_category,notes,subtype,height,weight,weight_kg,weight_estimated
+8,human,male,23 yr,adult,healthy,,,,74,0
+12,human,male,30-45 years,adult,,,180-190 cm,55-90 kg,72.5,2
+13,human,,,adult,healthy,,,,,
+16,human,male,24-46 yrs (mean 38),adult,"healthy, nonsmoker, no drug use, no violent exercise",Caucasian,170-189 cm (mean 178),72.6-90.7 kg (mean 83.1),83.1,2
+17,human,male,26+/-4 yrs,adult,body surface area 2.00+/-0.16 m^2,Caucasian,182+/-9 cm,79+/-10 kg,79,2
+34,human,male,,adult,,,,,,
+39,human,male,35 or 46 yrs,adult,,,176 or 180 cm,69 or 73 kg,71,2
+43,human,male,35-56 yrs,adult,healthy,,,,,
+46,human,male,20-21 years old,adult,,Japanese,,61.6 kg,61.6,0
+49,human,male,32-55 years old,adult,healthy,,,,,
+50,human,male,27-34 years,adult,healthy,,,,,
+63,human,,26-38 years old,adult,"3 males, 3 females in each experiment, asked to refrain from alcohol/drugs and refueling cars for 2 days prior, healthy as judged by exam/chemistry, non/occasional smokers",,162-185 cm,56-93 kg,74.5,2
+64,human,male,26-31 years old,adult,"asked to refrain from alcohol/drugs and refueling cars for 2 days prior, healthy as judged by exam/chemistry, non/occasional smokers",,175-185 cm,62-93 kg,77.5,2
+66,human,male,21-24 years old,adult,"students, healthy",,176.8 ± 4.3 cm,74.5 ± 5.7 kg,74.5,2
+67,human,male,25-30 years old,adult,"students, healthy",,178.3 ± 5.2 cm,70.0 ± 6.3 kg,70,2
+72,human,male,21-24 years old,adult,Japanese medical students,,,60.4 kg,60.4,0
+73,human,female,21-24 years old,adult,Japanese medical students,,,55.4 kg,55.4,0
+74,human,,,adult,,,,,,
+75,human,,19-28 yo,adult,"healthy, students; 4 women, 3 men; 6 of 14 were smokers",,,,,
+76,human,female,19-28 yo,adult,"healthy, students; 6 of total 14 Probanden were smokers",,,,,
+77,human,male,19-28 yo,adult,"healthy, students; 6 of total 14 Probanden were smokers",,,,,
+78,human,male,18-42 yo (mean 29),adult,,,,75 kg (70-90),75,2
+79,human,male,20-36 yo (mean 25.3),adult,"screened for pregnancy, chronic use of alcohol, history of hepatic disease,cardiac conduction abnormalities, congenital cardiac effects, asthma, blood abnormalities, or cardiopulmonary disorders. mean percent body weight 0.16",,,70.5 kg (52.3-82.7),70.5,2
+80,human,female,20-36 yo (mean 26.6),adult,"screened for pregnancy, chronic use of alcohol, history of hepatic disease,cardiac conduction abnormalities, congenital cardiac effects, asthma, blood abnormalities, or cardiopulmonary disorders. mean percent body weight 0.27",,,60.3 kg (48.6-67.3),60.3,2
+81,human,male,23,adult,subject id 210,,70 in,134 lb,60.7814,0
+82,human,male,26-54 years (mean 43),adult,"Caucasian, no known recent exposure to solvents, no medication or vigorous exercise during sample collection period, no smoking during exposure periods",,,77-106 kg (mean 85),85,2
+130,human,male,adult (23-29y),adult,"healthy, nonsmoking",,,,,
+41139,human,male,22-32 yr,adult,non-smoking,,,51.3 - 85 kg,68.15,2
+41140,human,female,22-32 yr,adult,non-smoking,,,51.3 - 85 kg,68.15,2
+41246,human,male,22 yr,adult,healthy,,,,75,0
+41247,human,male,27 yr,adult,healthy,,,,73,0
+41248,human,male,27 yr,adult,healthy,,,,87,0
+41249,human,male,26 yr,adult,healthy,,,,76,0
+41250,human,male,26 yr,adult,healthy,,,,59,0
+41251,human,female,,adult,,,,,,

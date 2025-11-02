@@ -1,4 +1,0 @@
-,study_sid,study_name,intervention_pk,raw_pk,normed,name,route,route_label,form,form_label,application,application_label,time,time_end,time_unit,measurement_type,measurement_type_label,calculation_type,calculation_type_label,choice,choice_label,substance,substance_label,value,mean,median,min,max,sd,se,cv,unit
-0,PKDB00333,Smink2008,2090,2087,True,OXAZ_PO_15,oral,oral (po),nr-form,Not reported (administration form),single-dose,single dose,0,,min,dosing,dosing,,,,,oxazepam,oxazepam,0.015,,,,,,,,gram
-1,PKDB00333,Smink2008,2091,2088,True,OXAZ_PO_30,oral,oral (po),nr-form,Not reported (administration form),single-dose,single dose,0,,min,dosing,dosing,,,,,oxazepam,oxazepam,0.03,,,,,,,,gram
-2,PKDB00333,Smink2008,2092,2089,True,OXAZ_PO_ALL,oral,oral (po),nr-form,Not reported (administration form),single-dose,single dose,0,,min,qualitative-dosing,qualitative dosing,,,,,oxazepam,oxazepam,,,,0.015,0.03,,,,gram
