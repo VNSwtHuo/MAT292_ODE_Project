@@ -1,0 +1,13 @@
+series id,analyte_name,figure_name,figure_series_identifier,author_comment,time_units_original,conc_units_original,conc_units_normalized,log_concentration_values,loq,loq_units,analytical_method_detail,n_subjects_in_series,fk_subject_id,conc_medium_original,conc_medium_normalized,curator_comment,fk_study_id,radiolabeled,analyte_dtxsid,analyte_casrn,test_substance_dtxsid,test_substance_casrn
+23605,chlorobenzene,Fig. 3,,"time after end of fifth day of exposure, 10 min work",min,ug/L,,,,,,5,74,blood,blood,data expressed as real time (e.g. exposure time + time after exposure),40,,DTXSID4020298,,DTXSID4020298,
+23630,isopropanol,Fig. 5c,circle,,min,percent,,,,,,3,74,end exhaled breath,expired air,,62,,DTXSID7020762,,DTXSID7020762,
+23612,"1,3-butadiene",Fig. 6,,,min,ppm,,,,,,1,74,exhaled breath,expired air,other data available from same source,47,,DTXSID3020203,106-99-0,DTXSID3020203,106-99-0
+740,toluene,Figure 1,,workload 50 W,hr,umol/L,,,,,,9,78,capillary blood,Capillary Blood,,1383,,DTXSID7021360,,DTXSID7021360,
+23583,vinyl chloride,Fig.10b,,,hr,ppm,,,,,,1,74,exhaled breath,expired air,,18,,DTXSID8021434,,DTXSID8021434,
+23582,vinyl chloride,Fig.10a,,,hr,ppm,,,,,,1,74,exhaled breath,expired air,,17,,DTXSID8021434,,DTXSID8021434,
+377,carbon monoxide,TABLE 4,,,hr,ppm,,0,,,,6,34,exhaled breath,expired air,,1260,,DTXSID5027273,,DTXSID0020868,
+378,carbon monoxide,TABLE 4,,,hr,ppm,,0,,,,6,34,exhaled breath,expired air,,1261,,DTXSID5027273,,DTXSID0020868,
+436,styrene,Fig. 4.,,,hr,ug/g,,1,,,Karbowski & Braun n.d.,3,16,fat,adipose,"exact animals per treatment group unclear: 30 rats were examined over12 points, so approx 3 per time pt",1291,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+437,styrene,Fig. 4.,,,hr,ug/g,,1,,,Karbowski & Braun n.d.,3,16,fat,adipose,"exact animals per treatment group unclear: 30 rats were examined over12 points, so approx 3 per time pt",1292,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+440,styrene,Fig. 6.,,,hr,ug/mL,,1,,,Karbowski & Braun n.d.,4,16,blood,blood,,1291,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+441,styrene,Fig. 8.,,,hr,ug/mL,,1,,,Karbowski & Braun n.d.,4,16,expired breath,expired air,,1292,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5

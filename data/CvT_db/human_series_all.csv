@@ -1,0 +1,247 @@
+id,analyte_name,figure_name,figure_series_identifier,author_comment,time_units_original,conc_units_original,conc_units_normalized,log_concentration_values,loq,loq_units,analytical_method_detail,n_subjects_in_series,fk_subject_id,conc_medium_original,conc_medium_normalized,curator_comment,fk_study_id,radiolabeled,analyte_dtxsid,analyte_casrn,test_substance_dtxsid,test_substance_casrn
+90,phenacetin,Table 1.,H.S.,"1 subject of 6; 23 yo, 74 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,8,blood,blood,,1173,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+96,phenacetin,Table 3.,H.S.,"1 subject of 6; 23 yo, 74 kg; below LOQ at all time points",min,ug/mL,,0.0,0.1,ug/mL,,1.0,8,blood,blood,,1175,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+173,phenol,Figure 2. ,diamond,subject 2 of 3,hr,umol/L,,0.0,,,,1.0,12,urine,urine,,1202,,DTXSID5021124,108-95-2,DTXSID3039242,
+145,benzene,"Figure 1., lower right",circle,subject 3 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,exhaled breath,expired air,,1204,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+144,benzene,"Figure 1., lower right",diamond,subject 2 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,exhaled breath,expired air,,1204,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+143,benzene,"Figure 1., lower right",triangle,subject 1 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,exhaled breath,expired air,,1204,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+142,benzene,"Figure 1., lower left ",circle,subject 3 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,venous blood,blood,,1204,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+141,benzene,"Figure 1., lower left ",diamond,subject 2 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,venous blood,blood,,1204,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+140,benzene,"Figure 1., lower left ",triangle,subject 1 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,venous blood,blood,,1204,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+139,benzene,"Figure 1., upper right",circle,subject 3 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,exhaled breath,expired air,,1202,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+138,benzene,"Figure 1., upper right",diamond,subject 2 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,exhaled breath,expired air,,1202,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+137,benzene,"Figure 1., upper right",triangle,subject 1 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,exhaled breath,expired air,,1202,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+136,benzene,"Figure 1., upper left",circle,subject 3 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,venous blood,blood,,1202,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+135,benzene,"Figure 1., upper left ",diamond,subject 2 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,venous blood,blood,,1202,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+134,benzene,"Figure 1., upper left",triangle ,subject 1 of 3,hr,nmol/L,,1.0,5.0,nmol/L,,1.0,12,venous blood,blood,,1202,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+174,phenol,Figure 2. ,circle,subject 3 of 3,hr,umol/L,,0.0,,,,1.0,12,urine,urine,,1202,,DTXSID5021124,108-95-2,DTXSID3039242,
+172,phenol,Figure 2. ,triangle,subject 1 of 3,hr,umol/L,,0.0,,,,1.0,12,urine,urine,,1202,,DTXSID5021124,108-95-2,DTXSID3039242,
+483,methylene chloride,FIG 4. d,,,hr,mg/L,,,,,,5.0,13,venous blood,blood,,1320,,DTXSID0020868,75-09-2,DTXSID0020868,75-09-2
+699,trichloroacetic acid,Table 1 ,Group I,"complex exposure with exercise and rest periods, see paper Fig 1",min,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,blood,blood,,1375,,DTXSID1021378,,DTXSID0021383,
+700,trichloroacetic acid,Table 1 ,Group II,"complex exposure with exercise and rest periods, see paper Fig 1",min,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,blood,blood,,1376,,DTXSID1021378,,DTXSID0021383,
+701,trichloroacetic acid,Table 1 ,Group III,"complex exposure with exercise and rest periods, see paper Fig 1",min,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,blood,blood,,1377,,DTXSID1021378,,DTXSID0021383,
+702,trichloroethanol,Table 3 ,Group I,"complex exposure with exercise and rest periods, see paper Fig 1",hr,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,urine,urine,"assuming second column is trichloroethanol, label right but fig legend wrong",1375,,DTXSID1021950,,DTXSID0021383,
+703,trichloroethanol,Table 3 ,Group II,"complex exposure with exercise and rest periods, see paper Fig 1",hr,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,urine,urine,"assuming second column is trichloroethanol, label right but fig legend wrong",1376,,DTXSID1021950,,DTXSID0021383,
+704,trichloroethanol,Table 3 ,Group III,"complex exposure with exercise and rest periods, see paper Fig 1",hr,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,urine,urine,"assuming second column is trichloroethanol, label right but fig legend wrong",1377,,DTXSID1021950,,DTXSID0021383,
+705,trichloroacetic acid,Table 3 ,Group I,"complex exposure with exercise and rest periods, see paper Fig 1",hr,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,urine,urine,"assuming first column is trichloroacetic acid, label right but fig legend wrong",1375,,DTXSID1021378,,DTXSID0021383,
+706,trichloroacetic acid,Table 3 ,Group II,"complex exposure with exercise and rest periods, see paper Fig 1",hr,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,urine,urine,"assuming first column is trichloroacetic acid, label right but fig legend wrong",1376,,DTXSID1021378,,DTXSID0021383,
+707,trichloroacetic acid,Table 3 ,Group III,"complex exposure with exercise and rest periods, see paper Fig 1",hr,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,urine,urine,"assuming first column is trichloroacetic acid, label right but fig legend wrong",1377,,DTXSID1021378,,DTXSID0021383,
+708,trichloroethanol,Table 4,Group I,"complex exposure with exercise and rest periods, see paper Fig 1",min,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,blood,blood,,1375,,DTXSID1021950,,DTXSID0021383,
+709,trichloroethanol,Table 4 ,Group II,"complex exposure with exercise and rest periods, see paper Fig 1",min,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,blood,blood,,1376,,DTXSID1021950,,DTXSID0021383,
+710,trichloroethanol,Table 4 ,Group III,"complex exposure with exercise and rest periods, see paper Fig 1",min,mg/kg,,0.0,,,Vesterberg 1975,5.0,13,blood,blood,,1377,,DTXSID1021950,,DTXSID0021383,
+171,beta-hydroxyethoxyacetic acid,Figure 1.,square,,hr,ug/mL,,1.0,10.0,ug/mL,,4.0,13,plasma,plasma,,1206,,DTXSID70158385,13382-47-3,DTXSID4020533,123-91-1
+482,methylene chloride,FIG 4. d,,,hr,mg/L,,,,,,5.0,13,venous blood,blood,,1319,,DTXSID0020868,75-09-2,DTXSID0020868,75-09-2
+146,dioxane,Figure 1.,dot,,hr,ug/mL,,1.0,0.1,ug,,4.0,13,plasma,plasma,,1206,,DTXSID4020533,123-91-1,DTXSID4020533,123-91-1
+159,styrene,Fig. 1.,,,hr,ug/mL,,,,,,4.0,16,blood,blood,,1219,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+441,styrene,Fig. 8.,,,hr,ug/mL,,1.0,,,Karbowski & Braun n.d.,4.0,16,expired breath,expired air,,1292,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+440,styrene,Fig. 6.,,,hr,ug/mL,,1.0,,,Karbowski & Braun n.d.,4.0,16,blood,blood,,1291,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+160,styrene,Fig. 3.,,,hr,ug/L,,,,,,4.0,16,exhaled breath,expired air,,1219,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+436,styrene,Fig. 4.,,,hr,ug/g,,1.0,,,Karbowski & Braun n.d.,3.0,16,fat,adipose,"exact animals per treatment group unclear: 30 rats were examined over12 points, so approx 3 per time pt",1291,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+429,styrene,Fig. 1.,,,hr,ug/mL,,1.0,,,Karbowski & Braun n.d.,3.0,16,blood,blood,"exact animals per treatment group unclear: 30 rats were examined over12 points, so approx 3 per time pt",1292,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+428,styrene,Fig. 1.,,,hr,ug/mL,,1.0,,,Karbowski & Braun n.d.,3.0,16,blood,blood,"exact animals per treatment group unclear: 30 rats were examined over12 points, so approx 3 per time pt",1291,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+437,styrene,Fig. 4.,,,hr,ug/g,,1.0,,,Karbowski & Braun n.d.,3.0,16,fat,adipose,"exact animals per treatment group unclear: 30 rats were examined over12 points, so approx 3 per time pt",1292,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+377,carbon monoxide,TABLE 4,,,hr,ppm,,0.0,,,,6.0,34,exhaled breath,expired air,,1260,,DTXSID5027273,,DTXSID0020868,
+23593,N-methyl-2-pyrrolidone,Fig. 6 (bottom left),black open square,light work,hr,mg/L,,,,,,6.0,34,blood,blood,other data available from same source,28,,DTXSID6020856,,DTXSID6020856,
+716,trichloroethanol,Abb. 16,2,"exact daily doses: 135.6, 101.0, 104.1, 102.0, 99.8",hr,ug/mL,,0.0,,,,1.0,34,blood,blood,,1378,,DTXSID1021950,,DTXSID0021383,
+378,carbon monoxide,TABLE 4,,,hr,ppm,,0.0,,,,6.0,34,exhaled breath,expired air,,1261,,DTXSID5027273,,DTXSID0020868,
+373,dichloromethane,TABLE 2,,,hr,ug/mL,,0.0,,,,6.0,34,venous blood,blood,,1260,,DTXSID0020868,,DTXSID0020868,
+374,dichloromethane,TABLE 2,,,hr,ug/mL,,0.0,,,,6.0,34,venous blood,blood,,1261,,DTXSID0020868,,DTXSID0020868,
+375,dichloromethane,TABLE 3,,,hr,ppm,,0.0,,,,6.0,34,exhaled breath,expired air,,1260,,DTXSID0020868,,DTXSID0020868,
+376,dichloromethane,TABLE 3,,,hr,ppm,,0.0,,,,6.0,34,exhaled breath,expired air,,1261,,DTXSID0020868,,DTXSID0020868,
+23592,N-methyl-2-pyrrolidone,Fig. 6 (bottom left),blue open triangle,light work,hr,mg/L,,,,,,6.0,34,blood,blood,other data available from same source,27,,DTXSID6020856,,DTXSID6020856,
+23591,N-methyl-2-pyrrolidone,Fig. 6 (bottom left),red inverted open triangle,light work,hr,mg/L,,,,,,6.0,34,blood,blood,other data available from same source,26,,DTXSID6020856,,DTXSID6020856,
+399,methylethylketone,Fig. 2C.,circle,subject 1 of 2,min,uM,,0.0,,,,1.0,39,venous blood,blood,,1272,,DTXSID3021516,,DTXSID3021516,
+400,methylethylketone,Fig. 2C. ,dot,subject 2 of 2,min,uM,,0.0,,,,1.0,39,venous blood,blood,,1272,,DTXSID3021516,,DTXSID3021516,
+404,methylethylketone,Fig. 2A. ,dot,subject 2 of 2,min,uM,,0.0,,,,1.0,39,venous blood,blood,,1274,,DTXSID3021516,,DTXSID3021516,
+403,methylethylketone,Fig. 2A. ,circle,subject 1 of 2,min,uM,,0.0,,,,1.0,39,venous blood,blood,,1274,,DTXSID3021516,,DTXSID3021516,
+401,methylethylketone,Fig. 2B. ,circle,subject 1 of 2,min,uM,,0.0,,,,1.0,39,venous blood,blood,,1273,,DTXSID3021516,,DTXSID3021516,
+402,methylethylketone,Fig. 2B. ,dot,subject 2 of 2,min,uM,,0.0,,,,1.0,39,venous blood,blood,,1273,,DTXSID3021516,,DTXSID3021516,
+419,methanol,Fig 3.,,,hr,mg/L,,,,,,4.0,43,urine,urine,,1287,,DTXSID2021731,67-56-1,DTXSID2021731,67-56-1
+418,methanol,Fig 3.,,,hr,mg/L,,,,,,4.0,43,urine,urine,,1286,,DTXSID2021731,67-56-1,DTXSID2021731,67-56-1
+417,methanol,Fig 3.,,,hr,mg/L,,,,,,4.0,43,urine,urine,,1285,,DTXSID2021731,67-56-1,DTXSID2021731,67-56-1
+711,trichloroethylene,Abb. 12,,"exact daily doses: 135.6, 101.0, 104.1, 102.0, 99.8",hr,ug/mL,,0.0,,,,5.0,46,blood,blood,,1378,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+717,trichloroacetic acid,Abb. 17,,"exact daily doses: 135.6, 101.0, 104.1, 102.0, 99.8",hr,ug/mL,,0.0,,,,5.0,46,blood,blood,,1378,,DTXSID1021378,,DTXSID0021383,
+748,trichloroethylene,Fig 5. A. ,open square,1 of 2,hr,ppm,,,,,,1.0,46,exhaled breath,expired air,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+749,trichloroethylene,Fig 5. B. ,open square,1 of 3,hr,ppm,,,,,,1.0,46,exhaled breath,expired air,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+746,trichloroethylene,Fig 5. A. ,dot,1 of 2,hr,ppm,,,,,,1.0,46,exhaled breath,expired air,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+747,trichloroethylene,Fig 5. B. ,dot,1 of 3,hr,ppm,,,,,,1.0,46,exhaled breath,expired air,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+742,trichloroethylene,Fig 4. A.,,,hr,ug/mL,,,,,,2.0,46,blood,blood,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+743,trichloroethylene,Fig 4. B.,,,hr,ug/mL,,,,,,3.0,46,blood,blood,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+751,dichloroacetic acid,Table 5,,subject 5,hr,mg/L,,,,,,1.0,46,plasma,plasma,,1386,,DTXSID2020428,79-43-6,DTXSID0021383,
+778,trichloroethanol (free),Fig 9. B.,,,hr,ug/mL,,,,,,3.0,46,blood,blood,"unsure how many subjects depicted, or which point is which subject",1386,,DTXSID1021950,,DTXSID0021383,
+777,trichloroethanol (free),Fig 9. A.,,,hr,ug/mL,,,,,,2.0,46,blood,blood,"unsure how many subjects depicted, or which point is which subject",1386,,DTXSID1021950,,DTXSID0021383,
+771,trichloroacetic acid,Fig 8. B.,,,hr,ug/mL,,,,,,3.0,46,blood,blood,"unsure how many subjects depicted, or which point is which subject",1386,,DTXSID1021378,,DTXSID0021383,
+770,trichloroacetic acid,Fig 8. A.,,,hr,ug/mL,,,,,,2.0,46,blood,blood,"unsure how many subjects depicted, or which point is which subject",1386,,DTXSID1021378,,DTXSID0021383,
+755,dichloroacetic acid,Table 5,,subject 7,hr,mg/L,,,,,,1.0,46,plasma,plasma,,1386,,DTXSID2020428,79-43-6,DTXSID0021383,
+754,dichloroacetic acid,Table 5,,subject 2,hr,mg/L,,,,,,1.0,46,plasma,plasma,,1386,,DTXSID2020428,79-43-6,DTXSID0021383,
+752,dichloroacetic acid,Table 5,,subject 8,hr,mg/L,,,,,,1.0,46,plasma,plasma,,1386,,DTXSID2020428,79-43-6,DTXSID0021383,
+750,trichloroethylene,Fig 5. B. ,X,1 of 3,hr,ppm,,,,,,1.0,46,exhaled breath,expired air,,1386,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+424,trichloroethanol,Table 3,,not cumul,hr,mg,,0.0,,,,5.0,46,urine,urine,,1288,,DTXSID1021950,,DTXSID0021383,
+423,trichloroacetic acid,Table 3,,,hr,mg,,0.0,,,,5.0,46,urine,urine,,1288,,DTXSID1021378,,DTXSID0021383,
+421,trichloroethylene,Table 1,,,hr,umol/L,,0.0,,,Sato 1977,5.0,46,blood,blood,,1288,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+420,trichloroethylene,Table 1,,,hr,umol/L,,0.0,,,Sato 1977,5.0,46,exhaled breath,expired air,,1288,,DTXSID0021383,79-01-6,DTXSID0021383,79-01-6
+787,toluene,Fig. 1,dot,,hr,umol/L,,0.0,,,Sato 1975,5.0,46,blood,blood,,1390,,DTXSID7021360,,DTXSID7021360,
+753,dichloroacetic acid,Table 5,,subject 9,hr,mg/L,,,,,,1.0,46,plasma,plasma,,1386,,DTXSID2020428,79-43-6,DTXSID0021383,
+444,styrene,Fig 2. ,circle,Exp. 4,hr,ppm,,,,,,3.0,49,expired breath,expired air,,1301,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+442,styrene,Fig 1. closed circles,dot,Exp. 2,hr,ppm,,,,,,6.0,49,expired breath,expired air,,1299,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+443,styrene,Fig 2. open triangles,open triangle,Exp. 3,hr,ppm,,,,,,3.0,49,expired breath,expired air,,1300,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+445,styrene,Fig 2. closed circles,dot,Exp. 5,hr,ppm,,,,,,5.0,49,expired breath,expired air,,1302,,DTXSID2021284,100-42-5,DTXSID2021284,100-42-5
+468,trichloroethanol,Fig. 4,dot,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1309,,DTXSID1021950,,DTXSID0021381,
+446,tetrachloroethylene,Fig. 2,circle,at rest,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1303,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+467,trichloroethanol,Fig. 4,circle,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1308,,DTXSID1021950,,DTXSID0021381,
+448,tetrachloroethylene,Fig. 2,X,at rest and workload,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1305,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+449,tetrachloroethylene,Fig. 2,circle,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1303,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+450,tetrachloroethylene,Fig. 2,dot,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1304,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+451,tetrachloroethylene,Fig. 2,X,at rest and workload,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1305,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+452,trichloroacetic acid,Fig. 5,circle,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,"assuming dosed is MC (in figure text), not PERC (in figure image)",1306,,DTXSID1021378,,DTXSID0021381,
+453,trichloroacetic acid,Fig. 5,dot,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,"assuming dosed is MC (in figure text), not PERC (in figure image)",1307,,DTXSID1021378,,DTXSID0021381,
+454,trichloroacetic acid,Fig. 5,X,at rest and workload,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,"assuming dosed is MC (in figure text), not PERC (in figure image)",1307,,DTXSID1021378,,DTXSID0021381,
+447,tetrachloroethylene,Fig. 2,dot,at rest,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1304,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+458,methylchloroform,Fig. 3,circle,at rest,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1308,,DTXSID0021381,,DTXSID0021381,
+459,methylchloroform,Fig. 3,dot,at rest,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1309,,DTXSID0021381,,DTXSID0021381,
+460,methylchloroform,Fig. 3,X,at rest and workload,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1307,,DTXSID0021381,,DTXSID0021381,
+461,methylchloroform,Fig. 3,circle-dashed,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1308,,DTXSID0021381,,DTXSID0021381,
+462,methylchloroform,Fig. 3,dot-dashed,at rest,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1309,,DTXSID0021381,,DTXSID0021381,
+463,methylchloroform,Fig. 3,X-dashed,at rest and workload,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1307,,DTXSID0021381,,DTXSID0021381,
+464,trichloroethanol,Fig. 4,circle,at rest,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1308,,DTXSID1021950,,DTXSID0021381,
+465,trichloroethanol,Fig. 4,dot,at rest,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1309,,DTXSID1021950,,DTXSID0021381,
+466,trichloroethanol,Fig. 4,X,at rest and workload,hr,ug/L,,1.0,,,Monster & Boersma 1975,6.0,50,exhaled air,expired air,,1307,,DTXSID1021950,,DTXSID0021381,
+471,tetrachloroethylene,Fig. 5,center,at rest,hr,mg/L,,0.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1304,,DTXSID2021319,127-18-4,DTXSID2021319,127-18-4
+469,trichloroethanol,Fig. 4,X,at rest and workload,hr,mg/L,,1.0,,,Monster & Boersma 1975,6.0,50,blood,blood,,1307,,DTXSID1021950,,DTXSID0021381,
+456,trichloroacetic acid,Fig. 4,center,at rest,hr,mg,,0.0,,,Ogata 1974,6.0,50,urine,urine,,1304,,DTXSID1021378,,DTXSID2021319,
+647,2-hydroxy-2-methyl butyrate,Figure 12 B ,closed square,,hr,umol,,,,,,6.0,63,urine,urine,,1355,,DTXSID70863265,,DTXSID8024521,
+646,3-hydroxy-3-methyl-butyrate,Figure 12 B ,open square,,hr,umol,,,,,,6.0,63,urine,urine,,1355,,DTXSID20211535,,DTXSID8024521,
+643,"2-methyl-2,3-butanediol",Figure 12 A ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1354,,DTXSID50871126,,DTXSID8024521,
+644,tert-amyl alcohol glucuronide,Figure 12 A ,open triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1354,,,,DTXSID8024521,
+648,"2-methyl-2,3-butanediol",Figure 12 C ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1355,,DTXSID50871126,,DTXSID8024521,
+645,tert-amyl alcohol,Figure 12 A ,closed triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1354,,DTXSID0041436,,DTXSID8024521,
+649,tert-amyl alcohol glucuronide,Figure 12 C ,open triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1355,,,,DTXSID8024521,
+655,tert-amyl alcohol glucuronide,Figure 13 B ,open triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1357,,,,DTXSID8024521,
+651,"2-methyl-2,3-butanediol",Figure 13 A ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1356,,DTXSID50871126,,DTXSID8024521,
+652,tert-amyl alcohol glucuronide,Figure 13 A ,open triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1356,,,,DTXSID8024521,
+653,tert-amyl alcohol,Figure 13 A ,closed triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1356,,DTXSID0041436,,DTXSID8024521,
+654,"2-methyl-2,3-butanediol",Figure 13 B ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1357,,DTXSID50871126,,DTXSID8024521,
+656,tert-amyl alcohol,Figure 13 B ,closed triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1357,,DTXSID0041436,,DTXSID8024521,
+642,tert-amyl alcohol,Figure 11 D ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1357,,DTXSID0041436,,DTXSID8024521,
+650,tert-amyl alcohol,Figure 12 C ,closed triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1355,,DTXSID0041436,,DTXSID8024521,
+641,tert-amyl methyl ether,Figure 11 D ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1357,,DTXSID8024521,994-05-8,DTXSID8024521,994-05-8
+636,tert-amyl alcohol,Figure 11 A ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1354,,DTXSID0041436,,DTXSID8024521,
+639,tert-amyl methyl ether,Figure 11 C ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1356,,DTXSID8024521,994-05-8,DTXSID8024521,994-05-8
+607,"2-methyl-1,2-propanediol",Figure 5 A ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1343,,DTXSID80204382,,DTXSID3020833,
+606,2-hydroxyisobutyrate,Figure 5 D ,square,,hr,umol,,,,,,6.0,63,urine,urine,,1346,,DTXSID4032954,,DTXSID3020833,
+605,2-hydroxyisobutyrate,Figure 5 C ,square,,hr,umol,,,,,,6.0,63,urine,urine,,1345,,DTXSID4032954,,DTXSID3020833,
+604,2-hydroxyisobutyrate,Figure 5 B ,square,,hr,umol,,,,,,6.0,63,urine,urine,,1344,,DTXSID4032954,,DTXSID3020833,
+603,2-hydroxyisobutyrate,Figure 5 A ,square,,hr,umol,,,,,,6.0,63,urine,urine,,1343,,DTXSID4032954,,DTXSID3020833,
+602,tert-butyl alcohol,Figure 5 D ,triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1346,,DTXSID8020204,,DTXSID3020833,
+601,tert-butyl alcohol,Figure 5 C ,triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1345,,DTXSID8020204,,DTXSID3020833,
+600,tert-butyl alcohol,Figure 5 B ,triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1344,,DTXSID8020204,,DTXSID3020833,
+609,"2-methyl-1,2-propanediol",Figure 5 C ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1345,,DTXSID80204382,,DTXSID3020833,
+599,tert-butyl alcohol,Figure 5 A ,triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1343,,DTXSID8020204,,DTXSID3020833,
+597,tert-butyl alcohol,Figure 4 C ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1345,,DTXSID8020204,,DTXSID3020833,
+640,tert-amyl alcohol,Figure 11 C ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1356,,DTXSID0041436,,DTXSID8024521,
+596,tert-butyl alcohol,Figure 4 B ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1344,,DTXSID8020204,,DTXSID3020833,
+595,tert-butyl alcohol,Figure 4 A ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1343,,DTXSID8020204,,DTXSID3020833,
+594,methyl tert-butyl ether,Figure 4 D ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1346,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+593,methyl tert-butyl ether,Figure 4 C ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1345,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+592,methyl tert-butyl ether,Figure 4 B ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1344,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+591,methyl tert-butyl ether,Figure 4 A ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1343,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+598,tert-butyl alcohol,Figure 4 D ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1346,,DTXSID8020204,,DTXSID3020833,
+610,"2-methyl-1,2-propanediol",Figure 5 D ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1346,,DTXSID80204382,,DTXSID3020833,
+608,"2-methyl-1,2-propanediol",Figure 5 B ,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1344,,DTXSID80204382,,DTXSID3020833,
+624,tert-butyl alcohol,Figure 9 B,triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1351,,DTXSID8020204,,DTXSID0025604,
+615,ethyl tert-butyl ether,Figure 8 A,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1350,,DTXSID0025604,,DTXSID0025604,
+616,tert-butyl alcohol,Figure 8 A ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1350,,DTXSID8020204,,DTXSID0025604,
+619,ethyl tert-butyl ether,Figure 8 B ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1351,,DTXSID0025604,,DTXSID0025604,
+620,tert-butyl alcohol,Figure 8 B ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1351,,DTXSID8020204,,DTXSID0025604,
+625,2-hydroxyisobutyrate,Figure 9 A,square,,hr,umol,,,,,,6.0,63,urine,urine,,1350,,DTXSID4032954,,DTXSID0025604,
+623,tert-butyl alcohol,Figure 9 A,triangle,,hr,umol,,,,,,6.0,63,urine,urine,,1350,,DTXSID8020204,,DTXSID0025604,
+627,"2-methyl-1,2-propanediol",Figure 9 A,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1350,,DTXSID80204382,,DTXSID0025604,
+628,"2-methyl-1,2-propanediol",Figure 9 B,dot,,hr,umol,,,,,,6.0,63,urine,urine,,1351,,DTXSID80204382,,DTXSID0025604,
+635,tert-amyl methyl ether,Figure 11 A ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1354,,DTXSID8024521,994-05-8,DTXSID8024521,994-05-8
+637,tert-amyl methyl ether,Figure 11 B ,dot,,hr,uM,,,,,,6.0,63,blood,blood,,1355,,DTXSID8024521,994-05-8,DTXSID8024521,994-05-8
+638,tert-amyl alcohol,Figure 11 B ,square,,hr,uM,,,,,,6.0,63,blood,blood,,1355,,DTXSID0041436,,DTXSID8024521,
+626,2-hydroxyisobutyrate,Figure 9 B,square,,hr,umol,,,,,,6.0,63,urine,urine,,1351,,DTXSID4032954,,DTXSID0025604,
+611,methyl tert-butyl ether,Figure 6 ,dot,,hr,nmol/L,,,,,,3.0,64,exhaled air,expired air,,1346,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+612,tert-butyl alcohol,Figure 6 ,square,,hr,nmol/L,,,,,,3.0,64,exhaled air,expired air,,1346,,DTXSID8020204,,DTXSID3020833,
+666,methyl tert-butyl ether,Figure 1 lower left,,,hr,umol/L,,1.0,,,,4.0,66,blood,blood,,1365,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+668,tert-butanol,Figure 1 lower left,,,hr,umol/L,,1.0,,,,4.0,66,blood,blood,,1365,,DTXSID8020204,,DTXSID3020833,
+667,tert-butanol,Figure 1 upper left,,,hr,umol/L,,,,,,4.0,66,blood,blood,,1364,,DTXSID8020204,,DTXSID3020833,
+665,methyl tert-butyl ether,Figure 1 upper left,,,hr,umol/L,,,,,,4.0,66,blood,blood,,1364,,DTXSID3020833,1634-04-4,DTXSID3020833,1634-04-4
+670,tert-amyl methyl ether,Figure 1 lower right,,,hr,umol/L,,1.0,,,,6.0,67,blood,blood,,1367,,DTXSID8024521,994-05-8,DTXSID8024521,994-05-8
+671,tert-amyl alcohol,Figure 1 upper right,,,hr,umol/L,,,,,,6.0,67,blood,blood,,1366,,DTXSID0041436,,DTXSID8024521,
+669,tert-amyl methyl ether,Figure 1 upper right,,,hr,umol/L,,,,,,6.0,67,blood,blood,,1366,,DTXSID8024521,994-05-8,DTXSID8024521,994-05-8
+672,tert-amyl alcohol,Figure 1 lower right,,,hr,umol/L,,,,,,6.0,67,blood,blood,,1367,,DTXSID0041436,,DTXSID8024521,
+687,benzene,Fig. 5,dot,sitting with breathing mask,min,ug/dL,,1.0,,,Sato 1971; Sato et al. 1975,5.0,72,blood,blood,,1369,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+738,benzene,Fig. 5,dot,sitting with breathing mask,min,ug/dL,,1.0,,,Sato 1968,5.0,72,expired air,expired air,,1369,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+688,benzene,Fig. 5,circle,sitting with breathing mask,min,ug/dL,,1.0,,,Sato 1971; Sato et al. 1975,5.0,73,blood,blood,,1369,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+739,benzene,Fig. 5,circle,sitting with breathing mask,min,ug/dL,,1.0,,,Sato 1968,5.0,73,expired air,expired air,,1369,,DTXSID3039242,71-43-2,DTXSID3039242,71-43-2
+23631,isopropanol,Fig. 5c,triangle,,min,percent,,,,,,3.0,74,mixed exhaled breath,expired air,,62,,DTXSID7020762,,DTXSID7020762,
+689,trichloroethanol,Fig. 3 ,open triangle,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1370,,DTXSID1021950,,DTXSID0021383,
+690,trichloroethanol,Fig. 3 ,circle,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1370,,DTXSID1021950,,DTXSID0021383,
+790,methanol,FIG. 7. ,triangle,,hr,ug/mL,,0.0,,,,4.0,74,urine,urine,,1393,,DTXSID2021731,67-56-1,DTXSID2021731,67-56-1
+791,methanol,FIG. 7. ,circle,,hr,ug/mL,,0.0,,,,4.0,74,urine,urine,,1394,,DTXSID2021731,67-56-1,DTXSID2021731,67-56-1
+23572,ethylbenzene,Figure 6D,triangle,,hr,mg/L,,,,,,,74,venous blood,blood,,7,,DTXSID3020596,,DTXSID3020596,
+23582,vinyl chloride,Fig.10a,,,hr,ppm,,,,,,1.0,74,exhaled breath,expired air,,17,,DTXSID8021434,,DTXSID8021434,
+23583,vinyl chloride,Fig.10b,,,hr,ppm,,,,,,1.0,74,exhaled breath,expired air,,18,,DTXSID8021434,,DTXSID8021434,
+789,methanol,FIG. 7.,square,,hr,ug/mL,,0.0,,,,4.0,74,urine,urine,,1392,,DTXSID2021731,67-56-1,DTXSID2021731,67-56-1
+691,trichloroethanol,Fig. 3 ,closed triangle,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1371,,DTXSID1021950,,DTXSID0021383,
+23605,chlorobenzene,Fig. 3,,"time after end of fifth day of exposure, 10 min work",min,ug/L,,,,,,5.0,74,blood,blood,data expressed as real time (e.g. exposure time + time after exposure),40,,DTXSID4020298,,DTXSID4020298,
+23611,2-butoxyethanol,Fig. 4A,,light work,hr,uM,,,,,,,74,blood,blood,other data available from same source,46,,DTXSID1024097,111-76-2,DTXSID1024097,111-76-2
+23612,"1,3-butadiene",Fig. 6,,,min,ppm,,,,,,1.0,74,exhaled breath,expired air,other data available from same source,47,,DTXSID3020203,106-99-0,DTXSID3020203,106-99-0
+23620,"1,2,4-trimethylbenzene",Fig. 3,lower open circle,light work,hr,uM,,,,,,1.0,74,arterial blood,blood,,55,,DTXSID6021402,95-63-6,DTXSID6021402,95-63-6
+23621,"1,2,4-trimethylbenzene",Fig. 3,lower open triangle,light work,hr,uM,,,,,,1.0,74,arterial blood,blood,,56,,DTXSID6021402,95-63-6,DTXSID6021402,95-63-6
+23622,"1,2,4-trimethylbenzene",Fig. 3,upper open circle,light work,hr,uM,,,,,,1.0,74,arterial blood,blood,,57,,DTXSID6021402,95-63-6,DTXSID6021402,95-63-6
+23623,"1,2,4-trimethylbenzene",Fig. 3,upper open triangle,light work,hr,uM,,,,,,1.0,74,arterial blood,blood,,58,,DTXSID6021402,95-63-6,DTXSID6021402,95-63-6
+692,trichloroethanol,Fig. 3 ,dot,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1371,,DTXSID1021950,,DTXSID0021383,
+23584,tetrahydrofuran,Figure 1 (left),,at rest,hr,ppm,,,,,,4.0,74,exhaled breath,expired air,,19,,DTXSID1021328,,DTXSID1021328,
+698,trichloroacetic acid,Fig. 4 ,dot,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1370,,DTXSID1021378,,DTXSID0021383,
+693,trichloroethanol,Fig. 3 ,closed square,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1371,,DTXSID1021950,,DTXSID0021383,
+23630,isopropanol,Fig. 5c,circle,,min,percent,,,,,,3.0,74,end exhaled breath,expired air,,62,,DTXSID7020762,,DTXSID7020762,
+695,trichloroacetic acid,Fig. 4 ,open triangle,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,"says 100 ppm on the figure, but not associated with a point",1371,,DTXSID1021378,,DTXSID0021383,
+696,trichloroacetic acid,Fig. 4 ,circle,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1371,,DTXSID1021378,,DTXSID0021383,
+697,trichloroacetic acid,Fig. 4 ,closed triangle,,hr,mg cumulative excretion,,0.0,,,,1.0,74,urine,urine,,1370,,DTXSID1021378,,DTXSID0021383,
+740,toluene,Figure 1,,workload 50 W,hr,umol/L,,,,,,9.0,78,capillary blood,Capillary Blood,,1383,,DTXSID7021360,,DTXSID7021360,
+741,hippuric acid,Figure 2,,"workload 50 W, D-labeled, rate",hr,umol/min,,,,,,9.0,78,urine,urine,,1383,,DTXSID9046073,,DTXSID7021360,
+788,trichloroethene,Figure 1.,A & C,,min,ug/L,,0.0,,,,1.0,81,blood,blood,,1391,,DTXSID0021383,,DTXSID0021383,
+728,trichloroethanol,Fig 4. ,triangle,,hr,ug/L,,1.0,10.0,ng/mL,,6.0,82,blood,blood,,1380,,DTXSID1021950,,DTXSID0021381,
+731,trichloroacetic acid,Fig 6. ,dot,,days,ug/L,,1.0,30.0,ng/mL,,6.0,82,blood,blood,,1381,,DTXSID1021378,,DTXSID0021381,
+729,trichloroethanol,Fig 4. ,dot,,hr,ug/L,,1.0,10.0,ng/mL,,6.0,82,blood,blood,,1381,,DTXSID1021950,,DTXSID0021381,
+730,trichloroacetic acid,Fig 6.,triangle,,days,ug/L,,1.0,30.0,ng/mL,,6.0,82,blood,blood,,1380,,DTXSID1021378,,DTXSID0021381,
+732,trichloroacetic acid,Fig 7. ,,rate,days,ug/hr,,1.0,50.0,ng/mL,,6.0,82,urine,urine,,1380,,DTXSID1021378,,DTXSID0021381,
+733,trichloroacetic acid,Fig 7. ,,rate,days,ug/hr,,1.0,50.0,ng/mL,,6.0,82,urine,urine,,1381,,DTXSID1021378,,DTXSID0021381,
+725,methyl chloroform,Fig 3. ,,,days,ug/L,,1.0,1.0,ng/mL,,6.0,82,blood,blood,,1381,,DTXSID0021381,,DTXSID0021381,
+727,trichloroethanol,Fig 5. ,dot,rate,days,ug/hr,,1.0,50.0,ng/mL,,6.0,82,urine,urine,,1381,,DTXSID1021950,,DTXSID0021381,
+724,methyl chloroform,Fig 3. ,,,days,ug/L,,1.0,1.0,ng/mL,,6.0,82,blood,blood,,1380,,DTXSID0021381,,DTXSID0021381,
+722,methyl chloroform,Fig 2. ,,,days,ug/L,,1.0,0.03,ug/L,,6.0,82,expired air,expired air,,1380,,DTXSID0021381,,DTXSID0021381,
+726,trichloroethanol,Fig 5. ,triangle,rate,days,ug/hr,,1.0,50.0,ng/mL,,6.0,82,urine,urine,,1380,,DTXSID1021950,,DTXSID0021381,
+723,methyl chloroform,Fig 2. ,,,days,ug/L,,1.0,0.03,ug/L,,6.0,82,expired air,expired air,,1381,,DTXSID0021381,,DTXSID0021381,
+23590,N-methyl-2-pyrrolidone,Fig. 6 (top left),black open square,,hr,mg/L,,,,,,8.0,130,blood,blood,other data available from same source,25,,DTXSID6020856,,DTXSID6020856,
+23589,N-methyl-2-pyrrolidone,Fig. 6 (top left),blue open triangle,,hr,mg/L,,,,,,8.0,130,blood,blood,other data available from same source,24,,DTXSID6020856,,DTXSID6020856,
+23588,N-methyl-2-pyrrolidone,Fig. 6 (top left),red inverted open triangle,,hr,mg/L,,,,,,8.0,130,blood,blood,other data available from same source,23,,DTXSID6020856,,DTXSID6020856,
+23603,ethanol,Figure 2,square,,hr,mg/L,,,,,,,41139,blood,blood,other data available from same source,38,,DTXSID9020584,,DTXSID9020584,
+23599,ethanol,Figure 2,x,,hr,mg/L,,,,,,,41139,blood,blood,other data available from same source,34,,DTXSID9020584,,DTXSID9020584,
+23600,ethanol,Figure 2,triangle,,hr,mg/L,,,,,,,41139,blood,blood,other data available from same source,35,,DTXSID9020584,,DTXSID9020584,
+23602,ethanol,Figure 2,diamond,,hr,mg/L,,,,,,,41139,blood,blood,other data available from same source,37,,DTXSID9020584,,DTXSID9020584,
+23601,ethanol,Figure 2,circle,,hr,mg/L,,,,,,,41139,blood,blood,other data available from same source,36,,DTXSID9020584,,DTXSID9020584,
+31775,ethanol,Figure 2,diamond,,hr,mg/L,,,,,,1.0,41140,blood,blood,other data available from same source,37,,DTXSID9020584,,DTXSID9020584,
+31772,ethanol,Figure 2,x,,hr,mg/L,,,,,,1.0,41140,blood,blood,other data available from same source,34,,DTXSID9020584,,DTXSID9020584,
+31773,ethanol,Figure 2,triangle,,hr,mg/L,,,,,,1.0,41140,blood,blood,other data available from same source,35,,DTXSID9020584,,DTXSID9020584,
+31774,ethanol,Figure 2,circle,,hr,mg/L,,,,,,1.0,41140,blood,blood,other data available from same source,36,,DTXSID9020584,,DTXSID9020584,
+31776,ethanol,Figure 2,square,,hr,mg/L,,,,,,1.0,41140,blood,blood,other data available from same source,38,,DTXSID9020584,,DTXSID9020584,
+97,phenacetin,Table 3.,E.R.,"1 subject of 6; 22 yo, 75 kg; below LOQ at all time points",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41246,blood,blood,,1175,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+91,phenacetin,Table 1.,E.R.,"1 subject of 6; value at 240 min below the LOQ; 22 yo, 75 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41246,blood,blood,,1173,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+102,phenacetin,Table 3.,B.H.,"1 subject of 6; 27 yo, 73 kg; values before 60 min below LOQ",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41247,blood,blood,,1176,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+98,phenacetin,Table 3.,B.H.,"1 subject of 6; 27 yo, 73 kg; values after 60 min below LOQ",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41247,blood,blood,,1175,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+92,phenacetin,Table 1.,B.H.,"1 subject of 6; 27 yo, 73 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41247,blood,blood,,1173,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+93,phenacetin,Table 1.,R.A.,"1 subject of 6; value at 240 min below the LOQ; 27 yo, 87 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41248,blood,blood,,1173,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+99,phenacetin,Table 3.,R.A.,"1 subject of 6; values before and after 40 min below the LOQ; 27 yo, 87 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41248,blood,blood,,1175,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+103,phenacetin,Table 3.,R.A.,"1 subject of 6; 27 yo, 87 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41248,blood,blood,,1176,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+104,phenacetin,Table 3.,A.B.,"1 subject of 6; 26 yo, 76 kg; below LOQ at all time points",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41249,blood,blood,,1176,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+94,phenacetin,Table 1.,A.B.,"1 subject of 6; value at 240 min below the LOQ; 26 yo, 76 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41249,blood,blood,,1173,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+100,phenacetin,Table 3.,A.B.,"1 subject of 6; 26 yo, 76 kg; below LOQ at all time points",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41249,blood,blood,,1175,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+105,phenacetin,Table 3.,R.M.,"1 subject of 6; 26 yo, 59 kg; below LOQ before 240 min",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41250,blood,blood,,1176,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+95,phenacetin,Table 1.,R.M.,"1 subject of 6; value at 240 min below the LOQ; 26 yo, 59 kg",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41250,blood,blood,,1173,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+101,phenacetin,Table 3.,R.M.,"1 subject of 6; 26 yo, 59 kg; below LOQ at all time points",min,ug/mL,,0.0,0.1,ug/mL,,1.0,41250,blood,blood,,1175,,DTXSID1021116,62-44-2,DTXSID1021116,62-44-2
+721,trichloroethanol,Abb. 15,6,"exact daily doses: 135.6, 101.0, 104.1, 102.0, 99.8",hr,ug/mL,,0.0,,,,1.0,41251,blood,blood,,1378,,DTXSID1021950,,DTXSID0021383,
+720,trichloroethanol,Abb. 15,5,"exact daily doses: 135.6, 101.0, 104.1, 102.0, 99.8",hr,ug/mL,,0.0,,,,1.0,41251,blood,blood,,1378,,DTXSID1021950,,DTXSID0021383,
+715,trichloroethanol,Abb. 15,1,"exact daily doses: 135.6, 101.0, 104.1, 102.0, 99.8",hr,ug/mL,,0.0,,,,1.0,41251,blood,blood,,1378,,DTXSID1021950,,DTXSID0021383,
