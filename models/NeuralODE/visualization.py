@@ -12,8 +12,8 @@ datafiles = {'23605': 'data/CvT_db/1_Blood_subject74_series_23605_data.csv',
 for key, filepath in datafiles.items():
     data = pd.read_csv(filepath)
 
-    x=data['time_original'].values 
-    y=data['conc_original'].values 
+    x=data['time_original'].values
+    y=data['conc_original'].values
 
     plt.figure(figsize=(10,6))
     plt.plot(x, y, 'o', color='b')
