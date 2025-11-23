@@ -50,25 +50,53 @@
 # cat("Done.\n")
 
 
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+
 library(mrgsolve)
+library(dplyr)
+library(ggplot2)
 
-# Load pre-built model
-mod <- modlib("1005")
+code <- "
+$PARAM
+CL = 5,
+V1 = 20,
+Q2 = 3,
+V2 = 30,
+Q3 = 2,
+V3 = 50
 
-# Create dosing events
-e <- ev(amt = 1000, ii = 24, addl = 3) %>% ev_rep(1:10)
+$CMT CENT PERIPH1 PERIPH2
 
-# Run simulation
-set.seed(1234)
+$INIT CENT=0 PERIPH1=0 PERIPH2=0
+
+$DES
+double C1 = CENT / V1;
+double C2 = PERIPH1 / V2;
+double C3 = PERIPH2 / V3;
+
+dxdt_CENT    = -(CL/V1)*C1 - (Q2/V1)*C1 + (Q2/V2)*C2
+               - (Q3/V1)*C1 + (Q3/V3)*C3;
+
+dxdt_PERIPH1 =  (Q2/V1)*C1 - (Q2/V2)*C2;
+
+dxdt_PERIPH2 =  (Q3/V1)*C1 - (Q3/V3)*C3;
+
+$TABLE
+double CP = CENT / V1;
+capture CP C2 C3;
+"
+
+mod <- mcode("pk3", code)
+
+evnt <- ev(amt = 100, cmt = 1) # dose into CENT
+
 out <- mod %>%
-    ev(e) %>%
-    mrgsim(end = 240, delta = 0.1)
+    ev(evnt) %>%
+    mrgsim(end = 24, delta = 0.1)
+out_df <- as.data.frame(out)
 
-# Convert to data frame
-sim_data <- as.data.frame(out)
+write.csv(out_df, "three_compartment_simulation.csv", row.names = FALSE)
+print("Saved CSV!")
 
-# Save to CSV
-write.csv(sim_data, "mrgsolve_simulation.csv", row.names = FALSE)
-
-# Quick plot
-plot(out, IPRED ~ time, col = "blue", lwd = 2)
+ggplot(out_df, aes(time, CP)) +
+    geom_line(color = "blue")

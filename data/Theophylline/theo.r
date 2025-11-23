@@ -7,7 +7,7 @@
 
 
 # Choose a CRAN mirror first
-chooseCRANmirror() # Pick a nearby location
+options(repos = c(CRAN = "https://cloud.r-project.org"))
 
 # Install dependencies
 install.packages(c("Rcpp", "magrittr", "dplyr", "tidyr", "stringr"))
@@ -27,7 +27,7 @@ e <- ev(amt = 1000, ii = 24, addl = 3) %>% ev_rep(1:10)
 set.seed(1234)
 out <- mod %>%
     ev(e) %>%
-    mrgsim(end = 240, delta = 0.1)
+    mrgsim(end = 24, delta = 0.1)
 
 # Convert to data frame
 sim_data <- as.data.frame(out)
