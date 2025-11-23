@@ -1,0 +1,32 @@
+https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/Theoph
+
+Description
+The Theoph data frame has 132 rows and 5 columns of data from an experiment on the pharmacokinetics of theophylline.
+
+Usage
+Theoph
+Arguments
+Format
+An object of class c("nfnGroupedData", "nfGroupedData", "groupedData", "data.frame") containing the following columns:
+
+Subject
+an ordered factor with levels 1, …, 12 identifying the subject on whom the observation was made. The ordering is by increasing maximum concentration of theophylline observed.
+
+ Wt
+weight of the subject (kg).
+
+ Dose
+dose of theophylline administered orally to the subject (mg/kg).
+
+ Time
+time since drug administration when the sample was drawn (hr).
+
+ conc
+theophylline concentration in the sample (mg/L).
+
+Details
+Boeckmann, Sheiner and Beal (1994) report data from a study by Dr. Robert Upton of the kinetics of the anti-asthmatic drug theophylline. Twelve subjects were given oral doses of theophylline then serum concentrations were measured at 11 time points over the next 25 hours.
+
+These data are analyzed in Davidian and Giltinan (1995) and Pinheiro and Bates (2000) using a two-compartment open pharmacokinetic model, for which a self-starting model function, SSfol, is available.
+
+This dataset was originally part of package nlme, and that has methods (including for [, as.data.frame, plot and print) for its grouped-data classes.
