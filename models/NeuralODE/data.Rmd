@@ -1,0 +1,4 @@
+library(mrgsolve)
+library(dplyr)
+
+mod <- mread("pk2", modlib())
