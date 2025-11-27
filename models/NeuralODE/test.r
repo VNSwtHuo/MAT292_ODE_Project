@@ -54,49 +54,11 @@ options(repos = c(CRAN = "https://cloud.r-project.org"))
 
 library(mrgsolve)
 library(dplyr)
-library(ggplot2)
 
-code <- "
-$PARAM
-CL = 5,
-V1 = 20,
-Q2 = 3,
-V2 = 30,
-Q3 = 2,
-V3 = 50
+mod <- mread("pk2", modlib())
 
-$CMT CENT PERIPH1 PERIPH2
-
-$INIT CENT=0 PERIPH1=0 PERIPH2=0
-
-$DES
-double C1 = CENT / V1;
-double C2 = PERIPH1 / V2;
-double C3 = PERIPH2 / V3;
-
-dxdt_CENT    = -(CL/V1)*C1 - (Q2/V1)*C1 + (Q2/V2)*C2
-               - (Q3/V1)*C1 + (Q3/V3)*C3;
-
-dxdt_PERIPH1 =  (Q2/V1)*C1 - (Q2/V2)*C2;
-
-dxdt_PERIPH2 =  (Q3/V1)*C1 - (Q3/V3)*C3;
-
-$TABLE
-double CP = CENT / V1;
-capture CP C2 C3;
-"
-
-mod <- mcode("pk3", code)
-
-evnt <- ev(amt = 100, cmt = 1) # dose into CENT
-
-out <- mod %>%
-    ev(evnt) %>%
-    mrgsim(end = 24, delta = 0.1)
-out_df <- as.data.frame(out)
-
-write.csv(out_df, "three_compartment_simulation.csv", row.names = FALSE)
-print("Saved CSV!")
-
-ggplot(out_df, aes(time, CP)) +
-    geom_line(color = "blue")
+mod %>%
+    ev(amt = 100, cmt = 2) %>% # bolus dosing every 12 hours for 10 doses
+    mrgsim(end = 48, delta = 0.5) %>% # simulate for 48 hours, output every 0.5 hours
+    plot()
+# write.csv("neural_ode_simulation.csv", row.names = FALSE)
