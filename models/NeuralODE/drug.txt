@@ -27,7 +27,7 @@ VP   :  10  L
 Q2   :   2  L/h  default 
 VP2  :  20  L
 KA1  :   0.195 1/h          https://pubmed.ncbi.nlm.nih.gov/18451546/  69% of the dose absorbed in 360 min (6 hours).  caculated in first order kinetics 
-KA2  :   6.02736
+KA2  :   6.02736        
 VMAX :   0
 KM   :   5.57  mg/L     https://pubmed.ncbi.nlm.nih.gov/11014408/
 
@@ -39,7 +39,7 @@ Q  : 0.320071
 VP : 2.999
 Q2 : 2
 VP2: 20
-KA1: 19.02
-KA2: 106.725
+KA1: 0.01903
+KA2: 0.10669
 VMAX: 329.539
 KM : 

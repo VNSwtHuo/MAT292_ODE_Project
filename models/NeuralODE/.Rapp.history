@@ -462,3 +462,15 @@ sim_data <- mod %>%#
     mrgsim(end = 72, delta = 0.2)
 sim_df <- as.data.frame(sim_data)
 write.csv(sim_df, "mrgsolve_simulation_final.csv", row.names = FALSE)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+library(mrgsolve)
+mod <- mread("pk3cmt", modlib())
+sim_data <- mod %>% param(CL = 0.6, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+sim_data <- mod %>%#
++     ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
++     mrgsim(end = 72, delta = 0.2)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation.csv", row.names = FALSE)
