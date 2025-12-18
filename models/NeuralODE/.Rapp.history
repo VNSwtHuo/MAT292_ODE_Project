@@ -1,0 +1,476 @@
+mod
+library(mrgsolve)
+library(dplyr)
+mod <- mread("pk2", modlib())
+mod
+init(mod)
+see(mod)
+mod %>% mrgsim()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% #
+    mrgsim(end = 24, delta = 0.2) %>%#
+    plot()
+mod %>%#
++     ev(amt = 50, cmt = 2) %>% #
++     mrgsim(end = 24, delta = 0.2) %>%#
++     plot()
+mod %>%#
+    ev(amt = 50, cmt = 2) %>% #
+    mrgsim(end = 24, delta = 0.2) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% #
+    mrgsim(end = 24, delta = 0.2) %>%#
+    plot()
+mod %>%#
+    ev(amt = 80, cmt = 2) %>% #
+    mrgsim(end = 24, delta = 0.2) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # bolus dosing every 12 hours for 10 doses#
+    mrgsim(end = 48, delta = 0.5) %>% # simulate for 24 hours#
+    plot()
+mod <- mread("pk2iv", modlib())
+mod
+see(mod)
+mod <- mread("pk3cmt", modlib())
+see(mod)
+init(mod)
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # bolus dosing every 12 hours for 10 doses#
+    mrgsim(end = 48, delta = 0.5) %>% # simulate for 24 hours#
+    plot()
+mod <- mread("pk2cmt", modlib())
+see(mod)
+mod <- mread("pk2", modlib())
+see(mod)
+mod <- mread("pk2iv", modlib())
+see(mod)
+mod <- mread("pk3cmt", modlib())
+see(mod)
+init(mod)
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # bolus dosing every 12 hours for 10 doses#
+    mrgsim(end = 48, delta = 0.5) %>% # simulate for 24 hours#
+    plot()
+head(sim_data)
+sim_data <- mod %>%#
+  ev(amt = 100, cmt = 2) %>%      # dose into compartment 2#
+  mrgsim(end = 48, delta = 0.5)
+head(sim_data)
+sim_df <- as.data.frame(sim_data)
+sim_df <- sim_df %>%#
+  mutate(amt = ifelse(time %in% dose_schedule$time, dose_schedule$amt, 0))
+mod <- mread("pk3cmt", modlib())
+sim_data <- mod %>%#
+  ev(amt = 100, cmt = 2) %>%      # dose into compartment 2#
+  mrgsim(end = 48, delta = 0.5)
+head(sim_data)
+sim_data <- mod %>%#
+  param(WT = 70, SEX = 1) %>%  # 80 kg female#
+  ev(amt = 100, cmt = 2) %>%#
+  mrgsim(end = 48, delta = 0.5)
+mod <- mread("pk3cmt", modlib())
+sim_data <- mod %>%#
+  param(WT = 70, SEX = 1) %>%  # 80 kg female#
+  ev(amt = 100, cmt = 2) %>%#
+  mrgsim(end = 48, delta = 0.5)
+mod <- mread("pk3cmt", modlib())
+sim_data <- mod %>%#
+  ev(amt = 100, cmt = 2) %>%      # dose into compartment 2#
+  mrgsim(end = 48, delta = 0.5)
+head(sim_data)
+write.csv(as.data.frame(sim_data), "simulation_output.csv", row.names = FALSE)
+sim_data <- mod %>%#
+  ev(amt = 100, cmt = 2) %>%      # dose into compartment 2#
+  mrgsim(end = 48, delta = 0.2)
+write.csv(as.data.frame(sim_data), "simulation_output2.csv", row.names = FALSE)
+mod <- mread("pk3cmt", modlib())
+library(mrgsolve)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+library(mrgsolve)
+library(dplyr)
+mod <- mread("pk3cmt", modlib())
+param(mod)
+init(mod)
+mod
+read(mod)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)#
+plot()
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)
+plot()
+head(sim_data)
+sim_data <- mod %>%#
+    ev(amt = 80, cmt = 3) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)
+head(sim_data)
+library(mrgsolve)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+library(mrgsolve)
+library(dplyr)
+mod <- mread("pk3cmt", modlib())
+read(mod)
+mod
+param(mod)
+init(mod)
+see(mod)
+mod <- mod %>% param(#
+  CL = 15,    # L/h, total body clearance
+)
+see(mod)
+mod <- mod %>% param(CL = 15)
+param(mod)["CL"]
+mod <- mod %>% param(CL = 50, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2=20 KA1=0.195, KA2=6.02736, KM-5.57)
+mod <- mod %>% param(CL = 50, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2=20 KA1=0.195, KA2=6.02736, KM=5.57)
+mod <- mod %>% param(CL = 50, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2=20, KA1=0.195, KA2=6.02736, KM=5.57)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)
+plot()
+head(sim_data)
+write.csv(as.data.frame(sim_data), "simulation_output_fluorouracil.csv", row.names = FALSE)
+param(mod)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 24, delta = 0.2)
+write.csv(as.data.frame(sim_data), "simulation_output_fluorouracil.csv", row.names = FALSE)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 12, delta = 0.1)
+write.csv(as.data.frame(sim_data), "simulation_output_fluorouracil.csv", row.names = FALSE)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 12, delta = 0.05)
+write.csv(as.data.frame(sim_data), "simulation_output_fluorouracil.csv", row.names = FALSE)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+library(mrgsolve)
+library(dplyr)
+mod <- mread("pk3cmt", modlib())
+mod
+see(mod)
+init(mod)
+mod <- mod %>% param(CL = 50, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 20, KA1 = 1, KA2 = 1, KM = 5.57)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)#
+    plot()
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)plot()
+mod %>%#
++     ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
++     mrgsim(end = 48, delta = 0.5)plot()
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5)#
+    plot()
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 50, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 50, KA1 = 1, KA2 = 1, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 50, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 100, KA1 = 1, KA2 = 1, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 40, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 100, KA1 = 1, KA2 = 1, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 40, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 100, KA1 = 1, KA2 = 1, KM = 2)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 1.5, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 100, KA1 = 1, KA2 = 1, KM = 2)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.5, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 20, KA1 = 1, KA2 = 1, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.5, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 20, KA1 = 1000, KA2 = 1000, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.5, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 20, KA1 = 100000, KA2 = 100000, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.5, VC = 3.5, Q = 8, VP = 10, Q2 = 2, VP2 = 20, KA1 = 1000000, KA2 = 1000000, KM = 5.57)
+mod <- mod %>% param(CL = 0.85, VC = 16.823, Q = 320.071, VP = 2.999, Q2 = 2, VP2 = 20, KA1 = 19.02, KA2 = 106.725, KM = 329.539)
+mod <- mod %>% param(CL = 0.85, VC = 16.823, Q = 320.071, VP = 2.999, Q2 = 2, VP2 = 20, KA1 = 19.02, KA2 = 106.725, VMAx = 329.539, KM = 5.57)
+mod <- mod %>% param(CL = 0.85, VC = 16.823, Q = 320.071, VP = 2.999, Q2 = 2, VP2 = 20, KA1 = 19.02, KA2 = 106.725, VMAX = 329.539, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.85, VC = 16.823, Q = 320.071, VP = 2.999, Q2 = 2, VP2 = 20, KA1 = 19.02, KA2 = 106.725, VMAX = 0, KM = 5.57)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.85, VC = 16.823, Q = 320.071, VP = 2.999, Q2 = 2, VP2 = 20, KA1 = 19.02, KA2 = 106.725, VMAX = 329.539, KM = 5.57)
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.85, VC = 16.823, Q = 320.071, VP = 2.999, Q2 = 2, VP2 = 20, KA1 = 19.02, KA2 = 106.725, VMAX = 329.539, KM = 5.57)
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 01903, KA2 = 10669, VMAX = 329.539, KM = 5.57)
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.5) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 0.04951, KA2 = 0.04332, VMAX = 329.539, KM = 5.57)
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.02) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 3, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+mod %>%#
++     ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
++     mrgsim(end = 6, delta = 0.01) %>%#
++     plot()
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+head(sim_data)
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 01903, KA2 = 10669, VMAX = 329.539, KM = 5.57)
+mod <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+head(sim_data)
+head(mod)
+sim_data <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 01903, KA2 = 10669, VMAX = 329.539, KM = 5.57)
+mod <- mread("pk3cmt", modlib())
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 0.04951, KA2 = 0.04332, VMAX = 329.539, KM = 5.57)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 23, delta = 0.1) %>%#
+    plot()
+head(sim_data)
+mod <- mread("pk3cmt", modlib())
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 0.04951, KA2 = 0.04332, VMAX = 329.539, KM = 5.57)
+mod <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+head(mod)
+write.csv(mod, "mrgsolve_simulation_5u.csv", row.names = FALSE)
+write.csv(mod, "mrgsolve_simulation.csv", row.names = FALSE)
+mod <- mread("pk3cmt", modlib())
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 2, VP2 = 20, KA1 = 0.04951, KA2 = 0.04332, VMAX = 329.539, KM = 5.57)
+sim_data <- mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01)
+head(sim_data)
+write.csv(sim_data, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 20, KA1 = 0.04951, KA2 = 0.04332, VMAX = 329.539, KM = 17334.977)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+mod <- mod %>% param(CL = 1, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 20, KA1 = 0.04951, KA2 = 0.04332, VMAX = 329.539, KM = 17334.977)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+mod <- mod %>% param(CL = 1, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 20, KA1 = 0.042, KA2 = 0.181, VMAX = 329.539, KM = 17334.977)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+mod <- mod %>% param(CL = 1, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 227.7, KA1 = 0.042, KA2 = 0.181, VMAX = 329.539, KM = 17334.977)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_5u_k=14_k=16.csv", row.names = FALSE)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+library(mrgsolve)
+mod <- mread("pk3cmt", modlib())
+mod <- mod %>% param(CL = 1, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 227.7, KA1 = 0.181, KA2 = 0.116, VMAX = 329.539, KM = 17334.977)
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+sim <- mod %>%#
+  ev(amt = 400, cmt = 2) %>%#
+  mrgsim(end = 6, delta = 0.01)#
+#
+df <- as.data.frame(sim)
+library(tidyr)#
+#
+df_long <- df %>%#
+  pivot_longer(cols = c(CP, C2, C3),#
+               names_to = "Compartment",#
+               values_to = "Concentration")
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+mod <- mod %>% param(CL = 1, VC = 6.3, Q = 0.320071, VP = 227.7, Q2 = 0.320071, VP2 = 33.9, KA1 = 0.181, KA2 = 0.116, VMAX = 329.539, KM = 17334.977)
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 24, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 24, delta = 0.1) %>%#
+    plot()
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.1) %>%#
+    plot()
+mod <- mod %>% param(CL = 1, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 33.9, KA1 = 0.181, KA2 = 0.116, VMAX = 329.539, KM = 17334.977)
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.1) %>%#
+    plot()
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 33.9, KA1 = 0.181, KA2 = 0.116, VMAX = 329.539, KM = 17334.977)
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.1) %>%#
+    plot()
+mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.1) %>%#
+    plot()
+sim_data <- mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.1) %>%
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_data, "mrgsolve_simulation_test2.csv", row.names = FALSE)
+sim_data <- mod %>%#
+    ev(amt = 500, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.1)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_data, "mrgsolve_simulation_test2.csv", row.names = FALSE)
+write.csv(sim_df, "mrgsolve_simulation.csv", row.names = FALSE)
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.03465, KA2 = 0.0495, VMAX = 329.539, KM = 17334.977)
+mod %>%#
+    ev(amt = 400, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 300, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 300, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 24, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 300, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.1) %>%#
+    plot()
+see(mod)
+mod <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 6, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 12, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 24, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 48, delta = 0.01) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.1) %>%#
+    plot()
+mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2) %>%#
+    plot()
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2) %>%#
+    plot()
+head(sim_data)
+sim_df <- as.data.frame(sim_data)
+sim_data <- mod %>% param(CL = 0.85, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2)
+write.csv(sim_data, "mrgsolve_simulation_final.csv", row.names = FALSE)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_final.csv", row.names = FALSE)
+sim_data <- mod %>% param(CL = 0.6, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+sim_df <- as.data.frame(sim_data)
+sim_data <- mod %>% param(CL = 0.6, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+write.csv(sim_data, "mrgsolve_simulation_final2.csv", row.names = FALSE)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2)
+write.csv(sim_data, "mrgsolve_simulation_final2.csv", row.names = FALSE)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_final2.csv", row.names = FALSE)
+mod <- mread("pk3cmt", modlib())
+sim_data <- mod %>% param(CL = 0.6, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation_final.csv", row.names = FALSE)
+options(repos = c(CRAN = "https://cloud.r-project.org"))
+library(mrgsolve)
+mod <- mread("pk3cmt", modlib())
+sim_data <- mod %>% param(CL = 0.6, VC = 16.823472, Q = 0.320071, VP = 2.999821, Q2 = 0.320071, VP2 = 40, KA1 = 0.01902526, KA2 = 0.106696, VMAX = 329.539, KM = 17334.977)
+sim_data <- mod %>%#
++     ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
++     mrgsim(end = 72, delta = 0.2)
+sim_data <- mod %>%#
+    ev(amt = 100, cmt = 2) %>% # dose into compartment 2#
+    mrgsim(end = 72, delta = 0.2)
+sim_df <- as.data.frame(sim_data)
+write.csv(sim_df, "mrgsolve_simulation.csv", row.names = FALSE)
