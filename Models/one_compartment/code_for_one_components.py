@@ -6,56 +6,58 @@ import matplotlib.pyplot as plt
 import math
 from scipy.linalg import expm
 
-## take in data
-data = pd.read_csv('/Users/liuhaoyu/Documents/MAT292_ODE_Project/USETHIS_Simulation_output.csv')
 
-t_np = data['time'].values.astype(np.float32)
-C_np = data['CENT'].values.astype(np.float32)
+# read .csv file and load data
+file_path = '../FINAL_mrgsolve_simulation.csv'
+df = pd.read_csv(file_path)
 
-# Remove missing concentration values
-mask = ~np.isnan(C_np)
-t_np = t_np[mask]
-C_np = C_np[mask]
+time_tensor = torch.tensor(df["time"].values, dtype=torch.float32)
+cent_tensor = torch.tensor(df["CENT"].values, dtype=torch.float32)
 
-N = 11
-t_np = t_np[:N]
-C_np = C_np[:N]
+timetotal = time_tensor.cpu().numpy()
+centtotal = cent_tensor.cpu().numpy()
 
-# FIX: ensure strictly increasing time
-t_np, unique_idx = np.unique(t_np, return_index=True)
-C_np = C_np[unique_idx]
+# split data to training data (80%) and testing data (20%)
+split_idx = int(0.8 * len(timetotal))
 
-# Normalize time
-t0 = t_np.min()
-t = torch.tensor((t_np - t0) / (t_np.max() - t0), dtype=torch.float32)
-# concentration tensor
-C = torch.tensor(C_np.reshape(-1,1), dtype=torch.float32)
+times = timetotal[:split_idx]
+time_test = timetotal[split_idx:]
 
+concentrations = centtotal[:split_idx]
+concen_test = centtotal[split_idx:]
 
-
-
-
-times =  t.cpu().numpy()
-concentrations = C.cpu().numpy()
 
 ## ---------- plot ----------
 def plot_results(times, concentrations, c1):
     plt.figure(figsize=(8,5))
 
     # plot concentrations
-    plt.plot(times, concentrations, 'o-', label='concentrations')
+    plt.plot(times, concentrations, '-o',alpha = 0.2, markersize=4, label='data')
 
     # plot c1
-    plt.plot(times, c1, 'o-', label='c1')
+    plt.plot(times, c1, linestyle='-', linewidth=1.5, label='model')
 
-    plt.xlabel('Time')
-    plt.ylabel('Concentration')
-    plt.title('Comparison of Two Curves')
+    plt.axvline(x=38.4, linestyle='--', linewidth=1.5, color='blue', label='Train/Test Split')
+    plt.xlabel('Time(hr)')
+    plt.ylabel('Amount(mg)')
+   
     plt.legend()
     plt.grid(True)
 
     plt.show()
-    
+
+def plot_error_results(times, concentrations):
+    plt.figure(figsize=(8,5))
+    plt.plot(times, concentrations, '-o',alpha = 0.2, markersize=4, label='error of data')
+
+    plt.axvline(x=38.4, linestyle='--', linewidth=1.5, color='blue', label='Train/Test Split')
+    plt.xlabel('Time(hr)')
+    plt.ylabel('Amount Error(mg)')
+   
+    plt.legend()
+    plt.grid(True)
+
+    plt.show()
     
 ## model
 # ---------- define input function u(t) ----------
@@ -149,32 +151,36 @@ if result.success:
     print("successfully optimize!")
     print(f" V = {V_opt:.6f}")
     print(f" Q = {Q_opt:.6f}")
-    print(f" RSS = {result.fun:.6f}")
-    plot_results(times, concentrations, simulate_c(times, V_opt, Q_opt))
+    c = simulate_c(timetotal, V_opt, Q_opt)
+    plot_results(timetotal,centtotal,c)
+    plot_error_results(timetotal,centtotal-c)
     
     
-    #calculate error
-    c0 = simulate_c(times, V_opt, Q_opt)
-    Rss = np.sum((c0 - concentrations) ** 2)
+    #calculate error for testing
+    c0 = (simulate_c(timetotal, V_opt, Q_opt))[split_idx:]
+    SSE = np.sum((c0 - concen_test) ** 2)
+    standard_d_square = SSE/len(time_test)
+    print(" MSE =",standard_d_square)
     
-    standard_d_square = Rss/len(times)
-    likelyhood = -0.5*len(times)*(math.log(2*math.pi)+1+math.log(standard_d_square))
+    
     k = 2
-    AIC = -2*likelyhood + 2*k
-    BIC = -2*likelyhood + k*math.log(len(times))
-    AICc = AIC + 2*k*(k+1)/(len(times)-k-1)
-    print(f"AIC = {AIC}")
-    print(f"BIC = {BIC}")
+    n = len(time_test)
+    AICc = n*math.log(SSE/n) + 2*k + 2*k*(k+1)/(n-k-1) + n*math.log(2*math.pi) + n
+    BIC = n*math.log(SSE/n) + k*math.log(n) + n*math.log(2*math.pi) + n
     print(f"AICc = {AICc}")
+    print(f"BIC = {BIC}")
+    
+    
     
     
     #calculate sensitivity
     total_time = times[-1]
     A = np.array([-Q_opt/V_opt])
-    y0 = c0[0]
+    y0 = np.array([concentrations[0]])
     (best_p, best_q), max_S, S_matrix = find_max_sensitivity(A, total_time, y0)
     print(f"sensitivity matrix is {S_matrix}")
     print(f"most sensitive point is {(best_p,best_q)}, with max S of {max_S}")
+    
     
 else:
     print("ERROR in optimization")
