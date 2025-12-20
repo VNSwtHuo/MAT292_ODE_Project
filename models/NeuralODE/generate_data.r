@@ -33,7 +33,7 @@ mod <- mod %>% param(CL = 0.8, VC = 7, Q = 1.26, VP = 150, Q2 = 0.3, VP2 = 30, K
 
 sim_data <- mod %>%
     ev(amt = 500, cmt = 2) %>% # dose into compartment 2
-    mrgsim(end = 24, delta = 0.01) %>%
+    mrgsim(end = 24, delta = 0.1) %>%
     plot()
 
 
