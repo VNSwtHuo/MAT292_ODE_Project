@@ -8,7 +8,7 @@ from scipy.linalg import expm
 
 
 # read .csv file and load data
-file_path = '../FINAL_mrgsolve_simulation.csv'
+file_path = 'FINAL_mrgsolve_simulation.csv'
 df = pd.read_csv(file_path)
 
 time_tensor = torch.tensor(df["time"].values, dtype=torch.float32)
